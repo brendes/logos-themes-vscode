@@ -26,12 +26,14 @@ the code.
 | logos-dark-warm | dark  | `#32302f`  | inspired by the [Gruvbox](https://github.com/morhetz/gruvbox) themes                |
 | logos-nord      | dark  | `#2e3440`  | inspired by the [Nord](https://www.nordtheme.com) theme                             |
 
-## Build
+## Build and install
 ```
 make build
 make package
 ```
 Requires Python ≥ 3.11.
+
+Or, install from the marketplace [here](https://marketplace.visualstudio.com/items?itemName=brendes.logos-themes).
 
 ## TODO
 
