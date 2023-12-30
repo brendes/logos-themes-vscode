@@ -1,0 +1,61 @@
+{
+  "name": "logos-themes",
+  "displayName": "Logos Themes",
+  "description": "Themes with monochrome syntax colors and clear UI",
+  "publisher": "brendes",
+  "version": "0.0.1",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/brendes/logos-themes-vscode"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monochrome",
+    "minimal",
+    "clean"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Logos White",
+        "uiTheme": "vs",
+        "path": "./themes/logos-white-color-theme.json"
+      },
+      {
+        "label": "Logos Tree",
+        "uiTheme": "vs",
+        "path": "./themes/logos-tree-color-theme.json"
+      },
+      {
+        "label": "Logos Paper",
+        "uiTheme": "vs",
+        "path": "./themes/logos-paper-color-theme.json"
+      },
+      {
+        "label": "Logos Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/logos-dark-color-theme.json"
+      },
+      {
+        "label": "Logos Dark Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/logos-dark-warm-color-theme.json"
+      },
+      {
+        "label": "Logos Nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/logos-nord-color-theme.json"
+      },
+      {
+        "label": "Logos Acme",
+        "uiTheme": "vs",
+        "path": "./themes/logos-acme-color-theme.json"
+      }
+    ]
+  }
+}

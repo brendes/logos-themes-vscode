@@ -1,0 +1,8 @@
+*.code-workspace
+*.vsix
+bin
+CHANGELOG.md
+lib
+node_modules
+pyvenv.cfg
+themes/*
