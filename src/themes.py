@@ -20,7 +20,7 @@ light = {
     "color_orange_0" : "#d08770",
     "color_purple_0" : "#9090cc",
     "color_purple_1" : "#ccccee",
-    "accent_1"       : "#70a8a4",
+    "accent_1"       : "#609894",
     "accent_2"       : "#bbdddb",
     "accent_alt_2"   : "#ddbbdb",
 }
@@ -34,21 +34,15 @@ white = {
     "fg_fade"        : "#aaaaaa",
     "fg_dim"         : "#888888",
     "fg_subtle"      : "#666666",
-    "fg_main"        : "#2b2b2b",
-    "border"         : "#e8e8e8",
+    "fg_main"        : "#282828",
 }
 
 tree = {
-    **light,
+    **white,
     "theme_name": "Logos Tree",
     "bg_main"   : "#fffffa",
     "bg_subtle" : "#f8f8f3",
     "bg_hl"     : "#ebebe6",
-    "fg_fade"   : "#aaaaa5",
-    "fg_dim"    : "#888883",
-    "fg_subtle" : "#686863",
-    "fg_main"   : "#282828",
-    "border"    : "#e8e8e3",
 }
 
 paper = {
@@ -62,7 +56,6 @@ paper = {
     "fg_subtle" : "#605a52",
     "fg_main"   : "#201b12",
     "fg_bold"   : "#000000",
-    "border"    : "#e2dad0",
 }
 
 acme = {
@@ -76,7 +69,6 @@ acme = {
     "fg_subtle"   : "#585858",
     "fg_main"     : "#222222",
     "fg_bold"     : "#000000",
-    "border"      : "#d8d8c8",
     "accent_1"    : light["color_purple_0"],
     "accent_2"    : light["color_purple_1"],
     "accent_alt_2": "#eeeebb",
@@ -87,7 +79,7 @@ dark = {
     "theme_type"     : "dark",
     "bg_main"        : "#303030",
     "bg_subtle"      : "#383838",
-    "bg_hl"          : "#444444",
+    "bg_hl"          : "#505050",
     "fg_fade"        : "#808080",
     "fg_dim"         : "#a0a0a0",
     "fg_subtle"      : "#c0c0c0",
@@ -96,7 +88,6 @@ dark = {
     "accent_1"       : "#88b4a4",
     "accent_2"       : "#88b4a4",
     "accent_alt_2"   : "#e8b878",
-    "border"         : "#444444",
     "color_red_0"    : "#e86862",
     "color_green_0"  : "#a9b665",
     "color_yellow_0" : "#d89858",
@@ -111,13 +102,12 @@ dark_warm = {
     "theme_name": "Logos Dark Warm",
     "bg_main"   : "#32302f",
     "bg_subtle" : "#3a3837",
-    "bg_hl"     : "#4a4846",
+    "bg_hl"     : "#504e4c",
     "fg_fade"   : "#8c7f74",
     "fg_dim"    : "#a89984",
     "fg_subtle" : "#c8b8a4",
     "fg_main"   : "#ddc8a8",
     "fg_bold"   : "#ffeaca",
-    "border"    : "#52504e",
 }
 
 nord = {
@@ -131,7 +121,6 @@ nord = {
     "fg_subtle"      : "#a8b0c8",
     "fg_main"        : "#d8dee9",
     "fg_bold"        : "#eceff4",
-    "border"         : "#3b4251",
     "accent_1"       : "#88c0d0",
     "accent_2"       : "#88c0d0",
     "accent_alt_2"   : "#b48ead",
@@ -159,11 +148,13 @@ themes = {
 }
 
 for theme_name, theme in themes["light"].items():
+    theme["border"] = theme["bg_hl"]
     theme["color_black_0"] = theme["fg_main"]
     theme["color_white_1"] = theme["bg_subtle"]
     theme["match_alpha"] = "d0"
 
 for theme_name, theme in themes["dark"].items():
+    theme["border"] = theme["bg_hl"]
     theme["color_black_0"] = theme["bg_main"]
     theme["color_white_1"] = theme["fg_bold"]
     theme["match_alpha"] = "78"
