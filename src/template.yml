@@ -212,7 +212,7 @@ colors:
   "tab.hoverBackground"                          : "{bg_hl}"
   "tab.hoverBorder"                              : "{bg_hl}"
   "tab.inactiveBackground"                       : "{bg_main}"
-  "tab.inactiveForeground"                       : "{fg_fade}"
+  "tab.inactiveForeground"                       : "{fg_dim}"
   "tab.inactiveModifiedBorder"                   : "{border}"
   "tab.lastPinnedBorder"                         : "{border}"
   "tab.unfocusedActiveBackground"                : "{bg_subtle}"
