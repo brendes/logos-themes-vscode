@@ -38,6 +38,11 @@
         "path": "./themes/logos-paper-color-theme.json"
       },
       {
+        "label": "Logos Acme",
+        "uiTheme": "vs",
+        "path": "./themes/logos-acme-color-theme.json"
+      },
+      {
         "label": "Logos Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/logos-dark-color-theme.json"
@@ -53,9 +58,9 @@
         "path": "./themes/logos-nord-color-theme.json"
       },
       {
-        "label": "Logos Acme",
-        "uiTheme": "vs",
-        "path": "./themes/logos-acme-color-theme.json"
+        "label": "Logos Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/logos-red-color-theme.json"
       }
     ]
   }

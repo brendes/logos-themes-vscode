@@ -15,11 +15,12 @@ An attempt is made to balance prettiness with simplicity and usability.
 | --------- | ----- | ---------- | ----------------------------------------------------------------------------------- |
 | white     | light | `#ffffff`  |                                                                                     |
 | tree      | light | `#fffffa`  | off-white variant of the white theme                                                |
-| paper     | light | `#faf8f1`  | inspired by the [Flatwhite](https://github.com/biletskyy/flatwhite-syntax) theme    |
+| paper     | light | `#faf7f1`  | inspired by the [Flatwhite](https://github.com/biletskyy/flatwhite-syntax) theme    |
 | acme      | light | `#ffffee`  | inspired by the [Acme editor](https://en.wikipedia.org/wiki/Acme_%28text_editor%29) |
 | dark      | dark  | `#2f2f2f`  | inspired by the [Gruvbox](https://github.com/morhetz/gruvbox) themes, desaturated   |
 | dark-warm | dark  | `#32302f`  | inspired by the [Gruvbox](https://github.com/morhetz/gruvbox) themes                |
 | nord      | dark  | `#2e3440`  | inspired by the [Nord](https://www.nordtheme.com) theme                             |
+| red       | dark  | `#000000`  | dark with red text for very low light                                               |
 
 ## Build and install
 - Build themes: `make build`

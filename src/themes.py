@@ -48,7 +48,7 @@ tree = {
 paper = {
     **light,
     "theme_name": "Logos Paper",
-    "bg_main"   : "#faf8f1",
+    "bg_main"   : "#faf7f1",
     "bg_subtle" : "#f0ebe4",
     "bg_hl"     : "#e6ded4",
     "fg_fade"   : "#b2a29c",
@@ -61,17 +61,17 @@ paper = {
 acme = {
     **light,
     "theme_name"  : "Logos Acme",
-    "bg_main"     : "#ffffee",
-    "bg_subtle"   : "#f8f8e8",
-    "bg_hl"       : "#eeeede",
-    "fg_fade"     : "#989890",
-    "fg_dim"      : "#787870",
-    "fg_subtle"   : "#585858",
-    "fg_main"     : "#222222",
+    "bg_main"     : "#ffffeb",
+    "bg_subtle"   : "#f8f8e5",
+    "bg_hl"       : "#eeeeda",
+    "fg_fade"     : "#aaaaa0",
+    "fg_dim"      : "#888880",
+    "fg_subtle"   : "#666660",
+    "fg_main"     : "#111111",
     "fg_bold"     : "#000000",
     "accent_1"    : light["color_purple_0"],
     "accent_2"    : light["color_purple_1"],
-    "accent_alt_2": "#eeeebb",
+    "accent_alt_2": "#eeeeaa",
 }
 
 dark = {
@@ -133,6 +133,29 @@ nord = {
     "color_orange_0" : "#d08770",
 }
 
+red = {
+    **dark,
+    "theme_name"     : "Logos Red",
+    "bg_main"        : "#110000",
+    "bg_subtle"      : "#442222",
+    "bg_hl"          : "#553333",
+    "fg_fade"        : "#885555",
+    "fg_dim"         : "#aa6666",
+    "fg_subtle"      : "#cc7777",
+    "fg_main"        : "#ee8888",
+    "fg_bold"        : "#ff7777",
+    "accent_1"       : "#ee8888",
+    "accent_2"       : "#ee8888",
+    "accent_alt_2"   : "#ee8888",
+    "color_red_0"    : "#ee8888",
+    "color_green_0"  : "#ee8888",
+    "color_yellow_0" : "#ee8888",
+    "color_blue_0"   : "#ee8888",
+    "color_magenta_0": "#ee8888",
+    "color_cyan_0"   : "#ee8888",
+    "color_orange_0" : "#ee8888",
+}
+
 themes = {
     "light": {
         "white": white,
@@ -144,6 +167,7 @@ themes = {
         "dark"     : dark,
         "dark_warm": dark_warm,
         "nord"     : nord,
+        "red"      : red,
     },
 }
 
