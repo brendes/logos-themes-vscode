@@ -15,4 +15,7 @@ build: setup
 package: build
 	vsce package
 
-.PHONY: setup build package
+clean:
+	rm -f *.vsix
+
+.PHONY: setup build package clean
