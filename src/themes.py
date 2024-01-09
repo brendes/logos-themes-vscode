@@ -29,33 +29,36 @@ white = {
     **light,
     "theme_name"     : "Logos White",
     "bg_main"        : "#ffffff",
-    "bg_subtle"      : "#f8f8f8",
+    "bg_subtle"      : "#f6f6f6",
     "bg_hl"          : "#ececec",
     "fg_fade"        : "#aaaaaa",
     "fg_dim"         : "#888888",
     "fg_subtle"      : "#666666",
-    "fg_main"        : "#282828",
+    "fg_main"        : "#000000",
 }
 
 tree = {
     **white,
     "theme_name": "Logos Tree",
     "bg_main"   : "#fffffa",
-    "bg_subtle" : "#f8f8f3",
+    "bg_subtle" : "#f6f6f1",
     "bg_hl"     : "#ebebe6",
 }
 
 paper = {
     **light,
-    "theme_name": "Logos Paper",
-    "bg_main"   : "#faf7f1",
-    "bg_subtle" : "#f0ebe4",
-    "bg_hl"     : "#e6ded4",
-    "fg_fade"   : "#b2a29c",
-    "fg_dim"    : "#92827c",
-    "fg_subtle" : "#605a52",
-    "fg_main"   : "#201b12",
-    "fg_bold"   : "#000000",
+    "theme_name"  : "Logos Paper",
+    "bg_main"     : "#faf7f1",
+    "bg_subtle"   : "#f0ebe4",
+    "bg_hl"       : "#e6ded4",
+    "fg_fade"     : "#b2a29c",
+    "fg_dim"      : "#92827c",
+    "fg_subtle"   : "#605a52",
+    "fg_main"     : "#201b12",
+    "fg_bold"     : "#000000",
+    "accent_1"    : "#70a490",
+    "accent_2"    : "#bbddd4",
+    "accent_alt_2": "#ddbbd4",
 }
 
 acme = {
@@ -67,7 +70,7 @@ acme = {
     "fg_fade"     : "#aaaaa0",
     "fg_dim"      : "#888880",
     "fg_subtle"   : "#666660",
-    "fg_main"     : "#111111",
+    "fg_main"     : "#000000",
     "fg_bold"     : "#000000",
     "accent_1"    : light["color_purple_0"],
     "accent_2"    : light["color_purple_1"],
@@ -78,15 +81,15 @@ dark = {
     "theme_name"     : "Logos Dark",
     "theme_type"     : "dark",
     "bg_main"        : "#303030",
-    "bg_subtle"      : "#383838",
+    "bg_subtle"      : "#3b3b3b",
     "bg_hl"          : "#505050",
     "fg_fade"        : "#808080",
     "fg_dim"         : "#a0a0a0",
     "fg_subtle"      : "#c0c0c0",
     "fg_main"        : "#dddddd",
     "fg_bold"        : "#ffffff",
-    "accent_1"       : "#88b4a4",
-    "accent_2"       : "#88b4a4",
+    "accent_1"       : "#90c4b4",
+    "accent_2"       : "#90c4b4",
     "accent_alt_2"   : "#e8b878",
     "color_red_0"    : "#e86862",
     "color_green_0"  : "#a9b665",
@@ -94,7 +97,7 @@ dark = {
     "color_blue_0"   : "#7daea3",
     "color_magenta_0": "#d3889b",
     "color_cyan_0"   : "#88b490",
-    "color_orange_0" : "#d88058",
+    "color_orange_0" : "#eeaa77",
 }
 
 dark_warm = {
@@ -137,23 +140,23 @@ red = {
     **dark,
     "theme_name"     : "Logos Red",
     "bg_main"        : "#110000",
-    "bg_subtle"      : "#442222",
-    "bg_hl"          : "#553333",
-    "fg_fade"        : "#885555",
-    "fg_dim"         : "#aa6666",
-    "fg_subtle"      : "#cc7777",
-    "fg_main"        : "#ee8888",
-    "fg_bold"        : "#ff7777",
-    "accent_1"       : "#ee8888",
-    "accent_2"       : "#ee8888",
-    "accent_alt_2"   : "#ee8888",
-    "color_red_0"    : "#ee8888",
-    "color_green_0"  : "#ee8888",
-    "color_yellow_0" : "#ee8888",
-    "color_blue_0"   : "#ee8888",
-    "color_magenta_0": "#ee8888",
-    "color_cyan_0"   : "#ee8888",
-    "color_orange_0" : "#ee8888",
+    "bg_subtle"      : "#221111",
+    "bg_hl"          : "#442222",
+    "fg_fade"        : "#884444",
+    "fg_dim"         : "#aa5555",
+    "fg_subtle"      : "#cc6666",
+    "fg_main"        : "#ee7777",
+    "fg_bold"        : "#ff9999",
+    "accent_1"       : "#ee7777",
+    "accent_2"       : "#ee7777",
+    "accent_alt_2"   : "#ee7777",
+    "color_red_0"    : "#ee7777",
+    "color_green_0"  : "#ee7777",
+    "color_yellow_0" : "#ee7777",
+    "color_blue_0"   : "#ee7777",
+    "color_magenta_0": "#ee7777",
+    "color_cyan_0"   : "#ee7777",
+    "color_orange_0" : "#ee7777",
 }
 
 themes = {
@@ -172,15 +175,15 @@ themes = {
 }
 
 for theme_name, theme in themes["light"].items():
-    theme["border"] = theme["bg_hl"]
     theme["color_black_0"] = theme["fg_main"]
     theme["color_white_1"] = theme["bg_subtle"]
+    theme["border"] = theme["fg_main"] + "20"
     theme["match_alpha"] = "d0"
 
 for theme_name, theme in themes["dark"].items():
-    theme["border"] = theme["bg_hl"]
     theme["color_black_0"] = theme["bg_main"]
-    theme["color_white_1"] = theme["fg_bold"]
+    theme["color_white_1"] = theme["fg_main"]
+    theme["border"] = theme["fg_main"] + "30"
     theme["match_alpha"] = "78"
     for color in ["red", "green", "yellow", "blue", "magenta", "cyan"]:
         theme[f"color_{color}_1"] = theme[f"color_{color}_0"]
