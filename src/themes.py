@@ -90,7 +90,7 @@ dark = {
     'fg_bold'        : '#ffffff',
     'accent_1'       : '#90c4b4',
     'accent_2'       : '#90c4b4',
-    'accent_alt_2'   : '#e8b878',
+    'accent_alt_2'   : '#d3889b',
     'color_red_0'    : '#e86862',
     'color_green_0'  : '#a9b665',
     'color_yellow_0' : '#d89858',
