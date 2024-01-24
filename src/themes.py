@@ -56,9 +56,6 @@ paper = {
     'fg_subtle' : '#605a52',
     'fg_main'   : '#201b12',
     'fg_bold'   : '#000000',
-    'accent_1'  : '#70a490',
-    'accent_2'  : '#bbddd4',
-    'accent_3'  : '#ddbbd4',
 }
 
 acme = {
