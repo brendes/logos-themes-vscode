@@ -216,6 +216,8 @@ colors:
   'sideBarSectionHeader.background'              : '{bg_main}'
   'sideBarSectionHeader.foreground'              : '{fg_main}'
   'sideBarSectionHeader.border'                  : '{border}'
+  'sideBySideEditor.horizontalBorder'            : '{border}'
+  'sideBySideEditor.verticalBorder'              : '{border}'
   'statusBar.background'                         : '{bg_main}'
   'statusBar.border'                             : '{border}'
   'statusBar.debuggingBackground'                : '{orange_0}'
