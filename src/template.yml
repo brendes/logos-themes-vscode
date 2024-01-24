@@ -211,7 +211,7 @@ colors:
   'settings.headerForeground'                    : '{fg_main}'
   'settings.textInputBackground'                 : '{bg_main}'
   'sideBar.background'                           : '{bg_main}'
-  'sideBar.border'                               : '{bg_main}'
+  'sideBar.border'                               : '{border}'
   'sideBar.foreground'                           : '{fg_main}'
   'sideBarSectionHeader.background'              : '{bg_main}'
   'sideBarSectionHeader.foreground'              : '{fg_main}'
