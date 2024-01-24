@@ -29,10 +29,12 @@ tokenColors:
     settings:
       foreground: '{fg_dim}'
 
-  - name: 'Global Definitions and other stuff'
+  - name: 'Classes, functions, global definitions'
     scope:
       - 'class'
       - 'function'
+      - 'function.defaultLibrary'
+      - 'macro'
       - 'method'
       - 'entity.name'
       - 'meta.class'
