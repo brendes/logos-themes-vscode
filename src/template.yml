@@ -42,6 +42,18 @@ tokenColors:
     settings:
       foreground: '{fg_main}'
 
+  - name: 'Uncolored'
+    scope:
+      - 'constant.other'
+      - 'entity.name.tag.yaml'
+      - 'storage.modifier.import'
+      - 'support.constant'
+      - 'support.type.property-name.json'
+      - 'variable'
+      - 'variable.other'
+    settings:
+      foreground: '{fg_main}'
+
   - name: 'Punctuation'
     scope:
       - 'punctuation'
