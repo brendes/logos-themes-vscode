@@ -197,7 +197,7 @@ colors:
   'panelSectionHeader.background'                : '{bg_main}'
   'panelTitle.activeBorder'                      : '{fg_main}'
   'panelTitle.activeForeground'                  : '{fg_bold}'
-  'panelTitle.inactiveForeground'                : '{fg_fade}'
+  'panelTitle.inactiveForeground'                : '{fg_dim}'
   'peekView.border'                              : '{border}'
   'quickInput.background'                        : '{bg_main}'
   'quickInput.foreground'                        : '{fg_dim}'
