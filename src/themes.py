@@ -42,6 +42,7 @@ tree = {
     'bg_main'   : '#fffffa',
     'bg_subtle' : '#f6f6f1',
     'bg_hl'     : '#ebebe6',
+    'fg_main'   : '#000000',
 }
 
 paper = {
@@ -78,12 +79,12 @@ acme = {
 
 dark = {
     'theme_name': 'Logos Dark',
-    'bg_main'   : '#303030',
-    'bg_subtle' : '#3b3b3b',
-    'bg_hl'     : '#505050',
-    'fg_fade'   : '#808080',
-    'fg_dim'    : '#a0a0a0',
-    'fg_subtle' : '#c0c0c0',
+    'bg_main'   : '#2b2b2b',
+    'bg_subtle' : '#333333',
+    'bg_hl'     : '#444444',
+    'fg_fade'   : '#888888',
+    'fg_dim'    : '#aaaaaa',
+    'fg_subtle' : '#cccccc',
     'fg_main'   : '#dddddd',
     'fg_bold'   : '#ffffff',
     'accent_1'  : '#90c4b4',
@@ -140,21 +141,21 @@ red = {
     'bg_main'   : '#110000',
     'bg_subtle' : '#221111',
     'bg_hl'     : '#442222',
-    'fg_fade'   : '#995555',
+    'fg_fade'   : '#aa6666',
     'fg_dim'    : '#bb6666',
     'fg_subtle' : '#dd7777',
     'fg_main'   : '#ee8888',
     'fg_bold'   : '#ff9999',
-    'accent_1'  : '#ee7777',
-    'accent_2'  : '#ee7777',
-    'accent_3'  : '#ee7777',
-    'red_0'     : '#ee7777',
-    'green_0'   : '#ee7777',
-    'yellow_0'  : '#ee7777',
-    'blue_0'    : '#ee7777',
-    'magenta_0' : '#ee7777',
-    'cyan_0'    : '#ee7777',
-    'orange_0'  : '#ee7777',
+    'accent_1'  : '#ee8888',
+    'accent_2'  : '#ee8888',
+    'accent_3'  : '#ee8888',
+    'red_0'     : '#ee8888',
+    'green_0'   : '#ee8888',
+    'yellow_0'  : '#ee8888',
+    'blue_0'    : '#ee8888',
+    'magenta_0' : '#ee8888',
+    'cyan_0'    : '#ee8888',
+    'orange_0'  : '#ee8888',
 }
 
 themes = {
@@ -183,7 +184,7 @@ for theme_name, theme in themes['dark'].items():
     theme['theme_type'] = 'dark'
     theme['black_0'] = theme['bg_main']
     theme['white_1'] = theme['fg_main']
-    theme['border'] = theme['fg_main'] + '30'
+    theme['border'] = theme['fg_main'] + '28'
     theme['match_alpha'] = '78'
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan']:
         theme[f'{color}_1'] = theme[f'{color}_0']
