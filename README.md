@@ -25,8 +25,7 @@ An attempt is made to balance prettiness with simplicity and usability.
 
 ## Screenshots
 
-Examples can be viewed at
-[here](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
+Examples can be viewed [here](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
 I don't know how often the site syncs its themes but this will do for now. 
 
 ## Build and install
