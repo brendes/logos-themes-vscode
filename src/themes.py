@@ -64,17 +64,16 @@ paper = {
 acme = {
     **light,
     'theme_name'   : 'Logos Acme',
-    'bg_main'      : '#ffffeb',
-    'bg_subtle'    : '#f8f8e5',
-    'bg_fade'      : '#f2f2df',
-    'bg_hl'        : '#e8e8d4',
+    'bg_main'      : '#ffffee',
+    'bg_subtle'    : '#f8f8e8',
+    'bg_fade'      : '#f2f2e2',
+    'bg_hl'        : '#e8e8d8',
     'bg_accent'    : light['purple_2'],
     'fg_fade'      : '#aaaaa0',
     'fg_dim'       : '#888880',
     'fg_subtle'    : '#666660',
     'fg_main'      : '#000000',
     'fg_bold'      : '#000000',
-    'fg_accent'    : light['purple_1'],
     'bg_match'     : '#eeeeaa',
 }
 
