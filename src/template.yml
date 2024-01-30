@@ -141,7 +141,7 @@ colors:
   'editorLineNumber.foreground'                  : '{bg_hl}'
   'editorLink.activeForeground'                  : '{fg_accent}'
   'editorStickyScrollHover.background'           : '{bg_hl}88'
-  'editorSuggestWidget.background'               : '{bg_subtle}'
+  'editorSuggestWidget.background'               : '{bg_fade}'
   'editorSuggestWidget.border'                   : '{border}'
   'editorSuggestWidget.foreground'               : '{fg_subtle}'
   'editorWidget.background'                      : '{bg_main}'
