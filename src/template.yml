@@ -75,18 +75,6 @@ tokenColors:
       foreground: '{fg_main}'
       fontStyle: 'bold'
 
-  - name: 'Uncolored'
-    scope:
-      - 'constant.other'
-      - 'entity.name.tag.yaml'
-      - 'storage.modifier.import'
-      - 'support.constant'
-      - 'support.type.property-name.json'
-      - 'variable'
-      - 'variable.other.constant'
-    settings:
-      foreground: '{fg_main}'
-
 colors:
   # https://code.visualstudio.com/api/references/theme-color
 
