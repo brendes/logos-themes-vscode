@@ -149,6 +149,7 @@ colors:
   'editorSuggestWidget.background'               : '{bg_fade}'
   'editorSuggestWidget.border'                   : '{border}'
   'editorSuggestWidget.foreground'               : '{fg_subtle}'
+  'editorSuggestWidget.selectedBackground'       : '{bg_hl_strong}'
   'editorWidget.background'                      : '{bg_main}'
   'editorWidget.foreground'                      : '{fg_main}'
   'gitDecoration.conflictingResourceForeground'  : '{yellow_1}e0'

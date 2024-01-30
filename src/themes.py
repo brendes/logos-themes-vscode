@@ -175,18 +175,19 @@ themes = {
 }
 
 for theme_name, theme in themes['light'].items():
-    theme['theme_type']  = 'light'
-    theme['border']      = theme['bg_hl']
-    theme['black_1']     = theme['fg_main']
-    theme['white_2']     = theme['bg_subtle']
-    theme['match_alpha'] = 'd8'
+    theme['theme_type']   = 'light'
+    theme['border']       = theme['bg_hl']
+    theme['bg_hl_strong'] = theme['fg_main'] + '22'
+    theme['black_1']      = theme['fg_main']
+    theme['white_2']      = theme['bg_subtle']
+    theme['match_alpha']  = 'd0'
 
 for theme_name, theme in themes['dark'].items():
-    theme['theme_type']  = 'dark'
-    theme['border']      = theme['bg_hl']
-    theme['bg_accent']   = theme['fg_fade']
-    theme['black_1']     = theme['bg_main']
-    theme['white_2']     = theme['fg_main']
-    theme['match_alpha'] = '78'
+    theme['theme_type']   = 'dark'
+    theme['border']       = theme['bg_hl']
+    theme['bg_hl_strong'] = theme['fg_main'] + '22'
+    theme['black_1']      = theme['bg_main']
+    theme['white_2']      = theme['fg_main']
+    theme['match_alpha']  = '88'
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan']:
         theme[f'{color}_2'] = theme[f'{color}_1']
