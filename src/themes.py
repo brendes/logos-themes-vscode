@@ -90,7 +90,7 @@ dark = {
     'fg_subtle'    : '#b4b4b4',
     'fg_main'      : '#cccccc',
     'fg_bold'      : '#ffffff',
-    'fg_accent'    : '#90c8b8',
+    'fg_accent'    : '#88b490',
     'red_1'        : '#f87870',
     'green_1'      : '#a9b665',
     'yellow_1'     : '#d89858',
