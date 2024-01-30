@@ -3,13 +3,6 @@ type: '{theme_type}'
 semanticHighlighting: true
 
 tokenColors:
-  - name: 'Comments'
-    scope:
-      - 'comment'
-      - 'punctuation.definition.comment'
-    settings:
-      foreground: '{fg_fade}'
-
   - name: 'Keywords and Operators'
     scope:
       - 'keyword'
@@ -42,6 +35,13 @@ tokenColors:
       - 'meta.method'
     settings:
       foreground: '{fg_main}'
+
+  - name: 'Comments'
+    scope:
+      - 'comment'
+      - 'punctuation.definition.comment'
+    settings:
+      foreground: '{fg_fade}'
 
   - name: 'Uncolored'
     scope:
