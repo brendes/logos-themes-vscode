@@ -260,7 +260,7 @@ colors:
   'terminalCommandDecoration.successBackground'  : '{fg_dim}'
   'terminalStickyScrollHover.background'         : '{bg_hl}88'
   'textBlockQuote.background'                    : '{bg_subtle}'
-  'textLink.activeForeground'                    : '{fg_bold}'
+  'textLink.activeForeground'                    : '{fg_main}'
   'textLink.foreground'                          : '{fg_accent}'
   'textPreformat.foreground'                     : '{fg_subtle}'
   'titleBar.activeBackground'                    : '{bg_main}'
