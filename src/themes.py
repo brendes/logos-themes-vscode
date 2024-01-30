@@ -29,7 +29,7 @@ white = {
     'theme_name'     : 'Logos White',
     'bg_main'        : '#ffffff',
     'bg_subtle'      : '#f8f8f8',
-    'bg_fade'        : '#f0f0f0',
+    'bg_fade'        : '#f2f2f2',
     'bg_hl'          : '#ebebeb',
     'fg_fade'        : '#aaaaaa',
     'fg_dim'         : '#888888',
@@ -42,7 +42,7 @@ tree = {
     'theme_name': 'Logos Tree',
     'bg_main'   : '#fffffa',
     'bg_subtle' : '#f8f8f3',
-    'bg_fade'   : '#f0f0eb',
+    'bg_fade'   : '#f2f2ed',
     'bg_hl'     : '#ebebe6',
     'fg_main'   : '#000000',
 }
