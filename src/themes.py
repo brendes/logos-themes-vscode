@@ -29,7 +29,8 @@ white = {
     'theme_name'     : 'Logos White',
     'bg_main'        : '#ffffff',
     'bg_subtle'      : '#f8f8f8',
-    'bg_hl'          : '#ececec',
+    'bg_fade'        : '#f0f0f0',
+    'bg_hl'          : '#ebebeb',
     'fg_fade'        : '#aaaaaa',
     'fg_dim'         : '#888888',
     'fg_subtle'      : '#666666',
@@ -40,7 +41,8 @@ tree = {
     **white,
     'theme_name': 'Logos Tree',
     'bg_main'   : '#fffffa',
-    'bg_subtle' : '#f6f6f1',
+    'bg_subtle' : '#f8f8f3',
+    'bg_fade'   : '#f0f0eb',
     'bg_hl'     : '#ebebe6',
     'fg_main'   : '#000000',
 }
@@ -50,6 +52,7 @@ paper = {
     'theme_name': 'Logos Paper',
     'bg_main'   : '#faf7f1',
     'bg_subtle' : '#f0ebe4',
+    'bg_fade'   : '#eae5de',
     'bg_hl'     : '#e6ded4',
     'fg_fade'   : '#b2a29c',
     'fg_dim'    : '#92827c',
@@ -60,22 +63,33 @@ paper = {
 
 acme = {
     **light,
+    'theme_name'   : 'Logos Acme',
+    'bg_main'      : '#ffffeb',
+    'bg_subtle'    : '#f8f8e5',
+    'bg_fade'      : '#f2f2df',
+    'bg_hl'        : '#eeeeda',
+    'bg_accent'    : light['purple_2'],
+    'fg_fade'      : '#aaaaa0',
+    'fg_dim'       : '#888880',
+    'fg_subtle'    : '#666660',
+    'fg_main'      : '#000000',
+    'fg_bold'      : '#000000',
     'fg_accent'    : light['purple_1'],
     'bg_match'     : '#eeeeaa',
 }
 
 dark = {
-    'theme_name': 'Logos Dark',
-    'bg_main'   : '#2b2b2b',
-    'bg_subtle' : '#333333',
-    'bg_hl'     : '#444444',
-    'fg_fade'   : '#888888',
+    'theme_name'   : 'Logos Dark',
+    'bg_main'      : '#2b2b2b',
+    'bg_subtle'    : '#303030',
+    'bg_fade'      : '#383838',
+    'bg_hl'        : '#404040',
     'bg_match'     : '#eebb88',
-    'fg_subtle' : '#cccccc',
-    'fg_main'   : '#dddddd',
-    'fg_bold'   : '#ffffff',
-    'accent_1'  : '#90c4b4',
-    'accent_2'  : '#90c4b4',
+    'fg_fade'      : '#777777',
+    'fg_dim'       : '#999999',
+    'fg_subtle'    : '#b4b4b4',
+    'fg_main'      : '#cccccc',
+    'fg_bold'      : '#ffffff',
     'fg_accent'    : '#90c8b8',
     'red_1'        : '#f87870',
     'green_1'      : '#a9b665',
@@ -91,6 +105,7 @@ dark_warm = {
     'theme_name': 'Logos Dark Warm',
     'bg_main'   : '#32302f',
     'bg_subtle' : '#3a3837',
+    'bg_fade'   : '#403d3c',
     'bg_hl'     : '#504e4c',
     'fg_fade'   : '#8c7f74',
     'fg_dim'    : '#a89984',
@@ -101,17 +116,17 @@ dark_warm = {
 
 nord = {
     **dark,
-    'theme_name': 'Logos Nord',
-    'bg_main'   : '#2e3440',
-    'bg_subtle' : '#363d4c',
-    'bg_hl'     : '#434c5e',
-    'fg_fade'   : '#707b90',
+    'theme_name'   : 'Logos Nord',
+    'bg_main'      : '#2e3440',
+    'bg_subtle'    : '#363d4c',
+    'bg_fade'      : '#3c4352',
+    'bg_hl'        : '#434c5e',
     'bg_match'     : '#b48ead',
-    'fg_subtle' : '#a8b0c8',
-    'fg_main'   : '#d8dee9',
-    'fg_bold'   : '#eceff4',
-    'accent_1'  : '#88c0d0',
-    'accent_2'  : '#88c0d0',
+    'fg_fade'      : '#707b90',
+    'fg_dim'       : '#8895ae',
+    'fg_subtle'    : '#a8b0c8',
+    'fg_main'      : '#d8dee9',
+    'fg_bold'      : '#eceff4',
     'fg_accent'    : '#88c0d0',
     'red_1'        : '#bf616a',
     'green_1'      : '#a3be8c',
@@ -124,17 +139,17 @@ nord = {
 
 red = {
     **dark,
-    'theme_name': 'Logos Red',
-    'bg_main'   : '#110000',
-    'bg_subtle' : '#221111',
-    'bg_hl'     : '#442222',
-    'fg_fade'   : '#aa6666',
+    'theme_name'   : 'Logos Red',
+    'bg_main'      : '#110000',
+    'bg_subtle'    : '#221111',
+    'bg_fade'      : '#281818',
+    'bg_hl'        : '#442222',
     'bg_match'     : '#ee8888',
-    'fg_subtle' : '#dd7777',
-    'fg_main'   : '#ee8888',
-    'fg_bold'   : '#ff9999',
-    'accent_1'  : '#ee8888',
-    'accent_2'  : '#ee8888',
+    'fg_fade'      : '#aa6666',
+    'fg_dim'       : '#bb6666',
+    'fg_subtle'    : '#dd7777',
+    'fg_main'      : '#ee8888',
+    'fg_bold'      : '#ff9999',
     'fg_accent'    : '#ee8888',
     'red_1'        : '#ee8888',
     'green_1'      : '#ee8888',
@@ -161,13 +176,15 @@ themes = {
 }
 
 for theme_name, theme in themes['light'].items():
-    theme['theme_type'] = 'light'
-    theme['black_0'] = theme['fg_main']
-    theme['white_1'] = theme['bg_subtle']
-    theme['border'] = theme['fg_main'] + '20'
-    theme['match_alpha'] = 'd0'
+    theme['theme_type']  = 'light'
+    theme['border']      = theme['bg_hl']
+    theme['black_1']     = theme['fg_main']
+    theme['white_2']     = theme['bg_subtle']
+    theme['match_alpha'] = 'd8'
 
 for theme_name, theme in themes['dark'].items():
+    theme['theme_type']  = 'dark'
+    theme['border']      = theme['bg_hl']
     theme['bg_accent']   = theme['fg_fade']
     theme['black_1']     = theme['bg_main']
     theme['white_2']     = theme['fg_main']
