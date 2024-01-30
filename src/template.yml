@@ -26,6 +26,7 @@ tokenColors:
       - 'entity.other.attribute-name.id'
       - 'support.constant'
       - 'variable.other.enummember'
+      - 'markup.inline.raw.string'
     settings:
       foreground: '{fg_dim}'
 
