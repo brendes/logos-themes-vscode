@@ -3,25 +3,25 @@
 # fmt: off
 
 light = {
-    'fg_bold'   : '#000000',
-    'accent_1'  : '#6688bb',
-    'accent_2'  : '#c0d0e0',
-    'accent_3'  : '#eed2bb',
-    'red_0'     : '#bb5058',
-    'red_1'     : '#d88088',
-    'yellow_0'  : '#a88870',
-    'yellow_1'  : '#eed2aa',
-    'green_0'   : '#889f78',
-    'green_1'   : '#afbf88',
-    'blue_0'    : '#7080a0',
-    'blue_1'    : '#b8c8d7',
-    'magenta_0' : '#a07488',
-    'magenta_1' : '#d8b8c8',
-    'cyan_0'    : '#6f9b98',
-    'cyan_1'    : '#b0d8d4',
-    'orange_0'  : '#e09988',
-    'purple_0'  : '#9090cc',
-    'purple_1'  : '#ccccee',
+    'fg_bold'      : '#000000',
+    'fg_accent'    : '#6677bb',
+    'bg_accent'    : '#d0dbeb',
+    'bg_match'     : '#e8d8c8',
+    'red_1'        : '#bb5058',
+    'red_2'        : '#d88088',
+    'yellow_1'     : '#a88870',
+    'yellow_2'     : '#eed2aa',
+    'green_1'      : '#889f78',
+    'green_2'      : '#afbf88',
+    'blue_1'       : '#7080a0',
+    'blue_2'       : '#b8c8d7',
+    'magenta_1'    : '#a07488',
+    'magenta_2'    : '#d8b8c8',
+    'cyan_1'       : '#6f9b98',
+    'cyan_2'       : '#b0d8d4',
+    'orange_1'     : '#e09988',
+    'purple_1'     : '#9090cc',
+    'purple_2'     : '#ccccee',
 }
 
 white = {
@@ -60,18 +60,8 @@ paper = {
 
 acme = {
     **light,
-    'theme_name'  : 'Logos Acme',
-    'bg_main'     : '#ffffeb',
-    'bg_subtle'   : '#f8f8e5',
-    'bg_hl'       : '#eeeeda',
-    'fg_fade'     : '#aaaaa0',
-    'fg_dim'      : '#888880',
-    'fg_subtle'   : '#666660',
-    'fg_main'     : '#000000',
-    'fg_bold'     : '#000000',
-    'accent_1'    : light['purple_0'],
-    'accent_2'    : light['purple_1'],
-    'accent_3'    : '#eeeeaa',
+    'fg_accent'    : light['purple_1'],
+    'bg_match'     : '#eeeeaa',
 }
 
 dark = {
@@ -80,20 +70,20 @@ dark = {
     'bg_subtle' : '#333333',
     'bg_hl'     : '#444444',
     'fg_fade'   : '#888888',
-    'fg_dim'    : '#aaaaaa',
+    'bg_match'     : '#eebb88',
     'fg_subtle' : '#cccccc',
     'fg_main'   : '#dddddd',
     'fg_bold'   : '#ffffff',
     'accent_1'  : '#90c4b4',
     'accent_2'  : '#90c4b4',
-    'accent_3'  : '#d3889b',
-    'red_0'     : '#e86862',
-    'green_0'   : '#a9b665',
-    'yellow_0'  : '#d89858',
-    'blue_0'    : '#7daea3',
-    'magenta_0' : '#d3889b',
-    'cyan_0'    : '#88b490',
-    'orange_0'  : '#eeaa77',
+    'fg_accent'    : '#90c8b8',
+    'red_1'        : '#f87870',
+    'green_1'      : '#a9b665',
+    'yellow_1'     : '#d89858',
+    'blue_1'       : '#7daea3',
+    'magenta_1'    : '#d3889b',
+    'cyan_1'       : '#88b490',
+    'orange_1'     : '#eeaa77',
 }
 
 dark_warm = {
@@ -116,20 +106,20 @@ nord = {
     'bg_subtle' : '#363d4c',
     'bg_hl'     : '#434c5e',
     'fg_fade'   : '#707b90',
-    'fg_dim'    : '#8895ae',
+    'bg_match'     : '#b48ead',
     'fg_subtle' : '#a8b0c8',
     'fg_main'   : '#d8dee9',
     'fg_bold'   : '#eceff4',
     'accent_1'  : '#88c0d0',
     'accent_2'  : '#88c0d0',
-    'accent_3'  : '#b48ead',
-    'red_0'     : '#bf616a',
-    'green_0'   : '#a3be8c',
-    'yellow_0'  : '#ebcb8b',
-    'blue_0'    : '#81a1c1',
-    'magenta_0' : '#b48ead',
-    'cyan_0'    : '#88c0d0',
-    'orange_0'  : '#d08770',
+    'fg_accent'    : '#88c0d0',
+    'red_1'        : '#bf616a',
+    'green_1'      : '#a3be8c',
+    'yellow_1'     : '#ebcb8b',
+    'blue_1'       : '#81a1c1',
+    'magenta_1'    : '#b48ead',
+    'cyan_1'       : '#88c0d0',
+    'orange_1'     : '#d08770',
 }
 
 red = {
@@ -139,20 +129,20 @@ red = {
     'bg_subtle' : '#221111',
     'bg_hl'     : '#442222',
     'fg_fade'   : '#aa6666',
-    'fg_dim'    : '#bb6666',
+    'bg_match'     : '#ee8888',
     'fg_subtle' : '#dd7777',
     'fg_main'   : '#ee8888',
     'fg_bold'   : '#ff9999',
     'accent_1'  : '#ee8888',
     'accent_2'  : '#ee8888',
-    'accent_3'  : '#ee8888',
-    'red_0'     : '#ee8888',
-    'green_0'   : '#ee8888',
-    'yellow_0'  : '#ee8888',
-    'blue_0'    : '#ee8888',
-    'magenta_0' : '#ee8888',
-    'cyan_0'    : '#ee8888',
-    'orange_0'  : '#ee8888',
+    'fg_accent'    : '#ee8888',
+    'red_1'        : '#ee8888',
+    'green_1'      : '#ee8888',
+    'yellow_1'     : '#ee8888',
+    'blue_1'       : '#ee8888',
+    'magenta_1'    : '#ee8888',
+    'cyan_1'       : '#ee8888',
+    'orange_1'     : '#ee8888',
 }
 
 themes = {
@@ -178,10 +168,9 @@ for theme_name, theme in themes['light'].items():
     theme['match_alpha'] = 'd0'
 
 for theme_name, theme in themes['dark'].items():
-    theme['theme_type'] = 'dark'
-    theme['black_0'] = theme['bg_main']
-    theme['white_1'] = theme['fg_main']
-    theme['border'] = theme['fg_main'] + '28'
+    theme['bg_accent']   = theme['fg_fade']
+    theme['black_1']     = theme['bg_main']
+    theme['white_2']     = theme['fg_main']
     theme['match_alpha'] = '78'
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan']:
-        theme[f'{color}_1'] = theme[f'{color}_0']
+        theme[f'{color}_2'] = theme[f'{color}_1']
