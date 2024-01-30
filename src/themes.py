@@ -28,7 +28,7 @@ white = {
     'bg_main'        : '#ffffff',
     'bg_subtle'      : '#f8f8f8',
     'bg_fade'        : '#f2f2f2',
-    'bg_hl'          : '#e8e8e8',
+    'bg_hl'          : '#eaeaea',
     'fg_fade'        : '#aaaaaa',
     'fg_dim'         : '#888888',
     'fg_subtle'      : '#666666',
@@ -41,7 +41,7 @@ tree = {
     'bg_main'   : '#fffffa',
     'bg_subtle' : '#f8f8f3',
     'bg_fade'   : '#f2f2ed',
-    'bg_hl'     : '#ebebe6',
+    'bg_hl'     : '#eaeae5',
     'fg_main'   : '#000000',
 }
 
@@ -65,7 +65,7 @@ acme = {
     'bg_main'      : '#ffffee',
     'bg_subtle'    : '#f8f8e8',
     'bg_fade'      : '#f2f2e2',
-    'bg_hl'        : '#e8e8d8',
+    'bg_hl'        : '#eaeada',
     'bg_accent'    : '#ccccee',
     'bg_match'     : '#eeeeaa',
     'fg_fade'      : '#aaaaa0',
