@@ -15,6 +15,9 @@ build: setup
 package: build
 	vsce package
 
+publish: package
+	vsce publish
+
 clean:
 	rm -f *.vsix
 
