@@ -21,4 +21,4 @@ publish: package
 clean:
 	rm -f *.vsix
 
-.PHONY: setup build package clean
+.PHONY: setup build package publish clean
