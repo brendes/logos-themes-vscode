@@ -29,6 +29,7 @@ white = {
     'bg_subtle'      : '#f8f8f8',
     'bg_fade'        : '#f2f2f2',
     'bg_hl'          : '#eaeaea',
+    'bg_strong'      : '#cccccc',
     'fg_fade'        : '#aaaaaa',
     'fg_dim'         : '#888888',
     'fg_subtle'      : '#666666',
@@ -52,6 +53,7 @@ paper = {
     'bg_subtle' : '#f0ebe4',
     'bg_fade'   : '#eae5de',
     'bg_hl'     : '#e6ded4',
+    'bg_strong' : '#c2b2ac',
     'fg_fade'   : '#b2a29c',
     'fg_dim'    : '#92827c',
     'fg_subtle' : '#605a52',
@@ -68,6 +70,7 @@ acme = {
     'bg_hl'        : '#eaeada',
     'bg_accent'    : '#ccccee',
     'bg_match'     : '#eeeeaa',
+    'bg_strong'    : '#ccccc2',
     'fg_fade'      : '#aaaaa0',
     'fg_dim'       : '#888880',
     'fg_subtle'    : '#666660',
@@ -84,6 +87,7 @@ dark = {
     'bg_hl'         : '#404040',
     'bg_accent'     : '#88bb99',
     'bg_match'      : '#bb88aa',
+    'bg_strong'     : '#555555',
     'fg_fade'       : '#777777',
     'fg_dim'        : '#999999',
     'fg_subtle'     : '#b4b4b4',
@@ -106,6 +110,7 @@ dark_warm = {
     'bg_subtle' : '#3a3837',
     'bg_fade'   : '#403d3c',
     'bg_hl'     : '#504e4c',
+    'bg_strong' : '#706e6c',
     'fg_fade'   : '#8c7f74',
     'fg_dim'    : '#a89984',
     'fg_subtle' : '#c8b8a4',
@@ -120,6 +125,7 @@ nord = {
     'bg_subtle'    : '#363d4c',
     'bg_fade'      : '#3c4352',
     'bg_hl'        : '#434c5e',
+    'bg_strong'    : '#5c6372',
     'bg_accent'    : '#88c0d0',
     'bg_match'     : '#bf8ead',
     'fg_fade'      : '#707b90',
@@ -144,6 +150,7 @@ red = {
     'bg_subtle'     : '#221111',
     'bg_fade'       : '#281818',
     'bg_hl'         : '#442222',
+    'bg_strong'     : '#663333',
     'bg_accent'     : '#ee8888',
     'bg_match'      : '#bb6666',
     'fg_fade'       : '#aa6666',
@@ -177,19 +184,21 @@ themes = {
 }
 
 for theme_name, theme in themes['light'].items():
-    theme['theme_type']   = 'light'
-    theme['border']       = theme['bg_hl']
-    theme['bg_hl_strong'] = theme['fg_main'] + '22'
-    theme['black_1']      = theme['fg_main']
-    theme['white_2']      = theme['bg_subtle']
-    theme['match_alpha']  = 'd0'
+    theme['theme_type']    = 'light'
+    theme['border_light']  = theme['bg_hl']
+    theme['border_strong'] = theme['bg_strong']
+    theme['black_1']       = theme['fg_main']
+    theme['white_2']       = theme['bg_subtle']
+    theme['invisible']     = '#00000000'
+    theme['match_alpha']   = 'd0'
 
 for theme_name, theme in themes['dark'].items():
-    theme['theme_type']   = 'dark'
-    theme['border']       = theme['bg_hl']
-    theme['bg_hl_strong'] = theme['fg_main'] + '22'
-    theme['black_1']      = theme['bg_main']
-    theme['white_2']      = theme['fg_main']
-    theme['match_alpha']  = '88'
+    theme['theme_type']    = 'dark'
+    theme['border_light']  = theme['bg_hl']
+    theme['border_strong'] = theme['bg_strong']
+    theme['black_1']       = theme['bg_main']
+    theme['white_2']       = theme['fg_main']
+    theme['invisible']     = '#00000000'
+    theme['match_alpha']   = '88'
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan']:
         theme[f'{color}_2'] = theme[f'{color}_1']
