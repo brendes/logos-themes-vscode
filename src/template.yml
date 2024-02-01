@@ -271,6 +271,7 @@ colors:
   'titleBar.border'                              : '{bg_main}'
   'titleBar.inactiveBackground'                  : '{bg_main}'
   'titleBar.inactiveForeground'                  : '{fg_dim}'
-  'tree.indentGuidesStroke'                      : '{bg_main}00'
+  'tree.indentGuidesStroke'                      : '{bg_hl}'
+  'tree.inactiveIndentGuidesStroke'              : '{bg_hl}'
   'window.activeBorder'                          : '{bg_subtle}'
   'window.inactiveBorder'                        : '{bg_main}'
