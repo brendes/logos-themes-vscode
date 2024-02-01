@@ -108,7 +108,7 @@ colors:
   'button.secondaryForeground'                   : '{fg_subtle}'
   'button.secondaryHoverBackground'              : '{bg_hl}'
   'checkbox.background'                          : '{bg_hl}'
-  'checkbox.border'                              : '{border}'
+  'checkbox.border'                              : '{fg_fade}'
   'checkbox.foreground'                          : '{fg_main}'
   'dropdown.background'                          : '{bg_subtle}'
   'dropdown.border'                              : '{border_light}'
