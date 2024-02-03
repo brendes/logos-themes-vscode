@@ -22,20 +22,18 @@ An attempt is made to balance prettiness with simplicity and usability.
 | nord      | dark  | `#2e3440`  | inspired by the [Nord](https://www.nordtheme.com) theme                             |
 | red       | dark  | `#000000`  | dark with red text for very low light                                               |
 
-
 ## Screenshots
 
 Examples can be viewed [here](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
-I don't know how often the site syncs its themes but this will do for now. 
+
+At the time of writing this, I update the theme frequently. I don't know how often the site syncs its themes but this will do for now. 
+
+## Install
+- In VS Code: `⌘-P` then `ext install logos-themes`
+- On the web: [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brendes.logos-themes).
 
 ## Build and install
-- Build themes: `make build`
-- Build extension: `make package`
 
 Requires Python ≥ 3.11.
-
-Or, install from the marketplace [here](https://marketplace.visualstudio.com/items?itemName=brendes.logos-themes).
-
-## TODO
-
-- screenshots
+- Build themes: `make build`
+- Build extension: `make package`
