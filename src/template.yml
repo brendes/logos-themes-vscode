@@ -40,7 +40,6 @@ tokenColors:
 
   - name: 'Errors'
     scope:
-      - 'entity.name.exception'
       - 'invalid.illegal'
     settings:
       foreground: '{red_1}'
