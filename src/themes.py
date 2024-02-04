@@ -199,3 +199,5 @@ for theme_name, theme in themes['dark'].items():
     theme['white_2']       = theme['fg_main']
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'orange']:
         theme[f'{color}_2'] = theme[f'{color}_1']
+
+red['border_light'] = red['border_strong'] 
