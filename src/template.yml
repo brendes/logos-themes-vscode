@@ -1,13 +1,11 @@
 name: '{theme_name}'
 type: '{theme_type}'
-semanticHighlighting: true
 
 tokenColors:
   - name: 'Keywords and Operators'
     scope:
       - 'keyword'
-      - 'modifier'
-      - 'operator'
+      - 'storage.modifier'
     settings:
       foreground: '{fg_main}'
       fontStyle: 'bold'
@@ -16,24 +14,14 @@ tokenColors:
     scope:
       - 'constant'
       - 'string'
-      - 'enumMember'
-      - 'entity.other.attribute-name.id'
-      - 'support.constant'
-      - 'variable.other.enummember'
-      - 'markup.inline.raw.string'
+      - 'markup.inline.raw'
     settings:
       foreground: '{fg_dim}'
 
-  - name: 'Classes, functions, global definitions'
+  - name: 'Global definitions'
     scope:
-      - 'class'
-      - 'function'
-      - 'function.defaultLibrary'
-      - 'macro'
-      - 'method'
       - 'entity.name'
-      - 'meta.class'
-      - 'meta.method'
+      - 'support'
     settings:
       foreground: '{fg_subtle}'
 
