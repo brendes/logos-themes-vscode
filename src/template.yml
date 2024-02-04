@@ -35,7 +35,13 @@ tokenColors:
       - 'meta.class'
       - 'meta.method'
     settings:
-      foreground: '{fg_main}'
+      foreground: '{fg_subtle}'
+
+  - name: 'Punctuation'
+    scope:
+      - 'punctuation'
+    settings:
+      foreground: '{fg_subtle}'
 
   - name: 'Comments'
     scope:
@@ -43,24 +49,6 @@ tokenColors:
       - 'punctuation.definition.comment'
     settings:
       foreground: '{fg_fade}'
-
-  - name: 'Uncolored'
-    scope:
-      - 'constant.other'
-      - 'entity.name.tag.yaml'
-      - 'storage.modifier.import'
-      - 'support.constant'
-      - 'support.type.property-name.json'
-      - 'variable'
-      - 'variable.other'
-    settings:
-      foreground: '{fg_main}'
-
-  - name: 'Punctuation'
-    scope:
-      - 'punctuation'
-    settings:
-      foreground: '{fg_subtle}'
 
   - name: 'Errors'
     scope:
@@ -75,6 +63,12 @@ tokenColors:
     settings:
       foreground: '{fg_main}'
       fontStyle: 'bold'
+
+  - name: 'Uncolored overrides'
+    scope:
+      - 'entity.name.tag.yaml'
+    settings:
+      foreground: '{fg_main}'
 
 colors:
   # https://code.visualstudio.com/api/references/theme-color
