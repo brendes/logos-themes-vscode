@@ -19,7 +19,7 @@ light = {
     'magenta_2'     : '#d8b8c8',
     'cyan_1'        : '#6f9b98',
     'cyan_2'        : '#b0d8d4',
-    'orange_1'      : '#e09988',
+    'invisible'     : '#00000000',
 }
 
 white = {
@@ -100,7 +100,7 @@ dark = {
     'blue_1'        : '#7daea3',
     'magenta_1'     : '#d3889b',
     'cyan_1'        : '#88b490',
-    'orange_1'      : '#eeaa77',
+    'invisible'     : '#00000000',
 }
 
 dark_warm = {
