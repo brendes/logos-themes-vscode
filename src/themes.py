@@ -3,6 +3,7 @@
 # fmt: off
 
 light = {
+    'theme_type'    :  'light',
     'fg_bold'       : '#000000',
     'fg_accent'     : '#6677aa',
     'bg_accent'     : '#c0c8e0',
@@ -20,6 +21,7 @@ light = {
     'cyan_1'        : '#6f9b98',
     'cyan_2'        : '#b0d8d4',
     'invisible'     : '#00000000',
+    'match_alpha'   : 'd0',
 }
 
 white = {
@@ -80,6 +82,7 @@ acme = {
 }
 
 dark = {
+    'theme_type'    : 'dark',
     'theme_name'    : 'Logos Dark',
     'bg_main'       : '#2b2b2b',
     'bg_subtle'     : '#303030',
@@ -101,6 +104,7 @@ dark = {
     'magenta_1'     : '#d3889b',
     'cyan_1'        : '#88b490',
     'invisible'     : '#00000000',
+    'match_alpha'   : '88',
 }
 
 dark_warm = {
@@ -184,21 +188,15 @@ themes = {
 }
 
 for theme_name, theme in themes['light'].items():
-    theme['theme_type']    = 'light'
-    theme['border_light']  = theme['bg_hl']
-    theme['border_strong'] = theme['bg_strong']
+    theme['border_light']  = theme['fg_main'] + '28'
+    theme['border_strong'] = theme['fg_main'] + '40'
     theme['black_1']       = theme['fg_main']
     theme['white_2']       = theme['bg_subtle']
-    theme['invisible']     = '#00000000'
-    theme['match_alpha']   = 'd0'
 
 for theme_name, theme in themes['dark'].items():
-    theme['theme_type']    = 'dark'
-    theme['border_light']  = theme['bg_hl']
-    theme['border_strong'] = theme['bg_strong']
+    theme['border_light']  = theme['fg_main'] + '20'
+    theme['border_strong'] = theme['fg_main'] + '40'
     theme['black_1']       = theme['bg_main']
     theme['white_2']       = theme['fg_main']
-    theme['invisible']     = '#00000000'
-    theme['match_alpha']   = '88'
-    for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan']:
+    for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'orange']:
         theme[f'{color}_2'] = theme[f'{color}_1']
