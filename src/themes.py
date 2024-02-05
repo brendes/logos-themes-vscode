@@ -27,16 +27,16 @@ light = {
 
 white = {
     **light,
-    'theme_name'     : 'Logos White',
-    'bg_main'        : '#ffffff',
-    'bg_subtle'      : '#f8f8f8',
-    'bg_fade'        : '#f2f2f2',
-    'bg_hl'          : '#ebebeb',
-    'bg_strong'      : '#cccccc',
-    'fg_fade'        : '#aaaaaa',
-    'fg_dim'         : '#888888',
-    'fg_subtle'      : '#666666',
-    'fg_main'        : '#111111',
+    'theme_name': 'Logos White',
+    'bg_main'   : '#ffffff',
+    'bg_subtle' : '#f8f8f8',
+    'bg_fade'   : '#f2f2f2',
+    'bg_hl'     : '#ebebeb',
+    'bg_strong' : '#d8d8d8',
+    'fg_fade'   : '#aaaaaa',
+    'fg_dim'    : '#888888',
+    'fg_subtle' : '#666666',
+    'fg_main'   : '#111111',
 }
 
 tree = {
@@ -46,6 +46,7 @@ tree = {
     'bg_subtle' : '#f8f8f3',
     'bg_fade'   : '#f2f2ed',
     'bg_hl'     : '#ebebe6',
+    'bg_strong' : '#d8d8d3',
     'fg_main'   : '#000000',
 }
 
@@ -56,7 +57,7 @@ paper = {
     'bg_subtle' : '#f0ebe4',
     'bg_fade'   : '#eae5de',
     'bg_hl'     : '#e6ded4',
-    'bg_strong' : '#c2b2ac',
+    'bg_strong' : '#d2c2bc',
     'fg_fade'   : '#b2a29c',
     'fg_dim'    : '#92827c',
     'fg_subtle' : '#605a52',
@@ -71,7 +72,7 @@ acme = {
     'bg_subtle'    : '#f8f8e8',
     'bg_fade'      : '#f2f2e2',
     'bg_hl'        : '#ebebdb',
-    'bg_strong'    : '#ccccbc',
+    'bg_strong'    : '#d8d8c8',
     'bg_accent'    : '#eeeeaa',
     'fg_fade'      : '#aaaaa0',
     'fg_dim'       : '#888880',
