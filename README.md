@@ -5,15 +5,13 @@ An attempt is made to balance prettiness with simplicity and usability.
 
 ## About
 
-I find most multicolored syntax themes to garish and overwhelming to look at for extended periods of time.
+I find most multicolored syntax themes to be garish and overwhelming to look at for extended periods of time.
 These themes use bold text and a few shades of a primary "base" color to highlight:
 - keywords
 - comments
 - strings
 - constants
 - global definitions
-
-The aim is to prioritize easily scannable code structure without multiple disorienting colors.
 
 ## Variants
 
