@@ -117,7 +117,7 @@ colors:
   'editorGroup.border'                           : '{border_light}'
   'editorGroupHeader.border'                     : '{bg_main}'
   'editorGroupHeader.tabsBackground'             : '{bg_main}'
-  'editorGroupHeader.tabsBorder'                 : '{invisible}'
+  'editorGroupHeader.tabsBorder'                 : '{border_light}'
   'editorGutter.addedBackground'                 : '{green_2}'
   'editorGutter.deletedBackground'               : '{red_2}'
   'editorGutter.modifiedBackground'              : '{blue_2}'
