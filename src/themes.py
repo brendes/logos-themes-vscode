@@ -194,10 +194,8 @@ for theme_name, theme in themes['light'].items():
 
 for theme_name, theme in themes['dark'].items():
     theme['border_light']  = theme['fg_main'] + '20'
-    theme['border_strong'] = theme['fg_main'] + '40'
+    theme['border_strong'] = theme['fg_main'] + '30'
     theme['black_1']       = theme['bg_main']
     theme['white_2']       = theme['fg_main']
     for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'orange']:
         theme[f'{color}_2'] = theme[f'{color}_1']
-
-red['border_light'] = red['border_strong'] 
