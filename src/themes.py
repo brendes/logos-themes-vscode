@@ -39,9 +39,9 @@ white = {
     'fg_main'   : '#111111',
 }
 
-tree = {
+sun = {
     **white,
-    'theme_name': 'Logos Tree',
+    'theme_name': 'Logos Sun',
     'bg_main'   : '#fffffa',
     'bg_subtle' : '#f8f8f3',
     'bg_fade'   : '#f2f2ed',
@@ -108,9 +108,9 @@ dark = {
     'match_alpha'   : '88',
 }
 
-dark_warm = {
+warm = {
     **dark,
-    'theme_name': 'Logos Dark Warm',
+    'theme_name': 'Logos Warm',
     'bg_main'   : '#32302f',
     'bg_subtle' : '#3a3837',
     'bg_fade'   : '#403d3c',
@@ -175,15 +175,15 @@ red = {
 themes = {
     'light': {
         'white': white,
-        'tree' : tree,
+        'sun'  : sun,
         'paper': paper,
         'acme' : acme,
     },
     'dark': {
-        'dark'     : dark,
-        'dark_warm': dark_warm,
-        'nord'     : nord,
-        'red'      : red,
+        'dark': dark,
+        'warm': warm,
+        'nord': nord,
+        'red' : red,
     },
 }
 

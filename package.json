@@ -28,9 +28,9 @@
         "path": "./themes/logos-white-color-theme.json"
       },
       {
-        "label": "Logos Tree",
+        "label": "Logos Sun",
         "uiTheme": "vs",
-        "path": "./themes/logos-tree-color-theme.json"
+        "path": "./themes/logos-sun-color-theme.json"
       },
       {
         "label": "Logos Paper",
@@ -48,9 +48,9 @@
         "path": "./themes/logos-dark-color-theme.json"
       },
       {
-        "label": "Logos Dark Warm",
+        "label": "Logos Warm",
         "uiTheme": "vs-dark",
-        "path": "./themes/logos-dark-warm-color-theme.json"
+        "path": "./themes/logos-warm-color-theme.json"
       },
       {
         "label": "Logos Nord",
