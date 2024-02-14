@@ -1,8 +1,10 @@
 *.code-workspace
 *.vsix
+.venv
 bin
 CHANGELOG.md
 lib
 node_modules
 pyvenv.cfg
+src/__pycache__
 themes/*
