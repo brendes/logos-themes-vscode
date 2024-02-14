@@ -75,7 +75,7 @@ colors:
   'activityBar.background'                       : '{bg_main}'
   'activityBar.border'                           : '{invisible}'
   'activityBar.foreground'                       : '{fg_main}'
-  'activityBar.inactiveForeground'               : '{fg_fade}'
+  'activityBar.inactiveForeground'               : '{fg_faint}'
   'activityBarBadge.background'                  : '{fg_dim}'
   'activityBarBadge.foreground'                  : '{bg_main}'
   'badge.background'                             : '{bg_hl}'
