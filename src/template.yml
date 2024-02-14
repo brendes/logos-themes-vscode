@@ -68,7 +68,7 @@ colors:
   'foreground'           : '{fg_main}'
   'icon.foreground'      : '{fg_main}'
   'selection.background' : '{bg_hl}'
-  'widget.border'        : '{border_light}'
+  'widget.border'        : '{border_strong}'
 
   # everything else
   'activityBar.activeBorder'                     : '{bg_main}'
