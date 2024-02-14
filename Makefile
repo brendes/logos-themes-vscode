@@ -19,6 +19,6 @@ publish: package
 	vsce publish
 
 clean:
-	rm -f *.vsix
+	rm -f *.vsix themes/*.json
 
 .PHONY: setup build package publish clean
