@@ -23,7 +23,7 @@ tokenColors:
       - 'entity.name'
       - 'support'
     settings:
-      foreground: '{fg_subtle}'
+      foreground: '{fg_main}'
 
   - name: 'Punctuation'
     scope:
