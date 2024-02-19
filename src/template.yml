@@ -146,7 +146,7 @@ colors:
   'gitDecoration.modifiedResourceForeground'     : '{fg_subtle}'
   'gitDecoration.stageDeletedResourceForeground' : '{fg_subtle}'
   'gitDecoration.stageModifiedResourceForeground': '{fg_subtle}'
-  'gitDecoration.submoduleResourceForeground'    : '{cyan_1}e0'
+  'gitDecoration.submoduleResourceForeground'    : '{fg_subtle}'
   'gitDecoration.untrackedResourceForeground'    : '{fg_main}'
   'input.background'                             : '{bg_main}'
   'input.border'                                 : '{border_light}'
