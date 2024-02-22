@@ -120,12 +120,12 @@ warm = {
     'bg_subtle' : '#3a3837',
     'bg_fade'   : '#403d3c',
     'bg_hl'     : '#504e4c',
-    'bg_strong' : '#706e6c',
+    'bg_strong' : '#5a5958',
     'fg_faint'  : '#6c5f54',
     'fg_fade'   : '#8c7f74',
     'fg_dim'    : '#a89984',
     'fg_subtle' : '#c8b8a4',
-    'fg_main'   : '#ddc8a8',
+    'fg_main'   : '#edd8c8',
     'fg_bold'   : '#ffeaca',
 }
 
