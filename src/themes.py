@@ -200,7 +200,7 @@ for theme_name, theme in themes["light"].items():
 
 for theme_name, theme in themes["dark"].items():
     theme["border_light"] = theme["fg_main"] + "38"
-    theme["border_strong"] = theme["fg_main"] + "60"
+    theme["border_strong"] = theme["fg_main"] + "50"
     theme["bg_drop"] = theme["bg_hl"] + "88"
     theme["black_1"] = theme["bg_main"]
     theme["white_2"] = theme["fg_main"]
