@@ -148,7 +148,7 @@ colors:
   'editorSuggestWidget.foreground'               : '{fg_subtle}'
   'editorSuggestWidget.selectedBackground'       : '{bg_strong}'
 
-  'editorWidget.background'                      : '{bg_main}'
+  'editorWidget.background'                      : '{bg_subtle}'
   'editorWidget.foreground'                      : '{fg_main}'
 
   'extensionButton.background'                   : '{bg_hl}'
@@ -211,7 +211,7 @@ colors:
   'peekViewTitleDescription.foreground'          : '{fg_subtle}'
   'peekViewTitleLabel.foreground'                : '{fg_bold}'
 
-  'quickInput.background'                        : '{bg_main}'
+  'quickInput.background'                        : '{bg_subtle}'
   'quickInput.foreground'                        : '{fg_main}'
 
   'scrollbarSlider.activeBackground'             : '{fg_fade}88'
