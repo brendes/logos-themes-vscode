@@ -27,17 +27,7 @@ light = {
 
 white = {
     **light,
-    'theme_name': 'Logos White',
-    'bg_main'   : '#ffffff',
-    'bg_subtle' : '#f8f8f8',
-    'bg_fade'   : '#f2f2f2',
-    'bg_hl'     : '#ebebeb',
-    'bg_strong' : '#d8d8d8',
-	'fg_faint'  : '#c8c8c8',
-    'fg_fade'   : '#a8a8a8',
-    'fg_dim'    : '#808080',
-    'fg_subtle' : '#666666',
-    'fg_main'   : '#111111',
+    "link": "#6688bb",
 }
 
 sun = {
@@ -54,18 +44,7 @@ sun = {
 
 paper = {
     **light,
-    'theme_name': 'Logos Paper',
-    'bg_main'   : '#faf7f1',
-    'bg_subtle' : '#f0ebe4',
-    'bg_fade'   : '#eae5de',
-    'bg_hl'     : '#e6ded4',
-    'bg_strong' : '#d2c2bc',
-    'fg_faint'  : '#c2b2ac',
-    'fg_fade'   : '#b2a29c',
-    'fg_dim'    : '#92827c',
-    'fg_subtle' : '#605a52',
-    'fg_main'   : '#201b12',
-    'fg_bold'   : '#000000',
+    "link": "#6670aa",
 }
 
 acme = {
@@ -83,7 +62,7 @@ acme = {
     'fg_main'   : '#000000',
     'fg_bold'   : '#000000',
     'bg_match'  : '#eeeeaa',
-    'link'      : '#7777bb',
+    "link": "#777dbb",
 }
 
 dark = {
@@ -201,11 +180,4 @@ for theme_name, theme in themes['light'].items():
     theme['black_1']       = theme['fg_main']
     theme['white_2']       = theme['bg_subtle']
 
-for theme_name, theme in themes['dark'].items():
-    theme['border_light']  = theme['fg_main'] + '20'
-    theme['border_strong'] = theme['fg_main'] + '50'
-    theme['bg_drop']       = theme['bg_hl'] + '88'
-    theme['black_1']       = theme['bg_main']
-    theme['white_2']       = theme['fg_main']
-    for color in ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'orange']:
-        theme[f'{color}_2'] = theme[f'{color}_1']
+    theme["link"] = theme["cyan_1"]
