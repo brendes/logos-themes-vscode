@@ -180,4 +180,6 @@ for theme_name, theme in themes['light'].items():
     theme['black_1']       = theme['fg_main']
     theme['white_2']       = theme['bg_subtle']
 
+    theme["border_light"] = theme["bg_hl"]
+    theme["border_strong"] = theme["fg_faint"]
     theme["link"] = theme["cyan_1"]
