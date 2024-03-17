@@ -15,6 +15,7 @@ tokenColors:
       - 'constant'
       - 'string'
       - 'markup.inline.raw'
+      - 'punctuation'
     settings:
       foreground: '{fg_dim}'
 
@@ -24,12 +25,6 @@ tokenColors:
       - 'support'
     settings:
       foreground: '{fg_main}'
-
-  - name: 'Punctuation'
-    scope:
-      - 'punctuation'
-    settings:
-      foreground: '{fg_subtle}'
 
   - name: 'Comments'
     scope:
@@ -54,6 +49,7 @@ tokenColors:
   - name: 'Uncolored overrides'
     scope:
       - 'entity.name.tag.yaml'
+      - 'punctuation.section.block'
     settings:
       foreground: '{fg_main}'
 
