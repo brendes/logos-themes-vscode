@@ -144,7 +144,7 @@ colors:
 
   'editorSuggestWidget.background'               : '{bg_fade}'
   'editorSuggestWidget.border'                   : '{border_strong}'
-  'editorSuggestWidget.foreground'               : '{fg_main}'
+  'editorSuggestWidget.foreground'               : '{fg_subtle}'
   'editorSuggestWidget.selectedBackground'       : '{bg_strong}'
 
   'editorWidget.background'                      : '{bg_main}'
