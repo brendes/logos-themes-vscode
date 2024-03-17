@@ -90,7 +90,7 @@ colors:
   'button.border'                                : '{border_strong}'
   'button.hoverBackground'                       : '{bg_hl}'
   'button.secondaryBackground'                   : '{bg_subtle}'
-  'button.secondaryForeground'                   : '{fg_subtle}'
+  'button.secondaryForeground'                   : '{fg_main}'
   'button.secondaryHoverBackground'              : '{bg_hl}'
 
   'checkbox.background'                          : '{bg_main}'
@@ -178,7 +178,7 @@ colors:
   'list.dropBackground'                          : '{bg_drop}'
   'list.focusBackground'                         : '{bg_fade}'
   'list.highlightForeground'                     : '{fg_bold}'
-  'list.hoverBackground'                         : '{bg_subtle}'
+  'list.hoverBackground'                         : '{bg_hl}'
   'list.hoverForeground'                         : '{fg_bold}'
   'list.inactiveFocusOutline'                    : '{invisible}'
   'list.inactiveSelectionBackground'             : '{bg_fade}'
