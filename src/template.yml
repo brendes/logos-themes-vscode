@@ -76,12 +76,15 @@ colors:
   'activityBar.border'                           : '{invisible}'
   'activityBar.foreground'                       : '{fg_main}'
   'activityBar.inactiveForeground'               : '{fg_faint}'
+
   'activityBarBadge.background'                  : '{fg_dim}'
   'activityBarBadge.foreground'                  : '{bg_main}'
+
   'badge.background'                             : '{bg_hl}'
   'badge.foreground'                             : '{fg_bold}'
-  'breadcrumb.foreground'                        : '{fg_subtle}'
+
   'breadcrumb.focusForeground'                   : '{fg_main}'
+
   'button.background'                            : '{bg_subtle}'
   'button.foreground'                            : '{fg_main}'
   'button.border'                                : '{border_strong}'
@@ -89,17 +92,21 @@ colors:
   'button.secondaryBackground'                   : '{bg_subtle}'
   'button.secondaryForeground'                   : '{fg_subtle}'
   'button.secondaryHoverBackground'              : '{bg_hl}'
+
   'checkbox.background'                          : '{bg_main}'
   'checkbox.border'                              : '{border_strong}'
   'checkbox.foreground'                          : '{fg_main}'
+
   'dropdown.background'                          : '{bg_main}'
   'dropdown.border'                              : '{border_strong}'
   'dropdown.foreground'                          : '{fg_main}'
   'dropdown.listBackground'                      : '{bg_main}'
+
   'debugConsole.errorForeground'                 : '{red_1}'
   'debugConsole.infoForeground'                  : '{fg_main}'
   'debugConsole.sourceForeground'                : '{fg_subtle}'
   'debugConsole.warningForeground'               : '{orange_1}'
+
   'editor.background'                            : '{bg_main}'
   'editor.findMatchBackground'                   : '{bg_strong}{match_alpha}'
   'editor.findMatchHighlightBackground'          : '{bg_match}{match_alpha}'
@@ -114,11 +121,14 @@ colors:
   'editor.wordHighlightStrongBackground'         : '{bg_hl}ee'
   'editorBracketMatch.background'                : '{bg_hl}'
   'editorCursor.foreground'                      : '{fg_bold}'
+
   'editorGroup.border'                           : '{border_light}'
   'editorGroup.dropBackground'                   : '{bg_drop}'
+
   'editorGroupHeader.border'                     : '{bg_main}'
   'editorGroupHeader.tabsBackground'             : '{bg_main}'
   'editorGroupHeader.tabsBorder'                 : '{border_light}'
+
   'editorGutter.addedBackground'                 : '{fg_subtle}'
   'editorGutter.deletedBackground'               : '{fg_subtle}'
   'editorGutter.modifiedBackground'              : '{fg_subtle}'
@@ -129,18 +139,22 @@ colors:
   'editorIndentGuide.background1'                : '{bg_hl}'
   'editorLineNumber.activeForeground'            : '{fg_fade}'
   'editorLineNumber.foreground'                  : '{bg_hl}'
-  'editorLink.activeForeground'                  : '{fg_subtle}'
+
   'editorStickyScrollHover.background'           : '{bg_subtle}'
+
   'editorSuggestWidget.background'               : '{bg_fade}'
   'editorSuggestWidget.border'                   : '{border_strong}'
   'editorSuggestWidget.foreground'               : '{fg_main}'
   'editorSuggestWidget.selectedBackground'       : '{bg_strong}'
+
   'editorWidget.background'                      : '{bg_main}'
   'editorWidget.foreground'                      : '{fg_main}'
+
   'extensionButton.background'                   : '{bg_hl}'
   'extensionButton.foreground'                   : '{fg_bold}'
   'extensionButton.hoverBackground'              : '{bg_strong}'
   'extensionButton.prominentForeground'          : '{fg_bold}'
+
   'gitDecoration.deletedResourceForeground'      : '{fg_subtle}'
   'gitDecoration.ignoredResourceForeground'      : '{fg_fade}'
   'gitDecoration.modifiedResourceForeground'     : '{fg_subtle}'
@@ -148,14 +162,14 @@ colors:
   'gitDecoration.stageModifiedResourceForeground': '{fg_subtle}'
   'gitDecoration.submoduleResourceForeground'    : '{fg_subtle}'
   'gitDecoration.untrackedResourceForeground'    : '{fg_main}'
+
   'input.background'                             : '{bg_main}'
   'input.border'                                 : '{border_light}'
   'input.foreground'                             : '{fg_main}'
   'input.placeholderForeground'                  : '{fg_fade}'
-  'keybindingLabel.background'                   : '{bg_main}'
-  'keybindingLabel.border'                       : '{fg_main}'
-  'keybindingLabel.bottomBorder'                 : '{fg_main}'
+
   'keybindingLabel.foreground'                   : '{fg_main}'
+
   'list.activeSelectionBackground'               : '{bg_hl}'
   'list.activeSelectionForeground'               : '{fg_main}'
   'list.activeSelectionIconForeground'           : '{fg_main}'
@@ -168,6 +182,7 @@ colors:
   'list.inactiveFocusOutline'                    : '{invisible}'
   'list.inactiveSelectionBackground'             : '{bg_fade}'
   'list.warningForeground'                       : '{orange_1}'
+
   'notificationCenter.border'                    : '{border_strong}'
   'notificationCenterHeader.background'          : '{bg_subtle}'
   'notificationCenterHeader.foreground'          : '{fg_bold}'
@@ -176,16 +191,17 @@ colors:
   'notifications.border'                         : '{border_strong}'
   'notifications.foreground'                     : '{fg_main}'
   'notificationsInfoIcon.foreground'             : '{fg_main}'
+
   'panel.background'                             : '{bg_main}'
   'panelInput.border'                            : '{border_light}'
   'panelSection.border'                          : '{border_light}'
   'panelSection.dropBackground'                  : '{bg_drop}'
   'panelSectionHeader.background'                : '{bg_main}'
+
   'panelTitle.activeBorder'                      : '{fg_subtle}'
   'panelTitle.activeForeground'                  : '{fg_main}'
   'panelTitle.inactiveForeground'                : '{fg_fade}'
-  'peekView.border'                              : '{fg_main}'
-  'peekViewEditor.background'                    : '{bg_main}'
+
   'peekViewEditor.matchHighlightBackground'      : '{bg_match}{match_alpha}'
   'peekViewResult.background'                    : '{bg_main}'
   'peekViewResult.matchHighlightBackground'      : '{bg_match}{match_alpha}'
@@ -193,11 +209,14 @@ colors:
   'peekViewTitle.background'                     : '{bg_fade}'
   'peekViewTitleDescription.foreground'          : '{fg_subtle}'
   'peekViewTitleLabel.foreground'                : '{fg_bold}'
+
   'quickInput.background'                        : '{bg_main}'
   'quickInput.foreground'                        : '{fg_main}'
+
   'scrollbarSlider.activeBackground'             : '{fg_fade}88'
   'scrollbarSlider.background'                   : '{fg_fade}88'
   'scrollbarSlider.hoverBackground'              : '{fg_fade}bb'
+
   'settings.checkboxBackground'                  : '{bg_main}'
   'settings.checkboxBorder'                      : '{border_strong}'
   'settings.checkboxForeground'                  : '{fg_main}'
@@ -210,6 +229,7 @@ colors:
   'settings.modifiedItemIndicator'               : '{fg_fade}'
   'settings.rowHoverBackground'                  : '{bg_subtle}'
   'settings.textInputBackground'                 : '{bg_main}'
+
   'sideBar.background'                           : '{bg_main}'
   'sideBar.border'                               : '{border_light}'
   'sideBar.dropBackground'                       : '{bg_drop}'
@@ -217,8 +237,10 @@ colors:
   'sideBarSectionHeader.background'              : '{bg_main}'
   'sideBarSectionHeader.foreground'              : '{fg_main}'
   'sideBarSectionHeader.border'                  : '{bg_main}'
+
   'sideBySideEditor.horizontalBorder'            : '{border_light}'
   'sideBySideEditor.verticalBorder'              : '{border_light}'
+
   'statusBar.background'                         : '{bg_main}'
   'statusBar.border'                             : '{border_light}'
   'statusBar.debuggingBackground'                : '{orange_2}'
@@ -237,42 +259,7 @@ colors:
   'statusBarItem.remoteHoverBackground'          : '{bg_strong}'
   'statusBarItem.warningBackground'              : '{orange_2}'
   'statusBarItem.warningForeground'              : '{black_1}'
-  'symbolIcon.arrayForeground'                   : '{fg_main}'
-  'symbolIcon.booleanForeground'                 : '{fg_main}'
-  'symbolIcon.classForeground'                   : '{fg_main}'
-  'symbolIcon.colorForeground'                   : '{fg_main}'
-  'symbolIcon.constantForeground'                : '{fg_main}'
-  'symbolIcon.constructorForeground'             : '{fg_main}'
-  'symbolIcon.enumeratorForeground'              : '{fg_main}'
-  'symbolIcon.enumeratorMemberForeground'        : '{fg_main}'
-  'symbolIcon.eventForeground'                   : '{fg_main}'
-  'symbolIcon.fieldForeground'                   : '{fg_main}'
-  'symbolIcon.fileForeground'                    : '{fg_main}'
-  'symbolIcon.folderForeground'                  : '{fg_main}'
-  'symbolIcon.functionForeground'                : '{fg_main}'
-  'symbolIcon.interfaceForeground'               : '{fg_main}'
-  'symbolIcon.keyForeground'                     : '{fg_main}'
-  'symbolIcon.keywordForeground'                 : '{fg_main}'
-  'symbolIcon.methodForeground'                  : '{fg_main}'
-  'symbolIcon.moduleForeground'                  : '{fg_main}'
-  'symbolIcon.namespaceForeground'               : '{fg_main}'
-  'symbolIcon.nullForeground'                    : '{fg_main}'
-  'symbolIcon.numberForeground'                  : '{fg_main}'
-  'symbolIcon.objectForeground'                  : '{fg_main}'
-  'symbolIcon.operatorForeground'                : '{fg_main}'
-  'symbolIcon.packageForeground'                 : '{fg_main}'
-  'symbolIcon.propertyForeground'                : '{fg_main}'
-  'symbolIcon.referenceForeground'               : '{fg_main}'
-  'symbolIcon.snippetForeground'                 : '{fg_main}'
-  'symbolIcon.stringForeground'                  : '{fg_main}'
-  'symbolIcon.structForeground'                  : '{fg_main}'
-  'symbolIcon.textForeground'                    : '{fg_main}'
-  'symbolIcon.typeParameterForeground'           : '{fg_main}'
-  'symbolIcon.unitForeground'                    : '{fg_main}'
-  'symbolIcon.variableForeground'                : '{fg_main}'
-  'tab.activeBorder'                             : '{invisible}'
-  'tab.activeBorderTop'                          : '{bg_fade}'
-  'tab.activeBackground'                         : '{bg_fade}'
+  
   'tab.activeForeground'                         : '{fg_main}'
   'tab.border'                                   : '{invisible}'
   'tab.hoverForeground'                          : '{fg_main}'
@@ -283,6 +270,7 @@ colors:
   'tab.unfocusedActiveBackground'                : '{bg_fade}'
   'tab.unfocusedActiveForeground'                : '{fg_fade}'
   'tab.unfocusedInactiveForeground'              : '{fg_dim}'
+
   'terminal.ansiBlack'                           : '{black_1}'
   'terminal.ansiBlue'                            : '{blue_1}'
   'terminal.ansiBrightBlack'                     : '{fg_dim}'
@@ -307,16 +295,20 @@ colors:
   'terminalCommandDecoration.defaultBackground'  : '{fg_main}'
   'terminalCommandDecoration.successBackground'  : '{fg_dim}'
   'terminalStickyScrollHover.background'         : '{bg_subtle}'
+
   'textBlockQuote.background'                    : '{bg_subtle}'
   'textLink.activeForeground'                    : '{fg_bold}'
   'textLink.foreground'                          : '{fg_dim}'
   'textPreformat.foreground'                     : '{fg_subtle}'
+
   'titleBar.activeBackground'                    : '{bg_main}'
   'titleBar.activeForeground'                    : '{fg_main}'
   'titleBar.border'                              : '{invisible}'
   'titleBar.inactiveBackground'                  : '{bg_main}'
   'titleBar.inactiveForeground'                  : '{fg_fade}'
+
   'tree.indentGuidesStroke'                      : '{bg_hl}'
   'tree.inactiveIndentGuidesStroke'              : '{bg_hl}'
+
   'window.activeBorder'                          : '{bg_main}'
   'window.inactiveBorder'                        : '{bg_main}'
