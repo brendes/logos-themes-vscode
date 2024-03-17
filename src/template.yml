@@ -83,6 +83,7 @@ colors:
   'badge.background'                             : '{bg_hl}'
   'badge.foreground'                             : '{fg_bold}'
 
+  'breadcrumb.foreground'                        : '{fg_dim}'
   'breadcrumb.focusForeground'                   : '{fg_main}'
 
   'button.background'                            : '{bg_subtle}'
@@ -156,6 +157,7 @@ colors:
   'extensionButton.hoverBackground'              : '{bg_strong}'
   'extensionButton.prominentForeground'          : '{fg_bold}'
 
+  'gitDecoration.addedResourceForeground'        : '{fg_subtle}'
   'gitDecoration.deletedResourceForeground'      : '{fg_subtle}'
   'gitDecoration.ignoredResourceForeground'      : '{fg_fade}'
   'gitDecoration.modifiedResourceForeground'     : '{fg_subtle}'
@@ -169,6 +171,9 @@ colors:
   'input.foreground'                             : '{fg_main}'
   'input.placeholderForeground'                  : '{fg_fade}'
 
+  'keybindingLabel.background'                   : '{bg_subtle}'
+  'keybindingLabel.border'                       : '{border_strong}'
+  'keybindingLabel.bottomBorder'                 : '{border_strong}'
   'keybindingLabel.foreground'                   : '{fg_main}'
 
   'list.activeSelectionBackground'               : '{bg_hl}'
@@ -203,8 +208,10 @@ colors:
   'panelTitle.activeForeground'                  : '{fg_main}'
   'panelTitle.inactiveForeground'                : '{fg_fade}'
 
+  'peekView.border'                              : '{fg_subtle}'
+  'peekViewEditor.background'                    : '{bg_subtle}'
   'peekViewEditor.matchHighlightBackground'      : '{bg_match}{match_alpha}'
-  'peekViewResult.background'                    : '{bg_main}'
+  'peekViewResult.background'                    : '{bg_subtle}'
   'peekViewResult.matchHighlightBackground'      : '{bg_match}{match_alpha}'
   'peekViewResult.selectionBackground'           : '{bg_strong}'
   'peekViewTitle.background'                     : '{bg_fade}'
@@ -261,6 +268,9 @@ colors:
   'statusBarItem.warningBackground'              : '{orange_2}'
   'statusBarItem.warningForeground'              : '{black_1}'
   
+  'tab.activeBorder'                             : '{invisible}'
+  'tab.activeBorderTop'                          : '{bg_fade}'
+  'tab.activeBackground'                         : '{bg_fade}'
   'tab.activeForeground'                         : '{fg_main}'
   'tab.border'                                   : '{invisible}'
   'tab.hoverForeground'                          : '{fg_main}'
