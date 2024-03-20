@@ -134,6 +134,7 @@ colors:
   'editorHoverWidget.foreground'                 : '{fg_main}'
   'editorIndentGuide.activeBackground1'          : '{fg_fade}'
   'editorIndentGuide.background1'                : '{bg_hl}'
+  'editorInlayHint.foreground'                   : '{link}'
   'editorLineNumber.activeForeground'            : '{fg_fade}'
   'editorLineNumber.foreground'                  : '{bg_hl}'
   'editorLink.activeForeground'                  : '{link}'
