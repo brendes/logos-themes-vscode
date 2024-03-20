@@ -139,7 +139,7 @@ colors:
   'editorLineNumber.foreground'                  : '{bg_hl}'
   'editorLink.activeForeground'                  : '{link}'
 
-  'editorStickyScrollHover.background'           : '{bg_subtle}'
+  'editorStickyScrollHover.background'           : '{bg_hl}'
 
   'editorSuggestWidget.background'               : '{bg_fade}'
   'editorSuggestWidget.border'                   : '{border_strong}'
@@ -302,7 +302,7 @@ colors:
   'terminal.tab.activeBorder'                    : '{fg_bold}'
   'terminalCommandDecoration.defaultBackground'  : '{fg_main}'
   'terminalCommandDecoration.successBackground'  : '{fg_dim}'
-  'terminalStickyScrollHover.background'         : '{bg_subtle}'
+  'terminalStickyScrollHover.background'         : '{bg_hl}'
 
   'textBlockQuote.background'                    : '{bg_subtle}'
   'textLink.activeForeground'                    : '{fg_bold}'
