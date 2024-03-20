@@ -35,7 +35,7 @@ white = {
     "fg_dim": "#808080",
     "fg_subtle": "#666666",
     "fg_main": "#111111",
-    "link": "#6688bb",
+    "accent_fg": "#667bb8",
 }
 
 sun = {
@@ -64,7 +64,7 @@ paper = {
     "fg_subtle": "#605a52",
     "fg_main": "#201b12",
     "fg_bold": "#000000",
-    "link": "#6670aa",
+    "accent_fg": "#6670aa",
 }
 
 acme = {
@@ -82,7 +82,7 @@ acme = {
     "fg_main": "#000000",
     "fg_bold": "#000000",
     "bg_match": "#eeeeaa",
-    "link": "#777dbb",
+    "accent_fg": "#777dbb",
 }
 
 dark = {
@@ -100,6 +100,7 @@ dark = {
     "fg_subtle": "#b8b8b8",
     "fg_main": "#d8d8d8",
     "fg_bold": "#eeeeee",
+    "accent_fg": "#88c4a0",
     "red_1": "#f87870",
     "orange_1": "#ddaa77",
     "yellow_1": "#d0a868",
@@ -141,6 +142,7 @@ nord = {
     "fg_subtle": "#b8c5de",
     "fg_main": "#d8dee9",
     "fg_bold": "#eceff4",
+    "accent_fg": "#88c0d0",
     "bg_match": "#88c0d0",
     "red_1": "#cf818a",
     "orange_1": "#d08770",
@@ -165,7 +167,7 @@ red = {
     "fg_subtle": "#dd7777",
     "fg_main": "#ee8888",
     "fg_bold": "#ff9999",
-    "link": "#ff9999",
+    "accent_fg": "#ff9999",
     "bg_match": "#bb6666",
     "red_1": "#cc6666",
     "green_1": "#cc6666",
@@ -204,6 +206,5 @@ for theme_name, theme in themes["dark"].items():
     theme["bg_drop"] = theme["bg_hl"] + "88"
     theme["black_1"] = theme["bg_main"]
     theme["white_2"] = theme["fg_main"]
-    theme["link"] = theme["cyan_1"]
     for color in ["red", "green", "yellow", "blue", "magenta", "cyan", "orange"]:
         theme[f"{color}_2"] = theme[f"{color}_1"]

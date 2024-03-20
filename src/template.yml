@@ -134,10 +134,10 @@ colors:
   'editorHoverWidget.foreground': '{fg_main}'
   'editorIndentGuide.activeBackground1': '{fg_fade}'
   'editorIndentGuide.background1': '{bg_hl}'
-  'editorInlayHint.foreground': '{link}'
+  'editorInlayHint.foreground': '{accent_fg}'
   'editorLineNumber.activeForeground': '{fg_fade}'
   'editorLineNumber.foreground': '{bg_hl}'
-  'editorLink.activeForeground': '{link}'
+  'editorLink.activeForeground': '{accent_fg}'
 
   'editorStickyScrollHover.background': '{bg_hl}'
 
@@ -189,7 +189,7 @@ colors:
   'notificationCenter.border': '{border_strong}'
   'notificationCenterHeader.background': '{bg_subtle}'
   'notificationCenterHeader.foreground': '{fg_bold}'
-  'notificationLink.foreground': '{link}'
+  'notificationLink.foreground': '{accent_fg}'
   'notifications.background': '{bg_main}'
   'notifications.border': '{border_strong}'
   'notifications.foreground': '{fg_main}'
@@ -305,8 +305,8 @@ colors:
   'terminalStickyScrollHover.background': '{bg_hl}'
 
   'textBlockQuote.background': '{bg_subtle}'
-  'textLink.activeForeground': '{link}'
-  'textLink.foreground': '{link}'
+  'textLink.activeForeground': '{accent_fg}'
+  'textLink.foreground': '{accent_fg}'
   'textPreformat.foreground': '{fg_subtle}'
 
   'titleBar.activeBackground': '{bg_main}'
