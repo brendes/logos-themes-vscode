@@ -48,9 +48,9 @@
         "path": "./themes/logos-dark-color-theme.json"
       },
       {
-        "label": "Logos Warm",
+        "label": "Logos Gruv",
         "uiTheme": "vs-dark",
-        "path": "./themes/logos-warm-color-theme.json"
+        "path": "./themes/logos-gruv-color-theme.json"
       },
       {
         "label": "Logos Nord",
