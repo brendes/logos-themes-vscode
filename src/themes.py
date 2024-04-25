@@ -159,7 +159,6 @@ themes = {
 for category in themes.values():
     for theme_name, theme in category.items():
         theme["bg_main"] = theme["base_0"]
-        theme["bg_ui"] = theme["base_0"]
         theme["bg_subtle"] = theme["base_1"]
         theme["bg_fade"] = theme["base_2"]
         theme["bg_hl"] = theme["base_3"]
