@@ -12,19 +12,10 @@ tokenColors:
 
   - name: 'Strings, constants, numbers, characters'
     scope:
-      - 'constant'
       - 'string'
       - 'markup.inline.raw'
-      - 'punctuation'
     settings:
       foreground: '{fg_dim}'
-
-  - name: 'Global definitions'
-    scope:
-      - 'entity.name'
-      - 'support'
-    settings:
-      foreground: '{fg_main}'
 
   - name: 'Comments'
     scope:
