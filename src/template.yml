@@ -191,7 +191,7 @@ colors:
   'panelSectionHeader.background': '{bg_main}'
   'panelTitle.activeBorder': '{fg_subtle}'
   'panelTitle.activeForeground': '{fg_main}'
-  'panelTitle.inactiveForeground': '{fg_subtle}'
+  'panelTitle.inactiveForeground': '{fg_dim}'
 
   'peekView.border': '{fg_subtle}'
   'peekViewEditor.background': '{bg_subtle}'
