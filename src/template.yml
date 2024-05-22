@@ -153,11 +153,11 @@ colors:
 
   'gitDecoration.deletedResourceForeground': '{red_1}'
   'gitDecoration.ignoredResourceForeground': '{fg_fade}'
-  'gitDecoration.modifiedResourceForeground': '{yellow_1}'
   'gitDecoration.stageDeletedResourceForeground': '{fg_main}'
   'gitDecoration.stageModifiedResourceForeground': '{fg_main}'
-  'gitDecoration.submoduleResourceForeground': '{blue_1}'
-  'gitDecoration.untrackedResourceForeground': '{green_1}'
+  'gitDecoration.modifiedResourceForeground': '{fg_subtle}'
+  'gitDecoration.submoduleResourceForeground': '{fg_subtle}'
+  'gitDecoration.untrackedResourceForeground': '{fg_subtle}'
 
   'input.background': '{bg_main}'
   'input.border': '{border_2}'
