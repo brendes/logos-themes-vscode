@@ -3,7 +3,7 @@
   "displayName": "Logos Themes",
   "description": "Themes with monochrome syntax colors and calm UI",
   "publisher": "brendes",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "icon": "assets/icon.png",
   "repository": {
 	  "type": "git",
