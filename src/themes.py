@@ -9,8 +9,8 @@ white = {
     "base_3": "#e8e8e8",
     "base_4": "#000000",
     "base_5": "#000000",
-    "fg_accent": "#6078aa",
-    "bg_accent": "#bbd0e8",
+    "fg_accent": "#6080bb",
+    "bg_accent": "#bbd0f0",
     "red_1": "#bb5555",
     "red_2": "#e89090",
     "orange_1": "#d08868",
@@ -20,7 +20,7 @@ white = {
     "green_1": "#779955",
     "green_2": "#b0c088",
     "blue_1": "#6677aa",
-    "blue_2": "#bbd0e8",
+    "blue_2": "#aac0e8",
     "magenta_1": "#aa7788",
     "magenta_2": "#d8b8c8",
     "cyan_1": "#77aaaa",
@@ -57,7 +57,7 @@ acme = {
     "red_1": "#bb5d5d",
     "red_2": "#ee9999",
     "yellow_1": "#998866",
-    "yellow_2": "#eeeeaa",
+    "yellow_2": "#eeeea0",
     "green_1": "#448844",
     "green_2": "#bbddbb",
     "blue_1": "#5577aa",
@@ -83,7 +83,7 @@ dark = {
     "orange_1": "#ddaa77",
     "yellow_1": "#d0a868",
     "green_1": "#a9b665",
-    "blue_1": "#80a8dd",
+    "blue_1": "#80a8b0",
     "magenta_1": "#d3889b",
     "cyan_1": "#88b4a0",
     "fg_accent": "#88d4c0",
@@ -96,7 +96,7 @@ gruv = {
     "theme_name": "Logos Gruv",
     "base_0": "#32302f",
     "base_1": "#3a3837",
-    "base_3": "#403d3c",
+    "base_2": "#403d3c",
     "base_3": "#5c544b",
     "base_4": "#e0d0bb",
 }
@@ -181,11 +181,11 @@ for category in themes.values():
 
         elif theme in themes["dark"].values():
             theme["fg_faint"] = theme["fg_main"] + "68"
-            theme["fg_fade"] = theme["fg_main"] + "80"
-            theme["fg_dim"] = theme["fg_main"] + "a0"
-            theme["fg_subtle"] = theme["fg_main"] + "c0"
-            theme["bg_match_1"] = theme["fg_accent"] + "77"
-            theme["bg_match_2"] = theme["orange_1"] + "77"
+            theme["fg_fade"] = theme["fg_main"] + "88"
+            theme["fg_dim"] = theme["fg_main"] + "a8"
+            theme["fg_subtle"] = theme["fg_main"] + "c8"
+            theme["bg_match_1"] = theme["fg_accent"] + "78"
+            theme["bg_match_2"] = theme["orange_1"] + "78"
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
             theme["border_1"] = theme["fg_main"] + "50"
