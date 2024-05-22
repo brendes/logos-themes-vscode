@@ -26,9 +26,12 @@ These themes use bold text and a few shades of a primary "base" color to highlig
 
 ## Screenshots
 
-Examples can be viewed at [vscodethemes.com](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
+Here is a screenshot of some Go code using the `Logos White` theme.
 
-At the time of writing this, I update the theme frequently. I don't know how often the site syncs its themes but this will do for now.
+<img src="./assets/screenshot-go.png" alt="go code screenshot" width="800"/>
+
+Auto-generated examples can be viewed at [vscodethemes.com](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
+The website renders the themes a little inaccurately, but it will do for now.
 
 ## Install
 - In VS Code: `⌘-P` then `ext install logos-themes`
