@@ -287,8 +287,8 @@ colors:
   'terminal.foreground': '{fg_main}'
   'terminal.selectionBackground': '{bg_hl}ee'
   'terminal.tab.activeBorder': '{fg_bold}'
-  'terminalCommandDecoration.defaultBackground': '{fg_subtle}'
-  'terminalCommandDecoration.successBackground': '{blue_2}'
+  'terminalCommandDecoration.defaultBackground': '{fg_fade}'
+  'terminalCommandDecoration.successBackground': '{bg_accent}'
   'terminalStickyScrollHover.background': '{bg_fade}'
 
   'textBlockQuote.background': '{bg_subtle}'
