@@ -138,6 +138,8 @@ colors:
   'editorInlayHint.foreground': '{fg_faint}'
   'editorInlayHint.background': '{bg_main}'
 
+  'editorLightBulb.foreground': '{fg_fade}'
+
   'editorLineNumber.activeForeground': '{fg_subtle}'
   'editorLineNumber.foreground': '{fg_faint}'
 

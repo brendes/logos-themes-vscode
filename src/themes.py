@@ -45,6 +45,7 @@ paper = {
     "base_2": "#eae5de",
     "base_3": "#e6ded4",
     "base_4": "#201b12",
+    "base_4": "#100b02",
 }
 
 acme = {
@@ -73,10 +74,10 @@ acme = {
 dark = {
     "theme_name": "Logos Dark",
     "theme_type": "dark",
-    "base_0": "#2b2b2b",
-    "base_1": "#333333",
-    "base_2": "#3b3b3b",
-    "base_3": "#484848",
+    "base_0": "#282828",
+    "base_1": "#303030",
+    "base_2": "#383838",
+    "base_3": "#444444",
     "base_4": "#dddddd",
     "base_5": "#ffffff",
     "red_1": "#f87870",
@@ -177,7 +178,8 @@ for category in themes.values():
             theme["black_1"] = theme["fg_main"]
             theme["white_2"] = theme["bg_main"]
             theme["border_1"] = theme["fg_fade"]
-            theme["border_2"] = theme["fg_faint"]
+            # theme["border_2"] = theme["fg_faint"]
+            theme["border_2"] = theme["fg_main"] + "48"
 
         elif theme in themes["dark"].values():
             theme["fg_faint"] = theme["fg_main"] + "68"
