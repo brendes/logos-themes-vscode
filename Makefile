@@ -10,6 +10,7 @@ setup:
 	$(VENV_DIR)/bin/$(PIP_CMD) install -r requirements.txt
 
 build: setup
+	mkdir -p themes
 	$(VENV_DIR)/bin/$(PYTHON_CMD) $(BUILD_SCRIPT)
 
 package: build
