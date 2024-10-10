@@ -4,7 +4,7 @@ white = {
     "theme_type": "light",
     "theme_name": "Logos White",
     "base_0": "#ffffff",
-    "base_1": "#f8f8f8",
+    "base_1": "#f9f9f9",
     "base_2": "#f2f2f2",
     "base_3": "#e8e8e8",
     "base_4": "#000000",
