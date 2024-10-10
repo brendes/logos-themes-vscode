@@ -186,7 +186,7 @@ for category in themes.values():
             theme["fg_dim"] = theme["fg_main"] + "a8"
             theme["fg_subtle"] = theme["fg_main"] + "c8"
             theme["bg_match_1"] = theme["fg_accent"] + "78"
-            theme["bg_match_2"] = theme["orange_1"] + "78"
+            theme["bg_match_2"] = theme["magenta_1"] + "78"
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
             theme["border_1"] = theme["fg_faint"]
