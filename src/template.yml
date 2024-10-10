@@ -62,7 +62,7 @@ colors:
   'editorHoverWidget.border': '{border_1}'
   'editorSuggestWidget.background': '{bg_subtle}'
   'editorSuggestWidget.border': '{border_1}'
-  'editorWidget.background': '{bg_main}'
+  'editorWidget.background': '{bg_subtle}'
   'editorWidget.foreground': '{fg_main}'
 
   # everything else
