@@ -8,7 +8,6 @@ tokenColors:
       - 'storage.modifier'
     settings:
       foreground: '{fg_main}'
-      # fontStyle: 'bold'
 
   - name: 'Strings, constants, numbers, characters'
     scope:
