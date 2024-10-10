@@ -177,8 +177,8 @@ for category in themes.values():
             theme["bg_match_2"] = theme["yellow_2"] + "bb"
             theme["black_1"] = theme["fg_main"]
             theme["white_2"] = theme["bg_main"]
-            theme["border_1"] = theme["fg_fade"]
-            theme["border_2"] = theme["fg_main"] + "28"
+            theme["border_hard"] = theme["fg_fade"]
+            theme["border_soft"] = theme["fg_main"] + "28"
 
         elif theme in themes["dark"].values():
             theme["fg_faint"] = theme["fg_main"] + "48"
@@ -189,8 +189,8 @@ for category in themes.values():
             theme["bg_match_2"] = theme["magenta_1"] + "78"
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
-            theme["border_1"] = theme["fg_faint"]
-            theme["border_2"] = theme["fg_main"] + "38"
+            theme["border_hard"] = theme["fg_faint"]
+            theme["border_soft"] = theme["fg_main"] + "28"
             for color in [
                 "red",
                 "green",
