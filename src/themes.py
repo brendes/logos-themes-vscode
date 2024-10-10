@@ -170,27 +170,26 @@ for category in themes.values():
 
         if theme in themes["light"].values():
             theme["fg_faint"] = theme["fg_main"] + "33"
-            theme["fg_fade"] = theme["fg_main"] + "70"
-            theme["fg_dim"] = theme["fg_main"] + "90"
+            theme["fg_fade"] = theme["fg_main"] + "68"
+            theme["fg_dim"] = theme["fg_main"] + "88"
             theme["fg_subtle"] = theme["fg_main"] + "aa"
             theme["bg_match_1"] = theme["bg_accent"] + "bb"
             theme["bg_match_2"] = theme["yellow_2"] + "bb"
             theme["black_1"] = theme["fg_main"]
             theme["white_2"] = theme["bg_main"]
             theme["border_1"] = theme["fg_fade"]
-            # theme["border_2"] = theme["fg_faint"]
-            theme["border_2"] = theme["fg_main"] + "48"
+            theme["border_2"] = theme["fg_main"] + "28"
 
         elif theme in themes["dark"].values():
-            theme["fg_faint"] = theme["fg_main"] + "68"
-            theme["fg_fade"] = theme["fg_main"] + "88"
+            theme["fg_faint"] = theme["fg_main"] + "48"
+            theme["fg_fade"] = theme["fg_main"] + "80"
             theme["fg_dim"] = theme["fg_main"] + "a8"
             theme["fg_subtle"] = theme["fg_main"] + "c8"
             theme["bg_match_1"] = theme["fg_accent"] + "78"
             theme["bg_match_2"] = theme["orange_1"] + "78"
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
-            theme["border_1"] = theme["fg_main"] + "50"
+            theme["border_1"] = theme["fg_faint"]
             theme["border_2"] = theme["fg_main"] + "38"
             for color in [
                 "red",
