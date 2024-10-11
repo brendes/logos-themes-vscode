@@ -4,7 +4,7 @@ white = {
     "theme_type": "light",
     "theme_name": "Logos White",
     "base_0": "#ffffff",
-    "base_1": "#f9f9f9",
+    "base_1": "#f8f8f8",
     "base_2": "#f2f2f2",
     "base_3": "#e8e8e8",
     "base_4": "#000000",
@@ -170,9 +170,9 @@ for category in themes.values():
 
         if theme in themes["light"].values():
             theme["fg_faint"] = theme["fg_main"] + "33"
-            theme["fg_fade"] = theme["fg_main"] + "68"
-            theme["fg_dim"] = theme["fg_main"] + "88"
-            theme["fg_subtle"] = theme["fg_main"] + "aa"
+            theme["fg_fade"] = theme["fg_main"] + "60"
+            theme["fg_dim"] = theme["fg_main"] + "80"
+            theme["fg_subtle"] = theme["fg_main"] + "a0"
             theme["bg_match_1"] = theme["bg_accent"] + "bb"
             theme["bg_match_2"] = theme["yellow_2"] + "bb"
             theme["black_1"] = theme["fg_main"]
