@@ -1,15 +1,19 @@
 # Λόγος
 
-Monochrome themes with minimal syntax highlighting and calm UI.
-An attempt is made to balance simplicity with usability.
+Themes with minimal monochrome syntax highlighting and calm UI.
 
 ## About
 
-I find most multicolored syntax themes to be garish and overwhelming to look at for extended periods of time.
-These themes use bold text and a few shades of a primary "base" color to highlight:
-- comments
-- strings
-- constants
+I find most multicolored syntax themes to be garish and not nice to look at for extended periods of time.
+Additionally, most UI themes use so many different colors and shades that it becomes distracting.
+
+These themes use a few shades of a primary "base" color to highlight:
+1. comments,
+2. strings,
+3. and constants. 
+
+Each theme has a set of accent colors that are used sparingly to distinguish salient UI elements.
+Overall, an attempt is made to balance simplicity with usability.
 
 ## Theme variants
 
