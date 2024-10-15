@@ -4,11 +4,12 @@ white = {
     "theme_type": "light",
     "theme_name": "Logos White",
     "base_0": "#ffffff",
-    "base_1": "#f8f8f8",
+    "base_1": "#f9f9f9",
     "base_2": "#f2f2f2",
-    "base_3": "#e8e8e8",
-    "base_4": "#000000",
+    "base_3": "#eaeaea",
+    "base_4": "#d8d8d8",
     "base_5": "#000000",
+    "base_6": "#000000",
     "fg_accent": "#6080bb",
     "bg_accent": "#bbd0f0",
     "red_1": "#bb5555",
@@ -35,6 +36,7 @@ sun = {
     "base_1": "#f8f8f3",
     "base_2": "#f2f2ed",
     "base_3": "#e8e8e3",
+    "base_4": "#d8d8d3",
 }
 
 paper = {
@@ -44,8 +46,9 @@ paper = {
     "base_1": "#f2ede6",
     "base_2": "#eae5de",
     "base_3": "#e6ded4",
-    "base_4": "#201b12",
-    "base_4": "#100b02",
+    "base_4": "#d6cdc4",
+    "base_5": "#201b12",
+    "base_6": "#100b02",
 }
 
 acme = {
@@ -55,6 +58,7 @@ acme = {
     "base_1": "#f8f8e3",
     "base_2": "#f2f2dd",
     "base_3": "#e8e8d3",
+    "base_4": "#d8d8c3",
     "red_1": "#bb5d5d",
     "red_2": "#ee9999",
     "yellow_1": "#998866",
@@ -78,8 +82,9 @@ dark = {
     "base_1": "#303030",
     "base_2": "#383838",
     "base_3": "#444444",
-    "base_4": "#dddddd",
-    "base_5": "#ffffff",
+    "base_4": "#666666",
+    "base_5": "#dddddd",
+    "base_6": "#ffffff",
     "red_1": "#f87870",
     "orange_1": "#ddaa77",
     "yellow_1": "#d0a868",
@@ -99,7 +104,8 @@ gruv = {
     "base_1": "#3a3837",
     "base_2": "#403d3c",
     "base_3": "#5c544b",
-    "base_4": "#e0d0bb",
+    "base_4": "#4c443b",
+    "base_5": "#e0d0bb",
 }
 
 nord = {
@@ -109,8 +115,9 @@ nord = {
     "base_1": "#363d4c",
     "base_2": "#3c4352",
     "base_3": "#434c5e",
-    "base_4": "#d8dee9",
-    "base_5": "#e8eef9",
+    "base_4": "#535c6e",
+    "base_5": "#d8dee9",
+    "base_6": "#e8eef9",
     "red_1": "#bf616a",
     "orange_1": "#d08770",
     "green_1": "#a3be8c",
@@ -129,8 +136,9 @@ red = {
     "base_1": "#221111",
     "base_2": "#281818",
     "base_3": "#442222",
-    "base_4": "#ee8888",
-    "base_5": "#ff9999",
+    "base_4": "#663333",
+    "base_5": "#ee8888",
+    "base_6": "#ff9999",
     "red_1": "#cc6666",
     "green_1": "#cc6666",
     "yellow_1": "#cc6666",
@@ -163,14 +171,15 @@ for category in themes.values():
         theme["bg_subtle"] = theme["base_1"]
         theme["bg_fade"] = theme["base_2"]
         theme["bg_hl"] = theme["base_3"]
+        theme["bg_strong"] = theme["base_4"]
         theme["bg_drop"] = theme["bg_hl"] + "88"
-        theme["fg_main"] = theme["base_4"]
-        theme["fg_bold"] = theme["base_5"]
+        theme["fg_main"] = theme["base_5"]
+        theme["fg_bold"] = theme["base_6"]
         theme["link"] = theme["fg_accent"]
 
         if theme in themes["light"].values():
             theme["fg_faint"] = theme["fg_main"] + "33"
-            theme["fg_fade"] = theme["fg_main"] + "60"
+            theme["fg_fade"] = theme["fg_main"] + "5c"
             theme["fg_dim"] = theme["fg_main"] + "80"
             theme["fg_subtle"] = theme["fg_main"] + "a0"
             theme["bg_match_1"] = theme["bg_accent"] + "bb"
@@ -178,7 +187,7 @@ for category in themes.values():
             theme["black_1"] = theme["fg_main"]
             theme["white_2"] = theme["bg_main"]
             theme["border_hard"] = theme["fg_fade"]
-            theme["border_soft"] = theme["fg_main"] + "28"
+            theme["border_soft"] = theme["fg_main"] + "30"
 
         elif theme in themes["dark"].values():
             theme["fg_faint"] = theme["fg_main"] + "48"
@@ -190,7 +199,7 @@ for category in themes.values():
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
             theme["border_hard"] = theme["fg_faint"]
-            theme["border_soft"] = theme["fg_main"] + "28"
+            theme["border_soft"] = theme["fg_main"] + "30"
             for color in [
                 "red",
                 "green",
