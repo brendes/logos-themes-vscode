@@ -91,7 +91,7 @@ colors:
   'button.secondaryForeground': '{fg_main}'
   'button.secondaryHoverBackground': '{bg_hl}'
 
-  'chat.slashCommandForeground': '{fg_accent}'
+  'chat.slashCommandForeground': '{link}'
 
   'checkbox.background': '{bg_main}'
   'checkbox.border': '{border_hard}'
