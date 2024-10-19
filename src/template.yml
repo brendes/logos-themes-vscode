@@ -65,7 +65,7 @@ colors:
   'editorWidget.background': '{bg_subtle}'
   'editorWidget.foreground': '{fg_main}'
   'editorWidget.border': '{bg_subtle}'
-  'quickInput.background': '{bg_main}'
+  'quickInput.background': '{bg_subtle}'
 
   # everything else
   'activityBar.activeBorder': '{fg_main}'
@@ -86,7 +86,7 @@ colors:
   'button.background': '{bg_hl}'
   'button.foreground': '{fg_main}'
   'button.border': '{border_soft}'
-  'button.hoverBackground': '{bg_fade}'
+  'button.hoverBackground': '{bg_strong}'
   'button.secondaryBackground': '{bg_subtle}'
   'button.secondaryForeground': '{fg_main}'
   'button.secondaryHoverBackground': '{bg_hl}'
@@ -98,6 +98,9 @@ colors:
   'checkbox.foreground': '{fg_main}'
   'checkbox.selectBackground': '{fg_accent}'
   'checkbox.selectBorder': '{fg_accent}'
+
+  'debugToolBar.background': '{bg_main}'
+  'debugToolBar.border': '{border_hard}'
 
   'dropdown.background': '{bg_main}'
   'dropdown.border': '{border_hard}'
@@ -120,6 +123,7 @@ colors:
   'editor.foldBackground': '{bg_main}'
   'editor.lineHighlightBorder': '{bg_hl}'
   'editor.hoverHighlightBackground': '{bg_main}'
+  'editor.placeholder.foreground': '{fg_dim}'
   'editor.rangeHighlightBackground': '{bg_fade}dd'
   'editor.wordHighlightBackground': '{bg_fade}'
   'editor.wordHighlightStrongBackground': '{bg_fade}'
@@ -159,13 +163,13 @@ colors:
   'extensionButton.hoverBackground': '{fg_faint}'
   'extensionButton.prominentForeground': '{fg_main}'
 
-  'gitDecoration.deletedResourceForeground': '{red_1}'
+  'gitDecoration.deletedResourceForeground': '{fg_main}'
   'gitDecoration.ignoredResourceForeground': '{fg_fade}'
   'gitDecoration.stageDeletedResourceForeground': '{fg_main}'
   'gitDecoration.stageModifiedResourceForeground': '{fg_main}'
-  'gitDecoration.modifiedResourceForeground': '{fg_subtle}'
-  'gitDecoration.submoduleResourceForeground': '{fg_subtle}'
-  'gitDecoration.untrackedResourceForeground': '{fg_subtle}'
+  'gitDecoration.modifiedResourceForeground': '{fg_main}'
+  'gitDecoration.submoduleResourceForeground': '{fg_main}'
+  'gitDecoration.untrackedResourceForeground': '{fg_main}'
 
   'input.background': '{bg_main}'
   'input.border': '{border_soft}'
@@ -245,8 +249,8 @@ colors:
 
   'statusBar.background': '{bg_subtle}'
   'statusBar.border': '{border_soft}'
-  'statusBar.debuggingBackground': '{magenta_2}88'
-  'statusBar.debuggingForeground': '{fg_main}'
+  'statusBar.debuggingBackground': '{orange_2}'
+  'statusBar.debuggingForeground': '{black_1}'
   'statusBar.foreground': '{fg_main}'
   'statusBar.noFolderBackground': '{bg_hl}'
   'statusBar.noFolderForeground': '{fg_main}'
@@ -320,7 +324,7 @@ colors:
   'titleBar.inactiveBackground': '{bg_subtle}'
   'titleBar.inactiveForeground': '{fg_dim}'
 
-  'tree.inactiveIndentGuidesStroke': '{fg_faint}'
+  'tree.inactiveIndentGuidesStroke': '{bg_subtle}'
   'tree.indentGuidesStroke': '{fg_faint}'
   
   'window.activeBorder': '{bg_subtle}'

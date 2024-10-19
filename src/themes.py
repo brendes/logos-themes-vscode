@@ -20,7 +20,7 @@ white = {
     "yellow_2": "#eed8bb",
     "green_1": "#779955",
     "green_2": "#b0c088",
-    "blue_1": "#6677aa",
+    "blue_1": "#5570bb",
     "blue_2": "#aac0e8",
     "magenta_1": "#aa7788",
     "magenta_2": "#d8b8c8",
@@ -55,23 +55,23 @@ acme = {
     **white,
     "theme_name": "Logos Acme",
     "base_0": "#ffffea",
-    "base_1": "#f8f8e3",
+    "base_1": "#fafae5",
     "base_2": "#f2f2dd",
     "base_3": "#e8e8d3",
     "base_4": "#d8d8c3",
     "red_1": "#bb5d5d",
     "red_2": "#ee9999",
     "yellow_1": "#998866",
-    "yellow_2": "#eeeea0",
+    "yellow_2": "#eeeea8",
     "green_1": "#448844",
     "green_2": "#bbddbb",
-    "blue_1": "#5577aa",
+    "blue_1": "#5570bb",
     "blue_2": "#ccddee",
     "magenta_1": "#aa77aa",
     "magenta_2": "#ddbbdd",
     "cyan_1": "#66aaaa",
     "cyan_2": "#addddd",
-    "fg_accent": "#7777b0",
+    "fg_accent": "#8888cc",
     "bg_accent": "#ccccee",
 }
 
@@ -175,7 +175,7 @@ for category in themes.values():
         theme["bg_drop"] = theme["bg_hl"] + "88"
         theme["fg_main"] = theme["base_5"]
         theme["fg_bold"] = theme["base_6"]
-        theme["link"] = theme["fg_accent"]
+        theme["link"] = theme["blue_1"]
 
         if theme in themes["light"].values():
             theme["fg_faint"] = theme["fg_main"] + "33"
@@ -186,7 +186,7 @@ for category in themes.values():
             theme["bg_match_2"] = theme["yellow_2"] + "bb"
             theme["black_1"] = theme["fg_main"]
             theme["white_2"] = theme["bg_main"]
-            theme["border_hard"] = theme["fg_fade"]
+            theme["border_hard"] = theme["fg_main"] + "80"
             theme["border_soft"] = theme["fg_main"] + "30"
 
         elif theme in themes["dark"].values():
@@ -199,7 +199,7 @@ for category in themes.values():
             theme["black_1"] = theme["bg_main"]
             theme["white_2"] = theme["fg_main"]
             theme["border_hard"] = theme["fg_faint"]
-            theme["border_soft"] = theme["fg_main"] + "30"
+            theme["border_soft"] = theme["fg_main"] + "28"
             for color in [
                 "red",
                 "green",
