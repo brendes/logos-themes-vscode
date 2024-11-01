@@ -56,11 +56,6 @@
         "label": "Logos Nord",
         "uiTheme": "vs-dark",
         "path": "./themes/logos-nord-color-theme.json"
-      },
-      {
-        "label": "Logos Red",
-        "uiTheme": "vs-dark",
-        "path": "./themes/logos-red-color-theme.json"
       }
     ]
   }
