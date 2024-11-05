@@ -206,7 +206,7 @@
     "notifications.foreground": "{fg_main}",
     "notifications.border": "{border_soft}",
     "notificationsErrorIcon.foreground": "{red_1}",
-    "notificationsInfoIcon.foreground": "{blue_1}",
+    "notificationsInfoIcon.foreground": "{fg_bold}",
     "notificationsWarningIcon.foreground": "{orange_1}",
 
     "panel.background": "{bg_ui}",
