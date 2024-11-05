@@ -4,15 +4,10 @@ Themes with minimal monochrome syntax highlighting and calm UI.
 
 ## About
 
-I find most multicolored syntax themes to be garish and not nice to look at for extended periods of time.
-Additionally, most UI themes use so many different colors and shades that it becomes distracting.
+I find most multicolored syntax and UI themes to be garish and distracting.
 
-These themes use a few shades of a primary "base" color to highlight:
-1. comments,
-2. strings,
-3. and constants. 
+These themes use a few shades of a primary "base" color to highlight comments and strings.
 
-Each theme has a set of accent colors that are used sparingly to distinguish salient UI elements.
 Overall, an attempt is made to balance simplicity with usability.
 
 ## Theme variants
@@ -21,12 +16,10 @@ Overall, an attempt is made to balance simplicity with usability.
 | ------- | ----- | ----------------------------- |
 | white   | light | neutral theme                 |
 | sun     | light | off-white theme               |
-| paper   | light | even more off-white           |
 | acme    | light | yellow theme                  |
 | dark    | dark  | neutral theme                 |
 | gruv    | dark  | warm dark theme               |
 | nord    | dark  | cool dark theme               |
-| red     | dark  | very dark theme with red text |
 
 ## Screenshots
 
@@ -49,6 +42,5 @@ Requires Python ≥ 3.11.
 
 ## Credits/inspiration
 - [Acme editor](https://en.wikipedia.org/wiki/Acme_%28text_editor%29)
-- [Flatwhite](https://github.com/biletskyy/flatwhite-syntax)
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [Nord](https://www.nordtheme.com)
