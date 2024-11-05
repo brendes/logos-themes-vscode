@@ -4,7 +4,7 @@ Themes with minimal monochrome syntax highlighting and calm UI.
 
 ## About
 
-I find most multicolored syntax and UI themes to be garish and distracting.
+I find most multicolored syntax and UI themes to be garish and overwhelming to look at for extended periods of time..
 
 These themes use a few shades of a primary "base" color to highlight comments and strings.
 
