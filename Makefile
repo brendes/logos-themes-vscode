@@ -1,17 +1,11 @@
 PYTHON_CMD = python3
-PIP_CMD = pip
 BUILD_SCRIPT = src/build.py
-VENV_DIR = .venv
 
 all: build
 
-setup:
-	$(PYTHON_CMD) -m venv $(VENV_DIR)
-	$(VENV_DIR)/bin/$(PIP_CMD) install -r requirements.txt
-
-build: setup
+build:
 	mkdir -p themes
-	$(VENV_DIR)/bin/$(PYTHON_CMD) $(BUILD_SCRIPT)
+	$(PYTHON_CMD) $(BUILD_SCRIPT)
 
 package: build
 	vsce package
@@ -22,4 +16,4 @@ publish: package
 clean:
 	rm -f *.vsix themes/*.json
 
-.PHONY: setup build package publish clean
+.PHONY: build package publish clean

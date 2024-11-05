@@ -11,13 +11,12 @@ base_colors = {
         "yellow_2": "#eed8bb",
         "green_1": "#779955",
         "green_2": "#b0c088",
-        "blue_1": "#5577cc",
-        "blue_2": "#bbccff",
+        "blue_1": "#6680cc",
+        "blue_2": "#bbccdd",
         "magenta_1": "#aa7788",
         "magenta_2": "#d8b8c8",
         "cyan_1": "#77aaaa",
         "cyan_2": "#b8dbd4",
-        "link": "#6677ee",
         "invisible": "#00000000",
     },
     "dark": {
@@ -29,8 +28,6 @@ base_colors = {
         "blue_1": "#80a8b0",
         "magenta_1": "#d3889b",
         "cyan_1": "#88b4a0",
-        "fg_accent": "#88d4c0",
-        "bg_accent": "#88d4c0",
         "invisible": "#00000000",
     },
 }
@@ -40,8 +37,8 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos White",
         "base_0": "#ffffff",
-        "base_1": "#f9f9f9",
-        "base_2": "#f2f2f2",
+        "base_1": "#f8f8f8",
+        "base_2": "#f4f4f4",
         "base_3": "#eaeaea",
         "base_4": "#cccccc",
         "base_5": "#787878",
@@ -52,32 +49,20 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos Sun",
         "base_0": "#fffffa",
-        "base_1": "#fafaf5",
-        "base_2": "#f2f2ed",
+        "base_1": "#f8f8f3",
+        "base_2": "#f4f4ef",
         "base_3": "#e8e8e3",
         "base_4": "#ccccc9",
         "base_5": "#787873",
         "base_6": "#000000",
         "base_7": "#000000",
     },
-    "paper": {
-        **base_colors["light"],
-        "theme_name": "Logos Paper",
-        "base_0": "#faf8f0",
-        "base_1": "#f2ede6",
-        "base_2": "#eae5de",
-        "base_3": "#e6ded4",
-        "base_4": "#d6cdc4",
-        "base_5": "#807870",
-        "base_6": "#201b12",
-        "base_7": "#100b02",
-    },
     "acme": {
         **base_colors["light"],
         "theme_name": "Logos Acme",
         "base_0": "#ffffea",
         "base_1": "#f8f8e3",
-        "base_2": "#f2f2dd",
+        "base_2": "#f4f4df",
         "base_3": "#e8e8d3",
         "base_4": "#d8d8c3",
         "base_5": "#787870",
@@ -101,14 +86,14 @@ themes = {
         "theme_name": "Logos Dark",
         "base_0": "#282828",
         "base_1": "#303030",
-        "base_2": "#383838",
+        "base_2": "#343434",
         "base_3": "#444444",
         "base_4": "#666666",
-        "base_5": "#aaaaaa",
-        "base_6": "#dddddd",
+        "base_5": "#cccccc",
+        "base_6": "#d8d8d8",
         "base_7": "#ffffff",
     },
-    "gruv": {
+        "gruv": {
         **base_colors["dark"],
         "theme_name": "Logos Gruv",
         "base_0": "#32302f",
@@ -138,8 +123,6 @@ themes = {
         "blue_1": "#81a1c1",
         "magenta_1": "#b48ead",
         "cyan_1": "#88c0d0",
-        "fg_accent": "#88c0d0",
-        "bg_accent": "#88c0d0",
     }
 }
 
@@ -159,30 +142,28 @@ for theme_name, theme in themes.items():
     if theme.get("theme_type") == "light":
         theme["fg_faint"] = theme["fg_main"] + "33"
         theme["fg_fade"] = theme["fg_main"] + "5c"
-        theme["fg_dim"] = theme["fg_main"] + "80"
-        theme["fg_subtle"] = theme["fg_main"] + "a0"
-        theme["bg_match_1"] = theme["blue_2"] + "dd"
+        theme["fg_dim"] = theme["fg_main"] + "88"
+        theme["fg_subtle"] = theme["fg_main"] + "a8"
+        theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["yellow_2"] + "dd"
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
-        theme["border_hard"] = theme["fg_main"] + "b8"
-        theme["border_soft"] = theme["fg_main"] + "58"
+        theme["border_hard"] = theme["fg_main"] + "88"
+        theme["border_soft"] = theme["fg_main"] + "28"
         theme["link"] = theme["blue_1"]
-        theme["ok"] = theme["blue_2"]
 
     elif theme.get("theme_type") == "dark":
         theme["fg_faint"] = theme["fg_main"] + "48"
         theme["fg_fade"] = theme["fg_main"] + "80"
         theme["fg_dim"] = theme["fg_main"] + "a8"
         theme["fg_subtle"] = theme["fg_main"] + "c8"
-        theme["bg_match_1"] = theme["cyan_1"] + "78"
+        theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["orange_1"] + "78"
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
         theme["border_hard"] = theme["fg_main"] + "98"
         theme["border_soft"] = theme["fg_main"] + "28"
         theme["link"] = theme["cyan_1"]
-        theme["ok"] = theme["cyan_1"]
         for color in [
             "red",
             "green",
