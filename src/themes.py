@@ -173,7 +173,3 @@ for theme_name, theme in themes.items():
             "orange",
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
-
-# theme-specific overrides
-theme_acme = themes["acme"]
-theme_acme["bg_sel"] = theme_acme["yellow_2"] + "ee"
