@@ -84,10 +84,10 @@
     "quickInput.background": "{bg_main}",
     "quickInput.foreground": "{fg_subtle}",
 
-    "activityBar.activeBorder": "{fg_bold}",
+    "activityBar.activeBorder": "{fg_main}",
     "activityBar.background": "{bg_main}",
     "activityBar.border": "{bg_main}",
-    "activityBar.foreground": "{fg_bold}",
+    "activityBar.foreground": "{fg_main}",
     "activityBar.inactiveForeground": "{fg_faint}",
     "activityBarBadge.background": "{bg_bold}",
     "activityBarBadge.foreground": "{bg_main}",
@@ -253,7 +253,7 @@
     "statusBar.noFolderForeground": "{bg_main}",
 
     "statusBarItem.errorBackground": "{red_1}",
-    "statusBarItem.errorForeground": "{white_2}",
+    "statusBarItem.errorForeground": "{bg_main}",
     "statusBarItem.hoverForeground": "{fg_bold}",
     "statusBarItem.prominentBackground": "{bg_main}",
     "statusBarItem.prominentForeground": "{fg_main}",
@@ -262,7 +262,7 @@
     "statusBarItem.remoteHoverBackground": "{fg_dim}",
     "statusBarItem.remoteHoverForeground": "{bg_main}",
     "statusBarItem.warningBackground": "{orange_1}",
-    "statusBarItem.warningForeground": "{white_2}",
+    "statusBarItem.warningForeground": "{bg_main}",
 
     "tab.activeBackground": "{bg_main}",
     "tab.activeForeground": "{fg_main}",
