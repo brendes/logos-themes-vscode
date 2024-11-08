@@ -101,7 +101,7 @@ themes = {
         "base_2": "#403d3c",
         "base_3": "#4c4948",
         "base_4": "#595654",
-        "base_5": "#a5a2a0",
+        "base_5": "#c8c0b8",
         "base_6": "#e0d0bb",
         "base_7": "#f8f5f1",
     },
@@ -145,10 +145,10 @@ for theme_name, theme in themes.items():
         theme["fg_subtle"] = theme["fg_main"] + "a8"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["yellow_2"] + "dd"
-        theme["black_1"] = theme["fg_main"]
-        theme["white_2"] = theme["bg_main"]
         theme["border_hard"] = theme["fg_main"] + "88"
         theme["border_soft"] = theme["fg_main"] + "28"
+        theme["black_1"] = theme["fg_main"]
+        theme["white_2"] = theme["bg_main"]
         theme["link"] = theme["blue_1"]
 
     elif theme.get("theme_type") == "dark":
@@ -158,10 +158,10 @@ for theme_name, theme in themes.items():
         theme["fg_subtle"] = theme["fg_main"] + "c8"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["orange_1"] + "78"
-        theme["black_1"] = theme["bg_main"]
-        theme["white_2"] = theme["fg_main"]
         theme["border_hard"] = theme["fg_main"] + "98"
         theme["border_soft"] = theme["fg_main"] + "28"
+        theme["black_1"] = theme["bg_main"]
+        theme["white_2"] = theme["fg_main"]
         theme["link"] = theme["cyan_1"]
         for color in [
             "red",
