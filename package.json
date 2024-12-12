@@ -33,6 +33,11 @@
         "path": "./themes/logos-sun-color-theme.json"
       },
       {
+        "label": "Logos Paper",
+        "uiTheme": "vs",
+        "path": "./themes/logos-paper-color-theme.json"
+      },
+      {
         "label": "Logos Acme",
         "uiTheme": "vs",
         "path": "./themes/logos-acme-color-theme.json"
