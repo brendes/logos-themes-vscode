@@ -6,26 +6,28 @@ base_colors = {
         "red_1": "#bb5555",
         "red_2": "#e89090",
         "orange_1": "#d08868",
-        "orange_2": "#f0ccb0",
-        "yellow_1": "#aa8877",
+        "orange_2": "#f0bca0",
+        "yellow_1": "#aa8866",
         "yellow_2": "#eed8bb",
-        "green_1": "#779955",
+        "green_1": "#889944",
         "green_2": "#b0c088",
-        "blue_1": "#6680cc",
-        "blue_2": "#bbccdd",
+        "blue_1": "#6677aa",
+        "blue_2": "#bbc8dd",
+        "purple_1": "#8c6d9c",
         "magenta_1": "#aa7788",
         "magenta_2": "#d8b8c8",
-        "cyan_1": "#77aaaa",
+        "cyan_1": "#669988",
         "cyan_2": "#b8dbd4",
         "invisible": "#00000000",
     },
     "dark": {
         "theme_type": "dark",
         "red_1": "#f87870",
-        "orange_1": "#dda288",
-        "yellow_1": "#ddb848",
-        "green_1": "#a9b665",
+        "orange_1": "#dd8855",
+        "yellow_1": "#eebb88",
+        "green_1": "#aab866",
         "blue_1": "#80a8b0",
+        "purple_1": "#8c6d9c",
         "magenta_1": "#d3889b",
         "cyan_1": "#88b4a0",
         "invisible": "#00000000",
@@ -37,21 +39,26 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos White",
         "base_0": "#ffffff",
-        "base_1": "#f8f8f8",
+        "base_1": "#f9f9f9",
         "base_2": "#f4f4f4",
         "base_3": "#eaeaea",
-        "base_4": "#cccccc",
-        "base_5": "#787878",
-        "base_6": "#000000",
+        "base_4": "#dddddd",
+        "base_5": "#707070",
+        "base_6": "#111111",
         "base_7": "#000000",
     },
     "sun": {
         **base_colors["light"],
         "theme_name": "Logos Sun",
         "base_0": "#fffffa",
-        "base_1": "#f8f8f3",
+        "base_1": "#f9f9f4",
         "base_2": "#f4f4ef",
         "base_3": "#e8e8e3",
+        "base_4": "#ddddd8",
+        "base_5": "#70706b",
+        "base_6": "#111111",
+        "base_7": "#000000",
+    },
     "paper": {
         **base_colors["light"],
         "theme_name": "Logos Paper",
@@ -68,20 +75,20 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos Acme",
         "base_0": "#ffffea",
-        "base_1": "#f8f8e3",
+        "base_1": "#f9f9e4",
         "base_2": "#f4f4df",
         "base_3": "#e8e8d3",
-        "base_4": "#d8d8c3",
-        "base_5": "#787870",
-        "base_6": "#000000",
+        "base_4": "#ddddc8",
+        "base_5": "#707060",
+        "base_6": "#111111",
         "base_7": "#000000",
         "red_1": "#bb5d5d",
         "red_2": "#ee9999",
         "yellow_1": "#998866",
-        "yellow_2": "#eeee9e",
+        "yellow_2": "#eeeeaa",
         "green_1": "#448844",
         "green_2": "#bbddbb",
-        "blue_1": "#5555cc",
+        "blue_1": "#6677bb",
         "blue_2": "#ccccff",
         "magenta_1": "#aa77aa",
         "magenta_2": "#ddbbdd",
@@ -92,11 +99,11 @@ themes = {
         **base_colors["dark"],
         "theme_name": "Logos Dark",
         "base_0": "#282828",
-        "base_1": "#303030",
-        "base_2": "#343434",
-        "base_3": "#444444",
-        "base_4": "#666666",
-        "base_5": "#cccccc",
+        "base_1": "#2d2d2d",
+        "base_2": "#333333",
+        "base_3": "#484848",
+        "base_4": "#585858",
+        "base_5": "#a8a8a8",
         "base_6": "#d8d8d8",
         "base_7": "#ffffff",
     },
@@ -110,7 +117,7 @@ themes = {
         "base_4": "#595654",
         "base_5": "#c8c0b8",
         "base_6": "#e0d0bb",
-        "base_7": "#f8f5f1",
+        "base_7": "#ffefcc",
     },
     "nord": {
         **base_colors["dark"],
@@ -162,10 +169,10 @@ for theme_name, theme in themes.items():
     elif theme.get("theme_type") == "dark":
         theme["fg_faint"] = theme["fg_main"] + "48"
         theme["fg_fade"] = theme["fg_main"] + "80"
-        theme["fg_dim"] = theme["fg_main"] + "a8"
+        theme["fg_dim"] = theme["fg_main"] + "bb"
         theme["fg_subtle"] = theme["fg_main"] + "c8"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
-        theme["bg_match_2"] = theme["orange_1"] + "78"
+        theme["bg_match_2"] = theme["cyan_1"] + "78"
         theme["border_hard"] = theme["fg_main"] + "98"
         theme["border_soft"] = theme["fg_main"] + "28"
         theme["black_1"] = theme["bg_main"]
@@ -181,3 +188,8 @@ for theme_name, theme in themes.items():
             "orange",
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
+
+acme_overrides = {
+    "bg_sel": themes["acme"]["yellow_2"] + "ee",
+}
+themes["acme"].update(acme_overrides)
