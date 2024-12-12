@@ -36,7 +36,7 @@ The website renders the themes a little inaccurately, but it will do for now.
 
 ## Build
 
-Requires Python ≥ 3.11.
+Requires vsce and Python ≥ 3.11.
 - Build themes: `make build`
 - Build extension: `make package`
 
