@@ -39,24 +39,24 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos White",
         "base_0": "#ffffff",
-        "base_1": "#f9f9f9",
-        "base_2": "#f4f4f4",
+        "base_1": "#fafafa",
+        "base_2": "#f2f2f2",
         "base_3": "#eaeaea",
         "base_4": "#dddddd",
         "base_5": "#707070",
-        "base_6": "#111111",
+        "base_6": "#000000",
         "base_7": "#000000",
     },
     "sun": {
         **base_colors["light"],
         "theme_name": "Logos Sun",
         "base_0": "#fffffa",
-        "base_1": "#f9f9f4",
-        "base_2": "#f4f4ef",
+        "base_1": "#fafaf5",
+        "base_2": "#f2f2ed",
         "base_3": "#e8e8e3",
         "base_4": "#ddddd8",
         "base_5": "#70706b",
-        "base_6": "#111111",
+        "base_6": "#000000",
         "base_7": "#000000",
     },
     "paper": {
@@ -107,7 +107,7 @@ themes = {
         "base_6": "#d8d8d8",
         "base_7": "#ffffff",
     },
-        "gruv": {
+    "gruv": {
         **base_colors["dark"],
         "theme_name": "Logos Gruv",
         "base_0": "#32302f",
@@ -115,7 +115,7 @@ themes = {
         "base_2": "#403d3c",
         "base_3": "#4c4948",
         "base_4": "#595654",
-        "base_5": "#c8c0b8",
+        "base_5": "#c0b09b",
         "base_6": "#e0d0bb",
         "base_7": "#ffefcc",
     },
@@ -186,6 +186,7 @@ for theme_name, theme in themes.items():
             "magenta",
             "cyan",
             "orange",
+            "purple"
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
 
