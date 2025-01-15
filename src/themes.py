@@ -154,6 +154,7 @@ for theme_name, theme in themes.items():
     theme["fg_bold"] = theme["base_7"]
 
     if theme.get("theme_type") == "light":
+        theme["fg_ghost"] = theme["fg_main"] + "18"
         theme["fg_faint"] = theme["fg_main"] + "33"
         theme["fg_fade"] = theme["fg_main"] + "5c"
         theme["fg_dim"] = theme["fg_main"] + "88"
@@ -167,6 +168,7 @@ for theme_name, theme in themes.items():
         theme["link"] = theme["blue_1"]
 
     elif theme.get("theme_type") == "dark":
+        theme["fg_ghost"] = theme["fg_main"] + "20"
         theme["fg_faint"] = theme["fg_main"] + "48"
         theme["fg_fade"] = theme["fg_main"] + "80"
         theme["fg_dim"] = theme["fg_main"] + "bb"

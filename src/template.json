@@ -157,7 +157,7 @@
     "editorGutter.addedBackground": "{green_1}",
     "editorGutter.modifiedBackground": "{blue_1}",
     "editorIndentGuide.activeBackground1": "{fg_faint}",
-    "editorIndentGuide.background1": "{bg_fade}",
+    "editorIndentGuide.background1": "{fg_ghost}",
     "editorInlayHint.foreground": "{fg_faint}",
     "editorInlayHint.background": "{bg_main}",
     "editorLineNumber.activeForeground": "{fg_subtle}",
@@ -343,8 +343,8 @@
     "titleBar.inactiveBackground": "{bg_ui}",
     "titleBar.inactiveForeground": "{fg_dim}",
 
-    "tree.inactiveIndentGuidesStroke": "{invisible}",
-    "tree.indentGuidesStroke": "{invisible}",
+    "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
+    "tree.indentGuidesStroke": "{fg_faint}",
 
     "toolbar.hoverBackground": "{bg_hl}",
 
