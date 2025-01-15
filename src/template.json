@@ -230,10 +230,10 @@
     "sash.hoverBorder": "{fg_subtle}",
 
     "scmGraph.historyItemHoverLabelForeground": "{fg_bold}",
-    "scmGraph.foreground1": "{yellow_1}",
+    "scmGraph.foreground1": "{orange_1}",
     "scmGraph.foreground2": "{magenta_1}",
-    "scmGraph.foreground3": "{orange_1}",
-    "scmGraph.foreground4": "{cyan_1}",
+    "scmGraph.foreground3": "{cyan_1}",
+    "scmGraph.foreground4": "{yellow_1}",
     "scmGraph.foreground5": "{purple_1}",
     "scmGraph.historyItemBaseRefColor": "{orange_2}",
     "scmGraph.historyItemRefColor": "{blue_2}",
