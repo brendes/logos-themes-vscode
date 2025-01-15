@@ -4,10 +4,8 @@ Themes with minimal monochrome syntax highlighting and calm UI.
 
 ## About
 
-I find most multicolored syntax and UI themes to be garish and overwhelming to look at for extended periods of time..
-
+I find most multicolored syntax and UI themes to be garish and overwhelming to look at for extended periods of time.
 These themes use a few shades of a primary "base" color to highlight comments and strings.
-
 Overall, an attempt is made to balance simplicity with usability.
 
 ## Theme variants
@@ -17,6 +15,7 @@ Overall, an attempt is made to balance simplicity with usability.
 | white   | light | neutral theme                 |
 | sun     | light | off-white theme               |
 | acme    | light | yellow theme                  |
+| paper   | light | warmer off-white theme        |
 | dark    | dark  | neutral theme                 |
 | gruv    | dark  | warm dark theme               |
 | nord    | dark  | cool dark theme               |
