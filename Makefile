@@ -1,8 +1,6 @@
 PYTHON_CMD = python3
 BUILD_SCRIPT = src/build.py
 
-all: build
-
 build:
 	mkdir -p themes
 	$(PYTHON_CMD) $(BUILD_SCRIPT)
@@ -15,5 +13,6 @@ publish: package
 
 clean:
 	rm -f *.vsix themes/*.json
+	rm -rf src/__pycache__
 
 .PHONY: build package publish clean
