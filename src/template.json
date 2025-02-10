@@ -114,6 +114,11 @@
     "checkbox.selectBackground": "{blue_1}",
     "checkbox.selectBorder": "{border_soft}",
 
+    "commandCenter.background": "{invisible}",
+    "commandCenter.border": "{invisible}",
+    "commandCenter.activeBackground": "{bg_fade}",
+    "commandCenter.activeBorder": "{bg_fade}",
+
     "debugToolBar.background": "{bg_subtle}",
     "debugToolBar.border": "{border_soft}",
 
@@ -214,7 +219,8 @@
     "panelInput.border": "{border_soft}",
     "panelSection.border": "{border_soft}",
     "panelSection.dropBackground": "{bg_drop}",
-    "panelSectionHeader.background": "{bg_main}",
+    "panelSectionHeader.background": "{bg_ui}",
+    "panelSectionHeader.border": "{border_soft}",
     "panelTitle.activeBorder": "{invisible}",
     "panelTitle.activeForeground": "{fg_main}",
     "panelTitle.inactiveForeground": "{fg_fade}",
@@ -252,9 +258,12 @@
     "sideBar.border": "{border_soft}",
     "sideBar.dropBackground": "{bg_drop}",
     "sideBar.foreground": "{fg_subtle}",
+    "sideBarActivityBarTop.border": "{bg_ui}",
     "sideBarSectionHeader.background": "{bg_ui}",
     "sideBarSectionHeader.border": "{invisible}",
-    "sideBarSectionHeader.foreground": "{fg_bold}",
+    "sideBarSectionHeader.foreground": "{fg_main}",
+    "sideBarTitle.border": "{invisible}",
+    "sideBarTitle.background": "{bg_ui}",
 
     "sideBySideEditor.horizontalBorder": "{border_soft}",
     "sideBySideEditor.verticalBorder": "{border_soft}",
@@ -344,7 +353,7 @@
     "titleBar.inactiveForeground": "{fg_dim}",
 
     "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
-    "tree.indentGuidesStroke": "{fg_faint}",
+    "tree.indentGuidesStroke": "{fg_ghost}",
 
     "toolbar.hoverBackground": "{bg_hl}",
 

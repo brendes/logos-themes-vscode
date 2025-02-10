@@ -11,7 +11,7 @@ base_colors = {
         "yellow_2": "#eed8bb",
         "green_1": "#889944",
         "green_2": "#b0c088",
-        "blue_1": "#5577aa",
+        "blue_1": "#6070b0",
         "blue_2": "#bbc8dd",
         "purple_1": "#8c6d9c",
         "purple_2": "#bbaadd",
@@ -40,8 +40,8 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos White",
         "base_0": "#ffffff",
-        "base_1": "#fafafa",
-        "base_2": "#f2f2f2",
+        "base_1": "#f9f9f9",
+        "base_2": "#f1f1f1",
         "base_3": "#eaeaea",
         "base_4": "#dddddd",
         "base_5": "#707070",
@@ -52,8 +52,8 @@ themes = {
         **base_colors["light"],
         "theme_name": "Logos Sun",
         "base_0": "#fffffa",
-        "base_1": "#fafaf5",
-        "base_2": "#f2f2ed",
+        "base_1": "#f9f9f5",
+        "base_2": "#f1f1ec",
         "base_3": "#e8e8e3",
         "base_4": "#ddddd8",
         "base_5": "#70706b",
@@ -196,4 +196,4 @@ for theme_name, theme in themes.items():
 acme_overrides = {
     "bg_sel": themes["acme"]["yellow_2"] + "ee",
 }
-themes["acme"].update(acme_overrides)
+# themes["acme"].update(acme_overrides)
