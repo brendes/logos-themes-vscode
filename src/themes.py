@@ -11,7 +11,7 @@ base_colors = {
         "yellow_2": "#eed8bb",
         "green_1": "#889944",
         "green_2": "#b0c088",
-        "blue_1": "#6070b0",
+        "blue_1": "#5577bb",
         "blue_2": "#bbc8dd",
         "purple_1": "#8c6d9c",
         "purple_2": "#bbaadd",
