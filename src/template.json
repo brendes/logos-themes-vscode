@@ -114,10 +114,12 @@
     "checkbox.selectBackground": "{blue_1}",
     "checkbox.selectBorder": "{border_soft}",
 
+    "commandCenter.activeBackground": "{bg_fade}",
+    "commandCenter.activeBorder": "{border_soft}",
     "commandCenter.background": "{invisible}",
     "commandCenter.border": "{invisible}",
-    "commandCenter.activeBackground": "{bg_fade}",
-    "commandCenter.activeBorder": "{bg_fade}",
+    "commandCenter.foreground": "{fg_subtle}",
+    "commandCenter.inactiveBorder": "{invisible}",
 
     "debugToolBar.background": "{bg_subtle}",
     "debugToolBar.border": "{border_soft}",
