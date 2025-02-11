@@ -175,7 +175,7 @@ for theme_name, theme in themes.items():
         theme["fg_dim"] = theme["fg_main"] + "bb"
         theme["fg_subtle"] = theme["fg_main"] + "c8"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
-        theme["bg_match_2"] = theme["cyan_1"] + "78"
+        theme["bg_match_2"] = theme["magenta_1"] + "99"
         theme["border_hard"] = theme["fg_main"] + "98"
         theme["border_soft"] = theme["fg_main"] + "28"
         theme["black_1"] = theme["bg_main"]
