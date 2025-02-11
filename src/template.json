@@ -207,6 +207,9 @@
     "list.warningForeground": "{orange_1}",
     "list.focusHighlightForeground": "{fg_bold}",
 
+    "notebook.cellBorderColor": "{border_soft}",
+    "notebook.cellEditorBackground": "{bg_main}",
+
     "notificationCenter.border": "{border_soft}",
     "notificationCenterHeader.background": "{bg_fade}",
     "notificationCenterHeader.foreground": "{fg_main}",
