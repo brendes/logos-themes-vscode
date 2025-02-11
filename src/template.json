@@ -165,6 +165,9 @@
     "editorIndentGuide.background1": "{fg_ghost}",
     "editorInlayHint.foreground": "{fg_faint}",
     "editorInlayHint.background": "{bg_main}",
+    "editorLightBulb.foreground": "{fg_bold}",
+    "editorLightBulbAi.foreground": "{fg_bold}",
+    "editorLightBulbAutoFix.foreground": "{fg_bold}",
     "editorLineNumber.activeForeground": "{fg_subtle}",
     "editorLineNumber.foreground": "{fg_faint}",
     "editorLink.activeForeground": "{link}",
@@ -336,6 +339,7 @@
 
     "terminalCommandDecoration.defaultBackground": "{fg_fade}",
     "terminalCommandDecoration.successBackground": "{bg_bold}",
+    "terminalCommandDecoration.errorBackground": "{red_1}",
     "terminalStickyScrollHover.background": "{bg_fade}",
 
     "textBlockQuote.background": "{bg_subtle}",
