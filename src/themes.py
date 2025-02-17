@@ -100,8 +100,10 @@ themes = {
         **base_colors["dark"],
         "theme_name": "Logos Dark",
         "base_0": "#282828",
-        "base_1": "#2d2d2d",
-        "base_2": "#333333",
+        # "base_1": "#2d2d2d",
+        # "base_2": "#333333",
+        "base_1": "#303030",
+        "base_2": "#383838",
         "base_3": "#484848",
         "base_4": "#585858",
         "base_5": "#a8a8a8",
@@ -111,8 +113,10 @@ themes = {
     "gruv": {
         **base_colors["dark"],
         "theme_name": "Logos Gruv",
-        "base_0": "#32302f",
-        "base_1": "#3a3837",
+        # "base_0": "#32302f",
+        # "base_1": "#373534",
+        "base_0": "#2d2b2a",
+        "base_1": "#343231",
         "base_2": "#403d3c",
         "base_3": "#4c4948",
         "base_4": "#595654",
@@ -163,7 +167,8 @@ for theme_name, theme in themes.items():
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["yellow_2"] + "dd"
         theme["border_hard"] = theme["fg_main"] + "88"
-        theme["border_soft"] = theme["fg_main"] + "28"
+        theme["border_focus"] = theme["fg_main"] + "30"
+        theme["border_soft"] = theme["fg_main"] + "20"
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
         theme["link"] = theme["blue_1"]
@@ -177,7 +182,8 @@ for theme_name, theme in themes.items():
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["magenta_1"] + "99"
         theme["border_hard"] = theme["fg_main"] + "98"
-        theme["border_soft"] = theme["fg_main"] + "28"
+        theme["border_focus"] = theme["fg_main"] + "28"
+        theme["border_soft"] = theme["bg_main"]
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
         theme["link"] = theme["cyan_1"]
