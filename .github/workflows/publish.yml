@@ -19,4 +19,4 @@ jobs:
       - name: Publish Extension
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: vsce publish
+        run: make publish
