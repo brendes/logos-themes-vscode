@@ -91,6 +91,9 @@
         "activityBar.inactiveForeground": "{fg_faint}",
         "activityBarBadge.background": "{bg_bold}",
         "activityBarBadge.foreground": "{bg_main}",
+        "activityBarTop.activeBorder": "{bg_ui}",
+        "activityBarTop.foreground": "{fg_main}",
+        "activityBarTop.inactiveForeground": "{fg_faint}",
 
         "badge.background": "{bg_hl}",
         "badge.foreground": "{fg_bold}",
