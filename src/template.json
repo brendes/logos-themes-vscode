@@ -84,14 +84,14 @@
         "quickInput.background": "{bg_main}",
         "quickInput.foreground": "{fg_main}",
 
-        "activityBar.activeBorder": "{bg_ui}",
+        "activityBar.activeBorder": "{fg_main}",
         "activityBar.background": "{bg_ui}",
         "activityBar.border": "{bg_ui}",
         "activityBar.foreground": "{fg_main}",
         "activityBar.inactiveForeground": "{fg_faint}",
         "activityBarBadge.background": "{bg_bold}",
         "activityBarBadge.foreground": "{bg_main}",
-        "activityBarTop.activeBorder": "{bg_ui}",
+        "activityBarTop.activeBorder": "{fg_main}",
         "activityBarTop.foreground": "{fg_main}",
         "activityBarTop.inactiveForeground": "{fg_faint}",
 
@@ -237,7 +237,7 @@
         "panelSection.dropBackground": "{bg_drop}",
         "panelSectionHeader.background": "{bg_ui}",
         "panelSectionHeader.border": "{border_soft}",
-        "panelTitle.activeBorder": "{invisible}",
+        "panelTitle.activeBorder": "{fg_main}",
         "panelTitle.activeForeground": "{fg_main}",
         "panelTitle.inactiveForeground": "{fg_fade}",
 
