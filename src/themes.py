@@ -78,7 +78,7 @@ themes = {
         "base_0": "#ffffee",
         "base_1": "#fafaea",
         "base_2": "#f2f2e2",
-        "base_3": "#e8e8d8",
+        "base_3": "#eaead9",
         "base_4": "#ddddcc",
         "base_5": "#707060",
         "base_6": "#000000",
