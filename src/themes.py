@@ -161,14 +161,14 @@ for theme_name, theme in themes.items():
     if theme.get("theme_type") == "light":
         theme["fg_ghost"] = theme["fg_main"] + "18"
         theme["fg_faint"] = theme["fg_main"] + "33"
-        theme["fg_fade"] = theme["fg_main"] + "5c"
-        theme["fg_dim"] = theme["fg_main"] + "88"
-        theme["fg_subtle"] = theme["fg_main"] + "a8"
+        theme["fg_fade"] = theme["fg_main"] + "60"
+        theme["fg_dim"] = theme["fg_main"] + "80"
+        theme["fg_subtle"] = theme["fg_main"] + "98"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["yellow_2"] + "dd"
         theme["border_hard"] = theme["fg_main"] + "88"
         theme["border_focus"] = theme["fg_main"] + "40"
-        theme["border_soft"] = theme["fg_main"] + "30"
+        theme["border_soft"] = theme["fg_main"] + "28"
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
         theme["link"] = theme["blue_1"]
@@ -177,12 +177,12 @@ for theme_name, theme in themes.items():
         theme["fg_ghost"] = theme["fg_main"] + "20"
         theme["fg_faint"] = theme["fg_main"] + "48"
         theme["fg_fade"] = theme["fg_main"] + "80"
-        theme["fg_dim"] = theme["fg_main"] + "bb"
-        theme["fg_subtle"] = theme["fg_main"] + "c8"
+        theme["fg_dim"] = theme["fg_main"] + "b0"
+        theme["fg_subtle"] = theme["fg_main"] + "c0"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["magenta_1"] + "99"
-        theme["border_hard"] = theme["fg_main"] + "98"
-        theme["border_focus"] = theme["fg_main"] + "28"
+        theme["border_hard"] = theme["fg_main"] + "88"
+        theme["border_focus"] = theme["fg_main"] + "68"
         theme["border_soft"] = theme["bg_main"]
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
@@ -198,8 +198,3 @@ for theme_name, theme in themes.items():
             "purple"
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
-
-acme_overrides = {
-    "bg_sel": themes["acme"]["yellow_2"] + "ee",
-}
-# themes["acme"].update(acme_overrides)
