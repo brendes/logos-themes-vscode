@@ -289,7 +289,7 @@
         "statusBar.border": "{border_soft}",
         "statusBar.debuggingBackground": "{orange_2}",
         "statusBar.debuggingForeground": "{black_1}",
-        "statusBar.foreground": "{fg_main}",
+        "statusBar.foreground": "{fg_subtle}",
         "statusBar.noFolderBackground": "{bg_main}",
         "statusBar.noFolderForeground": "{fg_main}",
 
