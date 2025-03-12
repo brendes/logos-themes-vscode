@@ -29,6 +29,16 @@ Here is a screenshot of some Go code using the `Logos White` theme.
 Auto-generated examples can be viewed at [vscodethemes.com](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
 The website renders the themes a little inaccurately, but it will do for now.
 
+## Recommended Settings
+
+```
+{
+    "explorer.decorations.colors": false,
+    "workbench.editor.decorations.colors": false,
+    "search.decorations.colors": false,
+}
+```
+
 ## Install
 - In VS Code: `⌘-P` then `ext install logos-themes`
 - On the web: https://marketplace.visualstudio.com/items?itemName=brendes.logos-themes
