@@ -192,6 +192,7 @@
         "editorLineNumber.activeForeground": "{fg_subtle}",
         "editorLineNumber.foreground": "{fg_faint}",
         "editorLink.activeForeground": "{link}",
+        "editorOverviewRuler.border": "{invisible}",
         "editorPane.background": "{bg_main}",
         "editorStickyScroll.border": "{invisible}",
         "editorStickyScrollHover.background": "{bg_fade}",
