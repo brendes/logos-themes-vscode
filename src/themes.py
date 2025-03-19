@@ -8,15 +8,18 @@ base_colors = {
         "orange_1": "#d08868",
         "orange_2": "#f0bca0",
         "yellow_1": "#aa8866",
-        "yellow_2": "#eed8bb",
+        "yellow_2": "#f0d0aa",
+        "yellow_bold": "#f0d0a0",
         "green_1": "#889944",
         "green_2": "#b0c088",
-        "blue_1": "#5577bb",
+        "blue_1": "#667799",
         "blue_2": "#bbc8dd",
+        "blue_bold": "#6680bb",
         "purple_1": "#8c6d9c",
         "purple_2": "#bbaadd",
         "magenta_1": "#aa7788",
         "magenta_2": "#d8b8c8",
+        "magenta_bold": "#bb6677",
         "cyan_1": "#669988",
         "cyan_2": "#b8dbd4",
         "invisible": "#00000000",
@@ -41,7 +44,7 @@ themes = {
         "theme_name": "Logos White",
         "base_0": "#ffffff",
         "base_1": "#f9f9f9",
-        "base_2": "#f1f1f1",
+        "base_2": "#f2f2f2",
         "base_3": "#eaeaea",
         "base_4": "#dddddd",
         "base_5": "#707070",
@@ -53,7 +56,7 @@ themes = {
         "theme_name": "Logos Sun",
         "base_0": "#fffffa",
         "base_1": "#f9f9f5",
-        "base_2": "#f1f1ec",
+        "base_2": "#f2f2ed",
         "base_3": "#e8e8e3",
         "base_4": "#ddddd8",
         "base_5": "#70706b",
@@ -100,8 +103,6 @@ themes = {
         **base_colors["dark"],
         "theme_name": "Logos Dark",
         "base_0": "#282828",
-        # "base_1": "#2d2d2d",
-        # "base_2": "#333333",
         "base_1": "#303030",
         "base_2": "#383838",
         "base_3": "#484848",
@@ -113,8 +114,6 @@ themes = {
     "gruv": {
         **base_colors["dark"],
         "theme_name": "Logos Gruv",
-        # "base_0": "#32302f",
-        # "base_1": "#373534",
         "base_0": "#2d2b2a",
         "base_1": "#343231",
         "base_2": "#403d3c",
@@ -171,7 +170,8 @@ for theme_name, theme in themes.items():
         theme["border_soft"] = theme["fg_main"] + "28"
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
-        theme["link"] = theme["blue_1"]
+        theme["link"] = theme["blue_bold"]
+        theme["code"] = theme["magenta_bold"]
 
     elif theme.get("theme_type") == "dark":
         theme["fg_ghost"] = theme["fg_main"] + "20"
@@ -187,6 +187,7 @@ for theme_name, theme in themes.items():
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
         theme["link"] = theme["cyan_1"]
+        theme["code"] = theme["magenta_1"]
         for color in [
             "red",
             "green",

@@ -16,8 +16,7 @@
         {
             "name": "Strings",
             "scope": [
-                "string",
-                "markup.inline.raw"
+                "string"
             ],
             "settings": {
                 "foreground": "{fg_dim}"
@@ -45,11 +44,22 @@
         {
             "name": "Sections and headings",
             "scope": [
-                "entity.name.section.markdown"
+                "entity.name.section.markdown",
+                "heading",
+                "markup.heading"
             ],
             "settings": {
                 "foreground": "{fg_main}",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Inline code",
+            "scope": [
+                "markup.inline"
+            ],
+            "settings": {
+                "foreground": "{code}"
             }
         },
         {
@@ -76,6 +86,7 @@
 
         "editorHoverWidget.background": "{bg_subtle}",
         "editorHoverWidget.border": "{border_hard}",
+        "editorHoverWidget.statusBarBackground": "{bg_main}",
         "editorSuggestWidget.background": "{bg_subtle}",
         "editorSuggestWidget.border": "{border_hard}",
         "editorWidget.background": "{bg_main}",
@@ -141,10 +152,8 @@
         "editor.background": "{bg_main}",
         "editor.foreground": "{fg_main}",
         "editor.findMatchBackground": "{bg_match_1}",
-        "editor.findMatchBorder": "{fg_faint}",
         "editor.findMatchForeground": "{fg_bold}",
         "editor.findMatchHighlightBackground": "{bg_match_2}",
-        "editor.findMatchHighlightBorder": "{fg_faint}",
         "editor.findMatchHighlightForeground": "{fg_bold}",
         "editor.foldBackground": "{bg_main}",
         "editor.lineHighlightBorder": "{bg_hl}",
@@ -153,8 +162,9 @@
         "editor.rangeHighlightBackground": "{bg_fade}dd",
         "editor.selectionBackground": "{bg_sel}",
         "editor.selectionForeground": "{fg_main}",
+        "editor.wordHighlightBackground": "{bg_fade}",
+        "editor.wordHighlightStrongBackground": "{bg_fade}",
         "editor.wordHighlightTextBackground": "{bg_fade}",
-        "editor.wordHighlightTextBorder": "{border_focus}",
 
         "editorBracketMatch.background": "{bg_hl}",
         "editorBracketMatch.border": "{fg_main}",
@@ -170,7 +180,9 @@
         "editorGutter.addedBackground": "{green_1}",
         "editorGutter.modifiedBackground": "{blue_1}",
         "editorIndentGuide.activeBackground1": "{fg_faint}",
+        "editorIndentGuide.activeBackground2": "{fg_faint}",
         "editorIndentGuide.background1": "{fg_ghost}",
+        "editorIndentGuide.background2": "{invisible}",
         "editorInfo.foreground": "{fg_subtle}",
         "editorInlayHint.foreground": "{fg_faint}",
         "editorInlayHint.background": "{bg_main}",
@@ -199,6 +211,11 @@
         "input.foreground": "{fg_main}",
         "input.placeholderForeground": "{fg_dim}",
 
+        "keybindingLabel.background": "{bg_fade}",
+        "keybindingLabel.foreground": "{fg_main}",
+        "keybindingLabel.border": "{fg_main}",
+        "keybindingLabel.bottomBorder": "{fg_main}",
+
         "list.activeSelectionBackground": "{bg_hl}",
         "list.activeSelectionForeground": "{fg_bold}",
         "list.deemphasizedForeground": "{fg_fade}",
@@ -211,8 +228,9 @@
         "list.highlightForeground": "{fg_bold}",
         "list.hoverBackground": "{bg_fade}",
         "list.hoverForeground": "{fg_bold}",
-        "list.inactiveFocusOutline": "{fg_fade}",
-        "list.inactiveSelectionBackground": "{invisible}",
+        "list.inactiveFocusOutline": "{invisible}",
+        "list.inactiveFocusBackground": "{bg_fade}",
+        "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{orange_1}",
 
         "notebook.cellBorderColor": "{border_soft}",
@@ -241,8 +259,18 @@
         "panelTitle.activeForeground": "{fg_main}",
         "panelTitle.inactiveForeground": "{fg_fade}",
 
+        "peekView.border": "{border_hard}",
         "peekViewEditor.background": "{bg_subtle}",
+        "peekViewEditor.matchHighlightBackground": "{bg_match_2}",
         "peekViewResult.background": "{bg_subtle}",
+        "peekViewResult.fileForeground": "{fg_main}",
+        "peekViewResult.lineForeground": "{fg_main}",
+        "peekViewResult.matchHighlightBackground": "{bg_match_2}",
+        "peekViewResult.selectionBackground": "{bg_hl}",
+        "peekViewResult.selectionForeground": "{fg_main}",
+        "peekViewTitle.background": "{bg_subtle}",
+        "peekViewTitleDescription.foreground": "{fg_subtle}",
+        "peekViewTitleLabel.foreground": "{fg_main}",
 
         "pickerGroup.border": "{border_soft}",
         "pickerGroup.foreground": "{fg_bold}",
@@ -252,13 +280,13 @@
         "sash.hoverBorder": "{fg_subtle}",
 
         "scmGraph.historyItemHoverLabelForeground": "{fg_bold}",
-        "scmGraph.foreground1": "{orange_1}",
-        "scmGraph.foreground2": "{magenta_1}",
-        "scmGraph.foreground3": "{cyan_1}",
-        "scmGraph.foreground4": "{yellow_1}",
-        "scmGraph.foreground5": "{purple_1}",
+        "scmGraph.foreground1": "{fg_faint}",
+        "scmGraph.foreground2": "{fg_faint}",
+        "scmGraph.foreground3": "{fg_faint}",
+        "scmGraph.foreground4": "{fg_faint}",
+        "scmGraph.foreground5": "{fg_faint}",
         "scmGraph.historyItemBaseRefColor": "{orange_2}",
-        "scmGraph.historyItemRefColor": "{blue_2}",
+        "scmGraph.historyItemRefColor": "{fg_faint}",
         "scmGraph.historyItemRemoteRefColor": "{red_2}",
         "scmGraph.historyItemHoverAdditionsForeground": "{green_1}",
         "scmGraph.historyItemHoverDeletionsForeground": "{red_1}",
@@ -293,6 +321,7 @@
         "statusBar.noFolderBackground": "{bg_main}",
         "statusBar.noFolderForeground": "{fg_main}",
 
+        "statusBarItem.compactHoverBackground": "{bg_fade}",
         "statusBarItem.errorBackground": "{bg_main}",
         "statusBarItem.errorForeground": "{red_1}",
         "statusBarItem.errorHoverBackground": "{red_1}",
@@ -348,12 +377,14 @@
         "terminal.ansiYellow": "{yellow_1}",
         "terminal.background": "{bg_main}",
         "terminal.foreground": "{fg_main}",
+        "terminal.initialHintForeground": "{fg_faint}",
         "terminal.selectionBackground": "{bg_hl}ee",
         "terminal.tab.activeBorder": "{fg_bold}",
 
         "terminalCommandDecoration.defaultBackground": "{fg_fade}",
         "terminalCommandDecoration.successBackground": "{bg_bold}",
         "terminalCommandDecoration.errorBackground": "{red_1}",
+        "terminalOverviewRuler.border": "{invisible}",
         "terminalStickyScrollHover.background": "{bg_fade}",
 
         "textBlockQuote.background": "{bg_subtle}",
@@ -377,11 +408,6 @@
 
         "window.activeBorder": "{bg_main}",
         "window.inactiveBorder": "{bg_main}",
-
-        "keybindingLabel.background": "{bg_fade}",
-        "keybindingLabel.foreground": "{fg_main}",
-        "keybindingLabel.border": "{fg_main}",
-        "keybindingLabel.bottomBorder": "{fg_main}",
 
         "symbolIcon.arrayForeground": "{fg_main}",
         "symbolIcon.booleanForeground": "{fg_main}",
