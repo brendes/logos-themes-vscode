@@ -14,7 +14,7 @@ base_colors = {
         "green_2": "#b0c088",
         "blue_1": "#667799",
         "blue_2": "#bbc8dd",
-        "blue_bold": "#6680bb",
+        "blue_bold": "#6680b8",
         "purple_1": "#8c6d9c",
         "purple_2": "#bbaadd",
         "magenta_1": "#aa7788",
@@ -41,7 +41,7 @@ base_colors = {
 themes = {
     "white": {
         **base_colors["light"],
-        "theme_name": "Logos White",
+        "theme_name": "Logos",
         "base_0": "#ffffff",
         "base_1": "#f9f9f9",
         "base_2": "#f2f2f2",
@@ -57,7 +57,7 @@ themes = {
         "base_0": "#fffffa",
         "base_1": "#f9f9f5",
         "base_2": "#f2f2ed",
-        "base_3": "#e8e8e3",
+        "base_3": "#eaeae5",
         "base_4": "#ddddd8",
         "base_5": "#70706b",
         "base_6": "#000000",

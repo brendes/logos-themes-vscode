@@ -34,8 +34,8 @@ The website renders the themes a little inaccurately, but it will do for now.
 ```
 {
     "explorer.decorations.colors": false,
-    "workbench.editor.decorations.colors": false,
     "search.decorations.colors": false,
+    "workbench.editor.decorations.colors": false,
 }
 ```
 

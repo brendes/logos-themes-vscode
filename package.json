@@ -23,7 +23,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Logos White",
+        "label": "Logos",
         "uiTheme": "vs",
         "path": "./themes/logos-white-color-theme.json"
       },
