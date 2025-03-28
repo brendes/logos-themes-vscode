@@ -235,7 +235,8 @@
         "list.inactiveSelectionBackground": "{bg_hl}",
         "list.warningForeground": "{orange_1}",
 
-        "notebook.cellBorderColor": "{border_soft}",
+        "notebook.cellBorderColor": "{fg_ghost}",
+        "notebook.focusedCellBorder": "{fg_faint}",
         "notebook.cellEditorBackground": "{bg_main}",
 
         "notificationCenter.border": "{border_soft}",
