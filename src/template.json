@@ -103,6 +103,7 @@
         "activityBarBadge.background": "{bg_bold}",
         "activityBarBadge.foreground": "{bg_main}",
         "activityBarTop.activeBorder": "{fg_main}",
+        "activityBarTop.background": "{bg_ui}",
         "activityBarTop.foreground": "{fg_main}",
         "activityBarTop.inactiveForeground": "{fg_faint}",
 
