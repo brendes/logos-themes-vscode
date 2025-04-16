@@ -97,7 +97,7 @@
 
         "activityBar.activeBorder": "{fg_main}",
         "activityBar.background": "{bg_ui}",
-        "activityBar.border": "{bg_ui}",
+        "activityBar.border": "{border_soft}",
         "activityBar.foreground": "{fg_main}",
         "activityBar.inactiveForeground": "{fg_faint}",
         "activityBarBadge.background": "{bg_bold}",
@@ -233,7 +233,7 @@
         "list.inactiveFocusOutline": "{invisible}",
         "list.inactiveFocusBackground": "{bg_hl}",
         "list.inactiveSelectionForeground": "{fg_main}",
-        "list.inactiveSelectionBackground": "{bg_hl}",
+        "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{orange_1}",
 
         "notebook.cellBorderColor": "{fg_ghost}",
@@ -305,15 +305,15 @@
         "settings.textInputBackground": "{bg_main}",
         "settings.textInputBorder": "{border_focus}",
 
-        "sideBar.background": "{bg_ui}",
+        "sideBar.background": "{bg_main}",
         "sideBar.border": "{border_soft}",
         "sideBar.dropBackground": "{bg_drop}",
         "sideBar.foreground": "{fg_subtle}",
         "sideBarActivityBarTop.border": "{bg_ui}",
-        "sideBarSectionHeader.background": "{bg_ui}",
-        "sideBarSectionHeader.border": "{invisible}",
+        "sideBarSectionHeader.background": "{bg_main}",
+        "sideBarSectionHeader.border": "{border_soft}",
         "sideBarSectionHeader.foreground": "{fg_main}",
-        "sideBarTitle.border": "{invisible}",
+        "sideBarTitle.border": "{border_soft}",
         "sideBarTitle.background": "{bg_ui}",
 
         "sideBySideEditor.horizontalBorder": "{border_soft}",
