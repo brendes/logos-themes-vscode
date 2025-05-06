@@ -27,7 +27,7 @@ base_colors = {
     "dark": {
         "theme_type": "dark",
         "red_1": "#f87870",
-        "orange_1": "#dd8855",
+        "orange_1": "#dd9966",
         "yellow_1": "#eebb88",
         "green_1": "#aab866",
         "blue_1": "#80a8b0",
