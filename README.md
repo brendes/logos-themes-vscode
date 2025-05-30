@@ -22,9 +22,31 @@ Overall, an attempt is made to balance simplicity with usability.
 
 ## Screenshots
 
-Here is a screenshot of some Go code using the `Logos White` theme.
+<table>
+<tr><td>
+Some Go code using the `Logos` and `Logos Acme` themes.
+</td></tr>
+<tr><td>
+<img src="assets/screenshot-logos.png"
+    alt="Logos"
+    width="45%">
+<img src="assets/screenshot-logos-acme.png"
+    alt="Logos Acme"
+    width="45%">
+</td></tr>
+<tr><td>
+Same as above, with a minimal UI configuration.
+</td></tr>
+<tr><td>
+<img src="assets/screenshot-logos.minimal.png"
+    alt="Logos"
+    width="45%">
+<img src="assets/screenshot-logos-acme.minimal.png"
+    alt="Logos Acme"
+    width="45%">
+</td></tr>
+</table>
 
-<img src="./assets/screenshot-go.png" alt="go code screenshot" width="800"/>
 
 Auto-generated examples can be viewed at [vscodethemes.com](https://vscodethemes.com/e/brendes.logos-themes/logos-white).
 The website renders the themes a little inaccurately, but it will do for now.
