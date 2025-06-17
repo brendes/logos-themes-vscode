@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 base_colors = {
     "light": {
         "theme_type": "light",
@@ -9,7 +7,6 @@ base_colors = {
         "orange_2": "#f0bca0",
         "yellow_1": "#aa8866",
         "yellow_2": "#f0d0aa",
-        "yellow_bold": "#f0d0a0",
         "green_1": "#889944",
         "green_2": "#b0c088",
         "blue_1": "#667799",
@@ -23,6 +20,8 @@ base_colors = {
         "cyan_1": "#669988",
         "cyan_2": "#b8dbd4",
         "invisible": "#00000000",
+        "match_1": "#f8e0bb",
+        "match_2": "#d0e0f8",
     },
     "dark": {
         "theme_type": "dark",
@@ -62,6 +61,8 @@ themes = {
         "base_5": "#70706b",
         "base_6": "#000000",
         "base_7": "#000000",
+        "match_1": "#f8e8bb",
+        "match_2": "#d0d8f0",
     },
     "paper": {
         **base_colors["light"],
@@ -74,6 +75,8 @@ themes = {
         "base_5": "#887872",
         "base_6": "#403a32",
         "base_7": "#000000",
+        "match_1": "#f8d8b8",
+        "match_2": "#d0d8f8",
     },
     "acme": {
         **base_colors["light"],
@@ -98,6 +101,8 @@ themes = {
         "magenta_2": "#ddbbdd",
         "cyan_1": "#66aaaa",
         "cyan_2": "#addddd",
+        "match_1": "#eeeea8",
+        "match_2": "#ccccee",
     },
     "dark": {
         **base_colors["dark"],
@@ -164,8 +169,8 @@ for theme_name, theme in themes.items():
         theme["fg_dim"] = theme["fg_main"] + "80"
         theme["fg_subtle"] = theme["fg_main"] + "98"
         theme["bg_widget"] = theme["base_0"]
-        theme["bg_match_1"] = theme["bg_strong"] + "ee"
-        theme["bg_match_2"] = theme["yellow_2"] + "dd"
+        theme["bg_match_1"] = theme["match_1"] + "ee"
+        theme["bg_match_2"] = theme["match_2"] + "ee"
         theme["border_hard"] = theme["fg_main"] + "88"
         theme["border_focus"] = theme["fg_main"] + "40"
         theme["border_soft"] = theme["fg_main"] + "28"
@@ -181,8 +186,8 @@ for theme_name, theme in themes.items():
         theme["fg_dim"] = theme["fg_main"] + "90"
         theme["fg_subtle"] = theme["fg_main"] + "a8"
         theme["bg_widget"] = theme["base_1"]
-        theme["bg_match_1"] = theme["bg_strong"] + "ee"
-        theme["bg_match_2"] = theme["magenta_1"] + "99"
+        theme["bg_match_1"] = theme["magenta_1"] + "bb"
+        theme["bg_match_2"] = theme["cyan_1"] + "bb"
         theme["border_hard"] = theme["fg_main"] + "68"
         theme["border_focus"] = theme["fg_main"] + "48"
         theme["border_soft"] = theme["bg_subtle"]
