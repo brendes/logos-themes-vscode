@@ -161,6 +161,7 @@ for theme_name, theme in themes.items():
     theme["bg_drop"] = theme["bg_hl"] + "88"
     theme["fg_main"] = theme["base_6"]
     theme["fg_bold"] = theme["base_7"]
+    theme["black_2"] = theme["bg_bold"]
 
     if theme.get("theme_type") == "light":
         theme["fg_ghost"] = theme["fg_main"] + "18"
