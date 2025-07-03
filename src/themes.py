@@ -14,9 +14,8 @@ base_colors = {
         "blue_bold": "#6680b8",
         "purple_1": "#8c6d9c",
         "purple_2": "#bbaadd",
-        "magenta_1": "#aa7788",
+        "magenta_1": "#bb6677",
         "magenta_2": "#d8b8c8",
-        "magenta_bold": "#bb6677",
         "cyan_1": "#669988",
         "cyan_2": "#b8dbd4",
         "invisible": "#00000000",
@@ -180,7 +179,7 @@ for theme_name, theme in themes.items():
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
         theme["link"] = theme["blue_bold"]
-        theme["code"] = theme["magenta_bold"]
+        theme["code"] = theme["magenta_1"]
 
     elif theme.get("theme_type") == "dark":
         theme["fg_ghost"] = theme["fg_main"] + "28"
