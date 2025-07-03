@@ -168,7 +168,7 @@ for theme_name, theme in themes.items():
         theme["fg_fade"] = theme["fg_main"] + "68"
         theme["fg_dim"] = theme["fg_main"] + "80"
         theme["fg_subtle"] = theme["fg_main"] + "98"
-        theme["bg_widget"] = theme["base_0"]
+        theme["fg_ui"] = theme["fg_subtle"]
         theme["bg_match_1"] = theme["match_1"] + "ee"
         theme["bg_match_2"] = theme["match_2"] + "ee"
         theme["border_hard"] = theme["fg_main"] + "88"
@@ -184,8 +184,8 @@ for theme_name, theme in themes.items():
         theme["fg_faint"] = theme["fg_main"] + "48"
         theme["fg_fade"] = theme["fg_main"] + "78"
         theme["fg_dim"] = theme["fg_main"] + "90"
-        theme["fg_subtle"] = theme["fg_main"] + "a8"
-        theme["bg_widget"] = theme["base_1"]
+        theme["fg_subtle"] = theme["fg_main"] + "b8"
+        theme["fg_ui"] = theme["fg_subtle"]
         theme["bg_match_1"] = theme["magenta_1"] + "bb"
         theme["bg_match_2"] = theme["cyan_1"] + "bb"
         theme["border_hard"] = theme["fg_main"] + "68"
