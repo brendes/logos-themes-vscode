@@ -29,7 +29,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "{fg_fade}"
+                "foreground": "{fg_dim}"
             }
         },
         {
@@ -105,7 +105,7 @@
         "activityBarTop.activeBorder": "{fg_main}",
         "activityBarTop.background": "{bg_ui}",
         "activityBarTop.foreground": "{fg_main}",
-        "activityBarTop.inactiveForeground": "{fg_fade}",
+        "activityBarTop.inactiveForeground": "{fg_dim}",
 
         "badge.background": "{bg_hl}",
         "badge.foreground": "{fg_bold}",
@@ -171,7 +171,7 @@
         "editorBracketMatch.border": "{fg_main}",
         "editorCodeLens.foreground": "{fg_faint}",
         "editorCursor.foreground": "{fg_bold}",
-        "editorGhostText.foreground": "{fg_fade}",
+        "editorGhostText.foreground": "{fg_dim}",
         "editorGroup.border": "{border_soft}",
         "editorGroup.dropBackground": "{bg_drop}",
         "editorGroupHeader.border": "{bg_main}",
@@ -202,7 +202,7 @@
         "editorStickyScrollHover.background": "{bg_fade}",
 
         "gitDecoration.deletedResourceForeground": "{fg_subtle}",
-        "gitDecoration.ignoredResourceForeground": "{fg_fade}",
+        "gitDecoration.ignoredResourceForeground": "{fg_dim}",
         "gitDecoration.stageDeletedResourceForeground": "{fg_subtle}",
         "gitDecoration.stageModifiedResourceForeground": "{fg_subtle}",
         "gitDecoration.modifiedResourceForeground": "{fg_subtle}",
@@ -223,7 +223,7 @@
 
         "list.activeSelectionBackground": "{bg_hl}",
         "list.activeSelectionForeground": "{fg_bold}",
-        "list.deemphasizedForeground": "{fg_fade}",
+        "list.deemphasizedForeground": "{fg_dim}",
         "list.dropBackground": "{bg_drop}",
         "list.dropBetweenBackground": "{bg_drop}",
         "list.errorForeground": "{red_1}",
@@ -390,7 +390,7 @@
         "terminal.selectionBackground": "{bg_hl}ee",
         "terminal.tab.activeBorder": "{fg_bold}",
 
-        "terminalCommandDecoration.defaultBackground": "{fg_fade}",
+        "terminalCommandDecoration.defaultBackground": "{fg_dim}",
         "terminalCommandDecoration.successBackground": "{bg_bold}",
         "terminalCommandDecoration.errorBackground": "{red_1}",
         "terminalOverviewRuler.border": "{invisible}",

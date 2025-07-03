@@ -165,8 +165,7 @@ for theme_name, theme in themes.items():
     if theme.get("theme_type") == "light":
         theme["fg_ghost"] = theme["fg_main"] + "18"
         theme["fg_faint"] = theme["fg_main"] + "33"
-        theme["fg_fade"] = theme["fg_main"] + "68"
-        theme["fg_dim"] = theme["fg_main"] + "80"
+        theme["fg_dim"] = theme["fg_main"] + "78"
         theme["fg_subtle"] = theme["fg_main"] + "98"
         theme["fg_ui"] = theme["fg_subtle"]
         theme["bg_hover"] = theme["bg_fade"]
@@ -185,8 +184,7 @@ for theme_name, theme in themes.items():
     elif theme.get("theme_type") == "dark":
         theme["fg_ghost"] = theme["fg_main"] + "28"
         theme["fg_faint"] = theme["fg_main"] + "48"
-        theme["fg_fade"] = theme["fg_main"] + "78"
-        theme["fg_dim"] = theme["fg_main"] + "90"
+        theme["fg_dim"] = theme["fg_main"] + "88"
         theme["fg_subtle"] = theme["fg_main"] + "b8"
         theme["fg_ui"] = theme["fg_subtle"]
         theme["bg_hover"] = theme["bg_hl"]
