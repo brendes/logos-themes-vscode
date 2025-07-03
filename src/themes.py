@@ -108,7 +108,7 @@ themes = {
         **base_colors["dark"],
         "theme_name": "Logos Dark",
         "base_0": "#282828",
-        "base_1": "#303030",
+        "base_1": "#333333",
         "base_2": "#383838",
         "base_3": "#484848",
         "base_4": "#585858",
