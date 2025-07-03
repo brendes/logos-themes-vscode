@@ -171,7 +171,7 @@
         "editorBracketMatch.border": "{fg_main}",
         "editorCodeLens.foreground": "{fg_faint}",
         "editorCursor.foreground": "{fg_bold}",
-        "editorGhostText.foreground": "{fg_faint}",
+        "editorGhostText.foreground": "{fg_fade}",
         "editorGroup.border": "{border_soft}",
         "editorGroup.dropBackground": "{bg_drop}",
         "editorGroupHeader.border": "{bg_main}",
