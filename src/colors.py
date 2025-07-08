@@ -1,6 +1,6 @@
-base_colors = {
-    "light": {
-        "theme_type": "light",
+base_colors = [
+    {
+        "type": "light",
         "red_1": "#bb5555",
         "red_2": "#e89090",
         "orange_1": "#d08868",
@@ -22,8 +22,8 @@ base_colors = {
         "match_1": "#f8e0bb",
         "match_2": "#d0e0f8",
     },
-    "dark": {
-        "theme_type": "dark",
+    {
+        "type": "dark",
         "red_1": "#f87870",
         "orange_1": "#dd9966",
         "yellow_1": "#eebb88",
@@ -34,12 +34,12 @@ base_colors = {
         "cyan_1": "#88b4a0",
         "invisible": "#00000000",
     },
-}
+]
 
-themes = {
-    "white": {
-        **base_colors["light"],
-        "theme_name": "Logos",
+colors = [
+    {
+        "name": "Logos",
+        "type": "light",
         "base_0": "#ffffff",
         "base_1": "#f8f8f8",
         "base_2": "#f2f2f2",
@@ -49,9 +49,9 @@ themes = {
         "base_6": "#000000",
         "base_7": "#000000",
     },
-    "sun": {
-        **base_colors["light"],
-        "theme_name": "Logos Sun",
+    {
+        "name": "Logos Sun",
+        "type": "light",
         "base_0": "#fffffa",
         "base_1": "#f8f8f3",
         "base_2": "#f2f2ed",
@@ -63,9 +63,9 @@ themes = {
         "match_1": "#f8e8bb",
         "match_2": "#d0d8f0",
     },
-    "paper": {
-        **base_colors["light"],
-        "theme_name": "Logos Paper",
+    {
+        "name": "Logos Paper",
+        "type": "light",
         "base_0": "#faf7f2",
         "base_1": "#f1ece4",
         "base_2": "#ece7e2",
@@ -77,9 +77,9 @@ themes = {
         "match_1": "#f8d8b8",
         "match_2": "#d0d8f8",
     },
-    "acme": {
-        **base_colors["light"],
-        "theme_name": "Logos Acme",
+    {
+        "name": "Logos Acme",
+        "type": "light",
         "base_0": "#ffffee",
         "base_1": "#f9f9e9",
         "base_2": "#f2f2e2",
@@ -103,9 +103,9 @@ themes = {
         "match_1": "#eeeea8",
         "match_2": "#ccccee",
     },
-    "dark": {
-        **base_colors["dark"],
-        "theme_name": "Logos Dark",
+    {
+        "name": "Logos Dark",
+        "type": "dark",
         "base_0": "#282828",
         "base_1": "#333333",
         "base_2": "#383838",
@@ -115,9 +115,9 @@ themes = {
         "base_6": "#d8d8d8",
         "base_7": "#ffffff",
     },
-    "gruv": {
-        **base_colors["dark"],
-        "theme_name": "Logos Gruv",
+    {
+        "name": "Logos Gruv",
+        "type": "dark",
         "base_0": "#302d2c",
         "base_1": "#3c3836",
         "base_2": "#403d3c",
@@ -127,9 +127,9 @@ themes = {
         "base_6": "#eed8c2",
         "base_7": "#ffefcc",
     },
-    "nord": {
-        **base_colors["dark"],
-        "theme_name": "Logos Nord",
+    {
+        "name": "Logos Nord",
+        "type": "dark",
         "base_0": "#2e3440",
         "base_1": "#363d4c",
         "base_2": "#3c4352",
@@ -145,68 +145,5 @@ themes = {
         "blue_1": "#81a1c1",
         "magenta_1": "#b48ead",
         "cyan_1": "#88c0d0",
-    }
-}
-
-for theme_name, theme in themes.items():
-    theme["bg_main"] = theme["base_0"]
-    theme["bg_subtle"] = theme["base_1"]
-    theme["bg_ui"] = theme["base_1"]
-    theme["bg_fade"] = theme["base_2"]
-    theme["bg_hl"] = theme["base_3"]
-    theme["bg_sel"] = theme["base_3"] + "ee"
-    theme["bg_strong"] = theme["base_4"]
-    theme["bg_bold"] = theme["base_5"]
-    theme["bg_drop"] = theme["bg_hl"] + "88"
-    theme["fg_main"] = theme["base_6"]
-    theme["fg_bold"] = theme["base_7"]
-    theme["black_2"] = theme["bg_bold"]
-
-    if theme.get("theme_type") == "light":
-        theme["fg_ghost"] = theme["fg_main"] + "18"
-        theme["fg_faint"] = theme["fg_main"] + "33"
-        theme["fg_dim"] = theme["fg_main"] + "78"
-        theme["fg_subtle"] = theme["fg_main"] + "98"
-        theme["fg_ui"] = theme["fg_subtle"]
-        theme["bg_hover"] = theme["bg_fade"]
-        theme["bg_widget"] = theme["bg_main"]
-        theme["bg_match_1"] = theme["match_1"] + "ee"
-        theme["bg_match_2"] = theme["match_2"] + "ee"
-        theme["border_hard"] = theme["fg_main"] + "88"
-        theme["border_focus"] = theme["fg_main"] + "40"
-        theme["border_soft"] = theme["fg_main"] + "28"
-        theme["border_popup"] = theme["border_hard"]
-        theme["black_1"] = theme["fg_main"]
-        theme["white_2"] = theme["bg_main"]
-        theme["link"] = theme["blue_bold"]
-        theme["code"] = theme["magenta_1"]
-
-    elif theme.get("theme_type") == "dark":
-        theme["fg_ghost"] = theme["fg_main"] + "28"
-        theme["fg_faint"] = theme["fg_main"] + "48"
-        theme["fg_dim"] = theme["fg_main"] + "88"
-        theme["fg_subtle"] = theme["fg_main"] + "b8"
-        theme["fg_ui"] = theme["fg_subtle"]
-        theme["bg_hover"] = theme["bg_hl"]
-        theme["bg_widget"] = theme["bg_fade"]
-        theme["bg_match_1"] = theme["magenta_1"] + "bb"
-        theme["bg_match_2"] = theme["cyan_1"] + "bb"
-        theme["border_hard"] = theme["fg_main"] + "68"
-        theme["border_focus"] = theme["fg_main"] + "48"
-        theme["border_soft"] = theme["bg_subtle"]
-        theme["border_popup"] = theme["bg_fade"]
-        theme["black_1"] = theme["bg_main"]
-        theme["white_2"] = theme["fg_main"]
-        theme["link"] = theme["cyan_1"]
-        theme["code"] = theme["magenta_1"]
-        for color in [
-            "red",
-            "green",
-            "yellow",
-            "blue",
-            "magenta",
-            "cyan",
-            "orange",
-            "purple"
-        ]:
-            theme[f"{color}_2"] = theme[f"{color}_1"]
+    },
+]

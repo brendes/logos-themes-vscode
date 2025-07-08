@@ -1,7 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "{theme_name}",
-    "type": "{theme_type}",
+    "name": "{name}",
+    "type": "{type}",
     "tokenColors": [
         {
             "name": "Keywords and Operators",
