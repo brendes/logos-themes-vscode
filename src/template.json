@@ -324,7 +324,7 @@
 
         "statusBar.background": "{bg_ui}",
         "statusBar.border": "{border_ui}",
-        "statusBar.debuggingBackground": "{orange_2}",
+        "statusBar.debuggingBackground": "{red_2}",
         "statusBar.debuggingForeground": "{black_1}",
         "statusBar.foreground": "{fg_ui}",
         "statusBar.noFolderBackground": "{bg_main}",
