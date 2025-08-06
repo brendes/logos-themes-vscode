@@ -81,7 +81,7 @@ colors = [
         "name": "Logos Acme",
         "type": "light",
         "base_0": "#ffffee",
-        "base_1": "#f9f9e9",
+        "base_1": "#f8f8e8",
         "base_2": "#f2f2e2",
         "base_3": "#e8e8d8",
         "base_4": "#ddddcc",
