@@ -83,7 +83,6 @@
         "icon.foreground": "{fg_main}",
         "selection.background": "{bg_hl}",
         "widget.border": "{border_ui}",
-
         "editorHoverWidget.background": "{bg_subtle}",
         "editorHoverWidget.border": "{border_hard}",
         "editorHoverWidget.statusBarBackground": "{bg_subtle}",
@@ -94,7 +93,6 @@
         "editorWidget.border": "{border_ui}",
         "quickInput.background": "{bg_widget}",
         "quickInput.foreground": "{fg_main}",
-
         "activityBar.activeBorder": "{fg_main}",
         "activityBar.background": "{bg_ui}",
         "activityBar.border": "{border_ui}",
@@ -106,13 +104,10 @@
         "activityBarTop.background": "{bg_ui}",
         "activityBarTop.foreground": "{fg_main}",
         "activityBarTop.inactiveForeground": "{fg_dim}",
-
         "badge.background": "{bg_hl}",
         "badge.foreground": "{fg_bold}",
-
         "breadcrumb.focusForeground": "{fg_main}",
         "breadcrumb.foreground": "{fg_dim}",
-
         "button.background": "{bg_bold}ee",
         "button.foreground": "{bg_main}",
         "button.border": "{border_medium}",
@@ -120,36 +115,29 @@
         "button.secondaryBackground": "{bg_fade}",
         "button.secondaryForeground": "{fg_bold}",
         "button.secondaryHoverBackground": "{bg_hl}",
-
         "chat.slashCommandForeground": "{link}",
-
         "checkbox.background": "{bg_main}",
         "checkbox.border": "{border_soft}",
         "checkbox.foreground": "{fg_main}",
         "checkbox.selectBackground": "{blue_1}",
         "checkbox.selectBorder": "{border_hard}",
-
         "commandCenter.activeBackground": "{bg_fade}",
         "commandCenter.activeBorder": "{border_ui}",
         "commandCenter.background": "{invisible}",
         "commandCenter.border": "{invisible}",
         "commandCenter.foreground": "{fg_ui}",
         "commandCenter.inactiveBorder": "{invisible}",
-
         "debugToolBar.background": "{bg_subtle}",
         "debugToolBar.border": "{border_ui}",
-
         "dropdown.background": "{bg_main}",
         "dropdown.border": "{border_ui}",
         "dropdown.foreground": "{fg_main}",
         "dropdown.listBackground": "{bg_main}",
-
         "debugConsole.errorForeground": "{red_1}",
         "debugConsole.infoForeground": "{fg_main}",
         "debugConsole.sourceForeground": "{fg_main}",
         "debugConsole.warningForeground": "{orange_1}",
         "debugIcon.breakpointForeground": "{red_2}",
-
         "editor.background": "{bg_main}",
         "editor.foreground": "{fg_main}",
         "editor.findMatchBackground": "{bg_match_2}",
@@ -166,7 +154,6 @@
         "editor.wordHighlightBackground": "{bg_hl}",
         "editor.wordHighlightStrongBackground": "{bg_hl}",
         "editor.wordHighlightTextBackground": "{bg_hl}",
-
         "editorBracketMatch.background": "{bg_hl}",
         "editorBracketMatch.border": "{fg_main}",
         "editorCodeLens.foreground": "{fg_faint}",
@@ -183,8 +170,8 @@
         "editorGutter.deletedSecondaryBackground": "{fg_faint}",
         "editorGutter.modifiedBackground": "{blue_1}",
         "editorGutter.modifiedSecondaryBackground": "{fg_faint}",
-        "editorIndentGuide.activeBackground1": "{fg_faint}",
-        "editorIndentGuide.activeBackground2": "{fg_faint}",
+        "editorIndentGuide.activeBackground1": "{fg_ghost}",
+        "editorIndentGuide.activeBackground2": "{invisible}",
         "editorIndentGuide.background1": "{fg_ghost}",
         "editorIndentGuide.background2": "{invisible}",
         "editorInfo.foreground": "{fg_subtle}",
@@ -193,14 +180,13 @@
         "editorLightBulb.foreground": "{fg_main}",
         "editorLightBulbAi.foreground": "{fg_main}",
         "editorLightBulbAutoFix.foreground": "{fg_main}",
-        "editorLineNumber.activeForeground": "{fg_subtle}",
-        "editorLineNumber.foreground": "{fg_faint}",
+        "editorLineNumber.activeForeground": "{fg_dim}",
+        "editorLineNumber.foreground": "{fg_ghost}",
         "editorLink.activeForeground": "{link}",
         "editorOverviewRuler.border": "{invisible}",
         "editorPane.background": "{bg_main}",
         "editorStickyScroll.border": "{invisible}",
         "editorStickyScrollHover.background": "{bg_fade}",
-
         "gitDecoration.deletedResourceForeground": "{fg_subtle}",
         "gitDecoration.ignoredResourceForeground": "{fg_dim}",
         "gitDecoration.stageDeletedResourceForeground": "{fg_subtle}",
@@ -208,19 +194,15 @@
         "gitDecoration.modifiedResourceForeground": "{fg_subtle}",
         "gitDecoration.submoduleResourceForeground": "{fg_subtle}",
         "gitDecoration.untrackedResourceForeground": "{fg_subtle}",
-
         "gitlens.trailingLineForegroundColor": "{fg_faint}",
-
         "input.background": "{bg_main}",
         "input.border": "{border_soft}",
         "input.foreground": "{fg_main}",
         "input.placeholderForeground": "{fg_dim}",
-
         "keybindingLabel.background": "{bg_fade}",
         "keybindingLabel.foreground": "{fg_main}",
         "keybindingLabel.border": "{fg_main}",
         "keybindingLabel.bottomBorder": "{fg_main}",
-
         "list.activeSelectionBackground": "{bg_hl}",
         "list.activeSelectionForeground": "{fg_bold}",
         "list.deemphasizedForeground": "{fg_dim}",
@@ -233,16 +215,14 @@
         "list.highlightForeground": "{fg_bold}",
         "list.hoverBackground": "{bg_hover}",
         "list.hoverForeground": "{fg_bold}",
-        "list.inactiveFocusOutline": "{invisible}",
+        "list.inactiveFocusOutline": "{border_medium}",
         "list.inactiveFocusBackground": "{bg_hl}",
         "list.inactiveSelectionForeground": "{fg_main}",
-        "list.inactiveSelectionBackground": "{bg_fade}",
+        "list.inactiveSelectionBackground": "{invisible}",
         "list.warningForeground": "{orange_1}",
-
         "notebook.cellBorderColor": "{fg_ghost}",
         "notebook.focusedCellBorder": "{fg_faint}",
         "notebook.cellEditorBackground": "{bg_main}",
-
         "notificationCenter.border": "{border_ui}",
         "notificationCenterHeader.background": "{bg_fade}",
         "notificationCenterHeader.foreground": "{fg_main}",
@@ -254,7 +234,6 @@
         "notificationsErrorIcon.foreground": "{red_1}",
         "notificationsInfoIcon.foreground": "{fg_bold}",
         "notificationsWarningIcon.foreground": "{orange_1}",
-
         "panel.background": "{bg_ui}",
         "panel.border": "{border_ui}",
         "panelInput.border": "{border_medium}",
@@ -265,7 +244,6 @@
         "panelTitle.activeBorder": "{fg_main}",
         "panelTitle.activeForeground": "{fg_main}",
         "panelTitle.inactiveForeground": "{fg_dim}",
-
         "peekView.border": "{border_hard}",
         "peekViewEditor.background": "{bg_subtle}",
         "peekViewEditor.matchHighlightBackground": "{bg_match_1}",
@@ -278,14 +256,10 @@
         "peekViewTitle.background": "{bg_subtle}",
         "peekViewTitleDescription.foreground": "{fg_subtle}",
         "peekViewTitleLabel.foreground": "{fg_main}",
-
         "pickerGroup.border": "{border_soft}",
         "pickerGroup.foreground": "{fg_bold}",
-
         "progressBar.background": "{fg_bold}",
-
         "sash.hoverBorder": "{fg_subtle}",
-
         "scmGraph.foreground1": "{fg_ui}",
         "scmGraph.foreground2": "{fg_ui}",
         "scmGraph.foreground3": "{fg_ui}",
@@ -299,7 +273,6 @@
         "scmGraph.historyItemHoverDefaultLabelForeground": "{bg_main}",
         "scmGraph.historyItemRefColor": "{bg_bold}",
         "scmGraph.historyItemRemoteRefColor": "{red_2}",
-
         "settings.dropdownListBorder": "{border_ui}",
         "settings.focusedRowBackground": "{bg_fade}",
         "settings.headerForeground": "{fg_main}",
@@ -307,21 +280,18 @@
         "settings.rowHoverBackground": "{bg_subtle}",
         "settings.textInputBackground": "{bg_main}",
         "settings.textInputBorder": "{border_medium}",
-
         "sideBar.background": "{bg_main}",
         "sideBar.border": "{border_ui}",
         "sideBar.dropBackground": "{bg_drop}",
         "sideBar.foreground": "{fg_ui}",
         "sideBarActivityBarTop.border": "{bg_ui}",
-        "sideBarSectionHeader.background": "{bg_main}",
+        "sideBarSectionHeader.background": "{bg_ui}",
         "sideBarSectionHeader.border": "{border_ui}",
         "sideBarSectionHeader.foreground": "{fg_ui}",
         "sideBarTitle.border": "{border_ui}",
         "sideBarTitle.background": "{bg_ui}",
-
         "sideBySideEditor.horizontalBorder": "{border_ui}",
         "sideBySideEditor.verticalBorder": "{border_ui}",
-
         "statusBar.background": "{bg_ui}",
         "statusBar.border": "{border_ui}",
         "statusBar.debuggingBackground": "{red_2}",
@@ -329,13 +299,12 @@
         "statusBar.foreground": "{fg_ui}",
         "statusBar.noFolderBackground": "{bg_main}",
         "statusBar.noFolderForeground": "{fg_main}",
-
         "statusBarItem.compactHoverBackground": "{bg_main}",
         "statusBarItem.errorBackground": "{bg_main}",
         "statusBarItem.errorForeground": "{red_1}",
         "statusBarItem.errorHoverBackground": "{red_1}",
         "statusBarItem.errorHoverForeground": "{bg_main}",
-        "statusBarItem.hoverBackground": "{bg_fade}",
+        "statusBarItem.hoverBackground": "{bg_hl}",
         "statusBarItem.hoverForeground": "{fg_bold}",
         "statusBarItem.prominentBackground": "{bg_main}",
         "statusBarItem.prominentForeground": "{fg_main}",
@@ -349,7 +318,6 @@
         "statusBarItem.warningForeground": "{orange_1}",
         "statusBarItem.warningHoverBackground": "{orange_1}",
         "statusBarItem.warningHoverForeground": "{bg_main}",
-
         "tab.activeBackground": "{bg_main}",
         "tab.activeForeground": "{fg_main}",
         "tab.activeBorder": "{bg_main}",
@@ -365,9 +333,8 @@
         "tab.unfocusedActiveBackground": "{bg_main}",
         "tab.unfocusedActiveForeground": "{fg_subtle}",
         "tab.unfocusedActiveBorder": "{bg_main}",
-        "tab.unfocusedActiveBorderTop": "{invisible}",
+        "tab.unfocusedActiveBorderTop": "{border_ui}",
         "tab.unfocusedInactiveForeground": "{fg_dim}",
-
         "terminal.ansiBlack": "{black_1}",
         "terminal.ansiBlue": "{blue_1}",
         "terminal.ansiBrightBlack": "{black_2}",
@@ -389,13 +356,11 @@
         "terminal.initialHintForeground": "{fg_faint}",
         "terminal.selectionBackground": "{bg_hl}ee",
         "terminal.tab.activeBorder": "{fg_bold}",
-
         "terminalCommandDecoration.defaultBackground": "{fg_dim}",
         "terminalCommandDecoration.successBackground": "{bg_bold}",
         "terminalCommandDecoration.errorBackground": "{red_1}",
         "terminalOverviewRuler.border": "{invisible}",
         "terminalStickyScrollHover.background": "{bg_fade}",
-
         "textBlockQuote.background": "{bg_subtle}",
         "textBlockQuote.border": "{border_soft}",
         "textCodeBlock.background": "{bg_subtle}",
@@ -403,21 +368,16 @@
         "textLink.foreground": "{link}",
         "textPreformat.background": "{bg_subtle}",
         "textPreformat.foreground": "{fg_main}",
-
         "titleBar.activeBackground": "{bg_ui}",
         "titleBar.activeForeground": "{fg_ui}",
         "titleBar.border": "{bg_ui}",
         "titleBar.inactiveBackground": "{bg_ui}",
         "titleBar.inactiveForeground": "{fg_dim}",
-
         "tree.inactiveIndentGuidesStroke": "{fg_ghost}",
         "tree.indentGuidesStroke": "{fg_ghost}",
-
         "toolbar.hoverBackground": "{bg_hl}",
-
         "window.activeBorder": "{bg_main}",
         "window.inactiveBorder": "{bg_main}",
-
         "symbolIcon.arrayForeground": "{fg_main}",
         "symbolIcon.booleanForeground": "{fg_main}",
         "symbolIcon.classForeground": "{fg_main}",

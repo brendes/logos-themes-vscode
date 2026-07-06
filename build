@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+mkdir -p themes
+for conf in src/colors/*.conf; do
+	name=$(basename "$conf" .conf)
+	type=$(awk '$1 == "type" { print $2; exit }' "$conf")
+	awk -f src/build.awk -v template=src/lib/template.json \
+		src/lib/base.conf src/lib/"$type".conf "$conf" src/lib/template.json \
+		> themes/"$name-color-theme.json"
+done
