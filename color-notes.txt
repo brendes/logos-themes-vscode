@@ -1,0 +1,60 @@
+# this file consists of pastes from obsidian css theme or otherwise plain english notes
+
+--accent-h: 224;
+--accent-s: 60%;
+--accent-l: 65%;
+--bold-color: #000;
+--color-base-05: --ramp(1.2%);
+--color-base-10: --ramp(2%);
+--color-base-20: --ramp(3.6%);
+--color-base-25: --ramp(6.4%);
+--color-base-30: --ramp(10.8%);
+--color-base-35: --ramp(14.9%);
+--color-base-40: --ramp(27.0%);
+--color-base-50: --ramp(34.6%);
+--color-base-60: --ramp(60.8%);
+--color-base-70: --ramp(70.2%);
+
+# ramping produces:
+# --color-base-00: #ffffff;
+# --color-base-05: #fcfcfc;
+# --color-base-10: #fafafa;
+# --color-base-20: #f6f6f6;
+# --color-base-25: #efefef;
+# --color-base-30: #e4e4e4;
+# --color-base-35: #dadada;
+# --color-base-40: #bdbdbd;
+# --color-base-50: #ababab;
+# --color-base-60: #707070;
+# --color-base-70: #5c5c5c;
+# --color-base-100: #222222;
+
+--background-primary: var(--color-base-00);
+--background-primary-alt: var(--color-base-10);
+--background-secondary: var(--color-base-20);
+--background-modifier-hover: color-mix(in oklch, var(--mono-100) 6.7%, transparent);
+--background-modifier-active-hover: color-mix(in oklch, var(--interactive-accent) 10%, transparent);
+--background-modifier-border: var(--color-base-30);
+or 
+--background-modifier-border: color-mix(in oklch, var(--color-base-100) 25%, transparent);
+--color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+--color-accent-1: hsl(calc(var(--accent-h) - 1), calc(var(--accent-s) * 1.01), calc(var(--accent-l) * 1.075));
+--color-accent-2: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) * 1.02), calc(var(--accent-l) * 1.15));
+--background-secondary-alt: var(--color-base-05);
+--text-normal: var(--color-base-100);
+--text-muted: var(--color-base-70);
+--text-faint: var(--color-base-50);
+--text-selection: color-mix(in oklch, var(--color-base-100) 10%, transparent);
+--code-comment: var(--text-faint);
+
+accent-fade accent 20% opacity
+
+--text-accent-hover: var(--color-accent-2);
+--interactive-normal: var(--color-base-00);
+--interactive-hover: var(--color-base-10);
+--interactive-accent: var(--color-accent-1);
+--interactive-accent-hover: var(--color-accent-2);
+--nav-item-background-selected: color-mix(in oklch, var(--color-accent) 15%, transparent);
+.suggestion-item.mod-complex.suggestion-secret-key.is-selected {
+  background-color: color-mix(in oklch, var(--color-accent) 15%, transparent);
+}

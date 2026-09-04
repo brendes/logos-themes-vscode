@@ -1,5 +1,8 @@
-build:
-	./build
+init:
+	uv sync
+
+build: init
+	uv run python src/build.py
 
 package: build
 	vsce package
@@ -14,18 +17,12 @@ watch:
 	find src/* | entr -c make build
 
 table:
-	{ \
-		printf '| theme | type | base |\n|------|------|------|\n'; \
-		awk ' \
-		function f() { \
-			n=a["name"]; sub(/^Logos /,"",n); \
-			print "| " tolower(n) " | " tolower(a["type"]) " | " tolower(a["base_0"]) " |"; \
-			delete a \
-		} \
-		FNR==1 && NR>1 { f() } \
-		{ k=$$1; sub(/^[^ ]+ /,""); a[k]=$$0 } \
-		END { f() } \
-		' src/colors/*.conf | sort -k6,6 -r; \
-	}
+	@uv run python -c "\
+import tomllib; \
+d = tomllib.load(open('src/theme.toml', 'rb'))['palettes']; \
+rows = sorted(((v['name'].removeprefix('Logos ').lower(), v['type'].lower(), v['base_0'].lower()) for v in d.values()), key=lambda r: r[2], reverse=True); \
+print('| theme | type | base |'); \
+print('|------|------|------|'); \
+[print(f'| {n} | {t} | {b} |') for n, t, b in rows]"
 
-.PHONY: build package publish clean watch table
+.PHONY: init build package publish clean watch table
