@@ -20,11 +20,12 @@ Overall, an attempt is made to balance simplicity with usability.
 | sun | light | #fffffa |
 | acme | light | #ffffea |
 | paper | light | #faf7f2 |
-| blue | dark | #3b4870 |
+| blue | dark | #405898 |
 | gruv | dark | #302d2c |
 | dark | dark | #282828 |
 
 ## Screenshots
+
 TODO: outdated
 
 Some Go code using the `Logos` and `Logos Acme` themes.
@@ -57,7 +58,7 @@ The website renders the themes a little inaccurately, but it will do for now.
 
 ## Recommended Settings
 
-```
+```json
 {
     "explorer.decorations.colors": false,
     "search.decorations.colors": false,

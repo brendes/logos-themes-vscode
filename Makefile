@@ -4,10 +4,11 @@ init:
 build: init
 	uv run python src/build.py
 
-package: build
+
+vsix: build
 	vsce package
 
-publish: package
+publish: vsix
 	vsce publish
 
 clean:

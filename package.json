@@ -7,7 +7,7 @@
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brendes/logos-themes-vscode"
+    "url": "https://github.com/brendes/logos-themes-themes/vscode"
   },
   "engines": {
     "vscode": "^1.59.0"
@@ -25,37 +25,57 @@
       {
         "label": "Logos",
         "uiTheme": "vs",
-        "path": "./themes/logos-color-theme.json"
+        "path": "./themes/vscode/logos-color-theme.json"
+      },
+      {
+        "label": "Logos High Contrast",
+        "uiTheme": "hc-light",
+        "path": "./themes/vscode/logos-hc-color-theme.json"
       },
       {
         "label": "Logos Sun",
         "uiTheme": "vs",
-        "path": "./themes/logos-sun-color-theme.json"
+        "path": "./themes/vscode/logos-sun-color-theme.json"
+      },
+      {
+        "label": "Logos Sun High Contrast",
+        "uiTheme": "hc-light",
+        "path": "./themes/vscode/logos-sun-hc-color-theme.json"
       },
       {
         "label": "Logos Paper",
         "uiTheme": "vs",
-        "path": "./themes/logos-paper-color-theme.json"
+        "path": "./themes/vscode/logos-paper-color-theme.json"
+      },
+      {
+        "label": "Logos Paper High Contrast",
+        "uiTheme": "hc-light",
+        "path": "./themes/vscode/logos-paper-hc-color-theme.json"
       },
       {
         "label": "Logos Acme",
         "uiTheme": "vs",
-        "path": "./themes/logos-acme-color-theme.json"
+        "path": "./themes/vscode/logos-acme-color-theme.json"
+      },
+      {
+        "label": "Logos Acme High Contrast",
+        "uiTheme": "hc-light",
+        "path": "./themes/vscode/logos-acme-hc-color-theme.json"
       },
       {
         "label": "Logos Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/logos-dark-color-theme.json"
+        "path": "./themes/vscode/logos-dark-color-theme.json"
       },
       {
         "label": "Logos Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/logos-blue-color-theme.json"
+        "path": "./themes/vscode/logos-blue-color-theme.json"
       },
       {
         "label": "Logos Gruv",
         "uiTheme": "vs-dark",
-        "path": "./themes/logos-gruv-color-theme.json"
+        "path": "./themes/vscode/logos-gruv-color-theme.json"
       }
     ]
   }

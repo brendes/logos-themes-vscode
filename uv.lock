@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.14"
+
+[[package]]
+name = "coloraide"
+version = "8.12.1"
+source = { registry = "https://elilillyco.jfrog.io/artifactory/api/pypi/Lilly-Python/simple" }
+sdist = { url = "https://elilillyco.jfrog.io/artifactory/api/pypi/Lilly-Python/packages/packages/5d/ce/355d2eff4f189b73ba7dbdb2f8c06861965d8d5c3309761d3e318b185496/coloraide-8.12.1.tar.gz", hash = "sha256:1ec65d8e293527bfd7785482f390e84250561f7484dc9b9d2bb62d4ce05271d3" }
+wheels = [
+    { url = "https://elilillyco.jfrog.io/artifactory/api/pypi/Lilly-Python/packages/packages/32/1e/8039069ece1efd209cc03558e83d5e29d9acc96f9e3341c9304bd8eedb70/coloraide-8.12.1-py3-none-any.whl", hash = "sha256:65d57a1990ee0e09961d64aa0746aa3759f94237a69984c008ebf31c4db08329" },
+]
+
+[[package]]
+name = "logos-themes-vscode"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "coloraide" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "coloraide" }]
