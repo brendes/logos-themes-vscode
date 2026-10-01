@@ -9,6 +9,7 @@ from coloraide import Color
 
 SRC = Path("src")
 OUT_VSC = Path("themes") / "vscode"
+OUT_ZED = Path("themes") / "zed"
 
 MIX_RE = re.compile(r"mix\((#[0-9a-fA-F]{6}),(#[0-9a-fA-F]{6}),([\d.]+)\)")
 ALPHA_RE = re.compile(r"alpha\(([\d.]+)\)")
@@ -54,8 +55,11 @@ def load_jsonc(path):
 
 
 def resolve_vars(d):
-    """Fixed-point {var} expansion — a value can reference a var whose own
-    value is itself unresolved, so one pass over all keys isn't enough."""
+    """Fixed-point {var} expansion.
+
+    A value can reference a var whose own value is itself unresolved, so all the
+    keys must be passed over more than once.
+    """
     for _ in range(10):
         changed = False
         for k in d:
@@ -140,14 +144,23 @@ def build_hc_theme(*, key, hc, palette, theme, template):
     (OUT_VSC / f"{key}-hc-color-theme.json").write_text(out + "\n")
 
 
+def build_zed_theme(*, name, palette, theme, template):
+    """Build one zed theme."""
+    out = build_theme(palette=palette, theme=theme, template=template)
+    OUT_ZED.mkdir(parents=True, exist_ok=True)
+    (OUT_ZED / f"{name}.json").write_text(out + "\n")
+
+
 def main(theme_path=SRC / "colors.toml"):
     theme = tomllib.loads(theme_path.read_text())
     vsc_template = (SRC / "vscode" / "template.json").read_text()
     hc_template = merge_hc_template(
         SRC / "vscode" / "template.json", SRC / "vscode" / "hc-template.json"
     )
+    zed_template = (SRC / "zed" / "template.json").read_text()
     for name, palette in theme["palettes"].items():
         build_vsc_theme(name=name, palette=palette, theme=theme, template=vsc_template)
+        build_zed_theme(name=name, palette=palette, theme=theme, template=zed_template)
     for key, hc in theme.get("hc", {}).items():
         palette = theme["palettes"][key]
         build_hc_theme(
